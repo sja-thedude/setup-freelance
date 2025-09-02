@@ -1,0 +1,10 @@
+{
+    "message_not_found": "Les param\u00e8tres de r\u00e9f\u00e9rence du restaurant n'ont pas \u00e9t\u00e9 configur\u00e9s",
+    "message_retrieved_list_successfully": "Les r\u00e9f\u00e9rences de param\u00e8tres ont \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9es avec succ\u00e8s",
+    "message_retrieved_successfully": "La r\u00e9f\u00e9rence de param\u00e8tre a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9e avec succ\u00e8s",
+    "message_created_successfully": "La r\u00e9f\u00e9rence de param\u00e8tre a \u00e9t\u00e9 cr\u00e9\u00e9e avec succ\u00e8s",
+    "message_updated_successfully": "La r\u00e9f\u00e9rence de param\u00e8tre a \u00e9t\u00e9 mise \u00e0 jour avec succ\u00e8s",
+    "message_deleted_successfully": "La r\u00e9f\u00e9rence de param\u00e8tre a \u00e9t\u00e9 supprim\u00e9e avec succ\u00e8s",
+    "message_saved_successfully": "La r\u00e9f\u00e9rence de param\u00e8tre a \u00e9t\u00e9 enregistr\u00e9e avec succ\u00e8s",
+    "not_found": "R\u00e9f\u00e9rence de param\u00e8tre non trouv\u00e9e"
+}

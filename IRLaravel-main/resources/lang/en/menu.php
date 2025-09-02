@@ -1,0 +1,38 @@
+<?php
+
+$originalTranslations = [
+    'dashboard'          => 'Dashboard',
+    'role_manager'       => 'Roles manager',
+    'role_backoffice'    => 'Role manager',
+    'role_client'        => 'Client role manager',
+    'admin_manager'      => 'User manager',
+    'workspaces'         => 'Workspaces',
+    'platform'           => 'Platform',
+    'category'           => 'Categories',
+    'menukaart'          => 'Menu',
+    'product'            => 'Products',
+    'lang_manager'       => 'Language manager',
+    'home'               => 'Home',
+    'restaurants'        => 'Restaurants',
+    'users'              => 'Users',
+    'settings'           => 'Settings',
+    'managers'           => 'Managers',
+    'option'             => 'Options',
+    'vat'                => 'VAT Setting',
+    'push_notifications' => 'Push notifications',
+    'manage_app'         => 'Mobile app',
+    'manage_app_functions' => 'Functions',
+    'manage_app_theme'   => 'Design',
+    'orders'             => 'Orders',
+    'groups'             => 'Groups',
+    'loyalty'            => 'Loyalty',
+    'coupon'             => 'Coupons',
+    'account_managers'   => 'Account managers',
+    'reward'             => 'Customer cards',
+    'statistic'          => 'Statistics',
+    'type_zaak'          => 'Type of business',
+    'cms'                => 'CMS',
+    'printer_groups'     => 'Printer Groups',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

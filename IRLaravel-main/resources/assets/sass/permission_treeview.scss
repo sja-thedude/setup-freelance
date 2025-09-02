@@ -1,0 +1,26 @@
+.permission-tree {
+    .sui-treeview-item-icon {
+        display: none;
+    }
+
+    .sui-treeview-item-toggle {
+        margin-top: -12px;
+    }
+
+    .sui-treeview-list, ul.sui-treeview-list {
+        margin-left: 20px;
+    }
+
+    .sui-treeview-item-active>.sui-treeview-item-content>.sui-treeview-item-text,
+    .sui-treeview-item-active>.sui-treeview-item-content>.sui-treeview-item-text:hover,
+    .sui-treeview-focus .sui-treeview-item-active>.sui-treeview-item-content>.sui-treeview-item-text,
+    .sui-treeview-focus .sui-treeview-item-active>.sui-treeview-item-content>.sui-treeview-item-text:hover {
+        background-color: #ffffff;
+        color: #6d6d6d;
+    }
+
+    .sui-treeview-item-text:hover {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}

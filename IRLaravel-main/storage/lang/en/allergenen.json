@@ -1,0 +1,16 @@
+{
+    "types.ei": "EGG",
+    "types.gluten": "GLUTEN",
+    "types.lupine": "LUPIN",
+    "types.melk": "MILK",
+    "types.mosterd": "MUSTARD",
+    "types.noten": "NUTS",
+    "types.pindas": "PEANUTS",
+    "types.schaald": "CRUSTACEANS",
+    "types.selderij": "CELERY",
+    "types.sesamzaad": "SESAME SEEDS",
+    "types.soja": "SOY",
+    "types.vis": "FISH",
+    "types.weekdieren": "MOLLUSCS",
+    "types.zwavel": "SULPHUR"
+}

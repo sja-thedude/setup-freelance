@@ -1,0 +1,350 @@
+{
+    "project_info": {
+        "project_number": "597093734686",
+        "project_id": "it-s-ready-prod-7",
+        "storage_bucket": "it-s-ready-prod-7.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:c94e82e9ac2d65fc2c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.barracdefrituur2"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:f4379053783a45232c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.brightestplayground"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-ibcko5tcd0faja8fljj5a236b8of8teq.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.brightestplayground",
+                        "certificate_hash": "e87db0274588569632cc0c58856389e2116a3582"
+                    }
+                },
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:9513861eaf2c79512c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.destadsomvaart"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:d499fc5f3f7ef5c32c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frituuraandekerk"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:ff7a590bccbdf01f2c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frituurdeflitspaele"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:50e82fddcee17f672c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.meal66"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:9549afa67bf694b92c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.mealthy"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:0a953bedab32b7482c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.overweg19"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:597093734686:android:15471911958aa7252c510f",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.puurfrituur"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "597093734686-9k6l4tilj27cu9eu5oegck5ul6lf0pj6.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.puurfrituur",
+                        "certificate_hash": "9b52f2f2c94e20261161e23d5d0367465e6f837f"
+                    }
+                },
+                {
+                    "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtWSEHZeq1uSxcnibfNhcGOiyomnzyWRM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "597093734686-h0hlu7sqf207s313op8ral4k5vk23pmu.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "597093734686-2utolob3ljep84duojb1q057uhsgm620.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.destadsomvaart"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

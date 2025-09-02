@@ -1,0 +1,18 @@
+@mixin fontSemiBold {
+    font-family: SF Compact Display Semibold;
+    font-weight: normal !important;
+}
+
+@mixin fontSemiBoldImportant {
+    font-family: SF Compact Display Semibold !important;
+    font-weight: normal !important;
+}
+
+@mixin fontCompactDisplay {
+    font-family: SF Compact Display;
+}
+
+@mixin fontCompactDisplayMedium {
+    font-family: SF Compact Display Medium;
+    font-weight: normal !important;
+}

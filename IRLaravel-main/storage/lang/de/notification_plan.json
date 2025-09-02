@@ -1,0 +1,7 @@
+{
+    "message_created_successfully": "Benachrichtigungsplan wurde erfolgreich erstellt.",
+    "message_updated_successfully": "Benachrichtigungsplan wurde erfolgreich aktualisiert.",
+    "message_saved_successfully": "Benachrichtigungsplan wurde erfolgreich gespeichert.",
+    "message_deleted_successfully": "Benachrichtigungsplan wurde erfolgreich gel\u00f6scht.",
+    "not_found": "Benachrichtigungsplan nicht gefunden"
+}

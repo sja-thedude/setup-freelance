@@ -1,0 +1,23 @@
+@media screen and (max-width: 1279px) {
+    body,
+    main {
+        overflow-x: unset;
+        height: auto;
+    }
+
+    .row {
+        overflow-x: hidden;
+    }
+
+    .row.table-cart {
+        overflow-x: visible;
+    }
+
+    .cart-container {
+        &.table-self-ordering {
+            .row {
+                overflow-x: visible;
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+/// Variables
+/// @see https://www.smashingmagazine.com/2016/01/variables-in-css-architecture/
+
+/// Grid
+/// Using rem-units to scale for accessibility (based on the user's browser settings, default 1rem equals 16px)
+/// @see layout/grid
+/// grid class specified below ($breakpoints)
+
+$grid-max-width:  1440px;
+$grid-gutter:     22px;
+$grid-columns:    12;
+$grid-show-outlines: false; //to show the grid's outlines
+
+/// Breakpoints - used by the grid and media query manager
+/// @type Map
+/// @prop {size}: [min-width] - breakpoint name and minimum width for media queries
+$breakpoints: (
+  'xs': 0,
+  'sm': 320px,
+  //'md': 400px,
+  'lg': 960px,
+  'xl': 1200px
+);
+
+
+/// mq() - media query manager
+/// @see vendor/mq
+/// @link https://github.com/sass-mq/sass-mq
+$mq-breakpoints: $breakpoints;
+$mq-base-font-size: 12px;
+$mq-show-breakpoints: ();
+
+
+/// Fonts
+/// @TODO: choose color variable naming convention
+$font-roboto: 'Roboto';
+$font-open-san: 'Open Sans';
+
+$font-size: 14px;
+$font-primary: $font-roboto, sans-serif;
+$font-bold: $font-roboto, sans-serif;
+$font-secondary: $font-open-san, sans-serif;
+
+$golden: #cdbe91;
+$golden-light: #f0e6d2;
+
+/// Colors
+$blue:  #11BA55;
+$blue-dark: #3BBF1A;
+$blue-light: rgb(126, 157, 241);
+
+$green: #51D66B;
+$orange: #ff6a13;
+$orange-dark: #ff7d03;
+$yellow: #FFBB38;;
+$yellow-dark: #ff7d03;
+$yellow-light: #fbac4a;
+$be: #e3e1da;
+
+$red: #ff0000;
+
+$white:         #fff;
+$gray-light:    #e5e5e5;
+$gray:          #666666;
+$gray-dark:     #333;
+$black:         #000;
+$dark:         #262626;
+$smoke: #7f868a;
+
+$color-default: $black; //default text color
+
+$color-primary:       $black;
+$color-primary-light: $gray;
+$color-primary-dark:  darken($black, 20%);
+
+$color-secondary:       $yellow;
+$color-secondary-light: lighten($yellow, 30%);
+$color-secondary-dark:  darken($yellow, 20%);
+
+$color-success: green;
+$color-warning: orange;
+$color-alert:   red;
+
+
+/// Form
+$form-height:   35px;
+
+// sprite
+$sprite : '../../images/sprite.png';
+$icon_1: '../../images/icon_1.png';
+$icon_2: '../../images/icon_2.png';
+$icon_3: '../../images/icon_3.png';
+$icon_4: '../../images/icon_4.png';
+$icon_5: '../../images/icon_5.png';
+$icon_6: '../../images/icon_6.png';
+//$icon_menu: '../../images/icon-menu.png';
+$icon_menu_kroket: '../../images/kroket.svg';
+$icon_menu_friet: '../../images/friet.svg';
+$icon_7: '../../images/icon_7.png';
+$icon_footer: '../../images/bg-footer.jpg';
+$icon_bg_full: '../../images/bg-full.jpg';
+$icon_circle: '../../images/circle.png';
+$ic_arrowright : '../../images/ic_arrowright.svg';
+$bg-footer : '../../images/bg-footer.jpg';
+$icon_avatar : '../../images/avatar.jpg';
+$icon_times_circle : '../../images/icn-times-circle.svg';
+$icon_times_circle_white : '../../images/icn-times-circle-white.svg';
+$icon_info : '../../images/icn-info.svg';
+$icon_info-orange : '../../images/icn-info-orange.svg';
+$icon_time : '../../images/icon-time.svg';
+$icon_email : '../../images/icon-email.svg';
+$icon_arrow_down : '../../images/icon-arrow-down.svg';
+
+
+$fontTrack: 'Track';
+$fontTrackItalic: 'Track-Italic';

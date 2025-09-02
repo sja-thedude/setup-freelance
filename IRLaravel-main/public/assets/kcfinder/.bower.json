@@ -1,0 +1,13 @@
+{
+  "name": "kcfinder",
+  "homepage": "https://github.com/mikemix/kcfinder",
+  "_release": "2.54",
+  "_resolution": {
+    "type": "tag",
+    "tag": "2.54",
+    "commit": "899ec8a657e3ec657ac38f4ffddd27a3cdfe8bfb"
+  },
+  "_source": "https://github.com/mikemix/kcfinder.git",
+  "_target": "2.54",
+  "_originalSource": "kcfinder"
+}

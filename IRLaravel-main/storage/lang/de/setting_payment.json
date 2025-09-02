@@ -1,0 +1,10 @@
+{
+    "message_invalid_token": "Restaurant hat kein Zahlungstoken eingerichtet",
+    "message_retrieved_list_successfully": "Zahlungseinstellungen wurden erfolgreich abgerufen",
+    "message_retrieved_successfully": "Zahlungseinstellung wurde erfolgreich abgerufen",
+    "message_created_successfully": "Zahlungseinstellung wurde erfolgreich erstellt",
+    "message_updated_successfully": "Zahlungseinstellung wurde erfolgreich aktualisiert",
+    "message_deleted_successfully": "Zahlungseinstellung wurde erfolgreich gel\u00f6scht",
+    "message_saved_successfully": "Zahlungseinstellung wurde erfolgreich gespeichert",
+    "not_found": "Zahlungseinstellung nicht gefunden"
+}

@@ -1,0 +1,194 @@
+.bs-container {
+    background-color: #ffffff;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    border: 1px solid #E6E9ED;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #072448;
+    }
+
+
+    .bs-wizard {
+        margin-top: 0px;
+        border-bottom: 0 !important;
+    }
+
+    .bs-wizard {
+        border-bottom: solid 1px #e0e0e0;
+        padding: 0 0 10px 0;
+    }
+
+    .bs-wizard>.bs-wizard-step {
+        padding: 0;
+        position: relative;
+    }
+
+    // .bs-wizard>.bs-wizard-step+.bs-wizard-step {}
+
+    .bs-wizard>.bs-wizard-step .bs-wizard-stepnum {
+        color: #595959;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .bs-wizard>.bs-wizard-step .bs-wizard-info a {
+        font-size: 17px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #9b9b9b;
+    }
+
+    .bs-wizard>.bs-wizard-step>.bs-wizard-dot {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        display: block;
+        border: solid 1px #dfdfdf;
+        background-color: #ffffff;
+        top: 23px;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -15px;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: normal;
+        color: #dfdfdf;
+    }
+
+    .bs-wizard>.bs-wizard-step>.bs-wizard-dot:after {
+        content: ' ';
+        width: 14px;
+        height: 14px;
+        background: #2A3F54;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+    }
+
+    .bs-wizard>.bs-wizard-step>.progress {
+        position: relative;
+        border-radius: 0px;
+        height: 8px;
+        box-shadow: none;
+        margin: 20px 0;
+    }
+
+    .bs-wizard>.bs-wizard-step>.progress>.progress-bar {
+        width: 0px;
+        box-shadow: none;
+        background: #2A3F54;
+        border: none;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+    }
+
+    .bs-wizard>.bs-wizard-step.complete>.progress>.progress-bar {
+        width: 100%;
+    }
+
+    .bs-wizard>.bs-wizard-step.active>.progress>.progress-bar {
+        width: 50%;
+    }
+
+    .bs-wizard>.bs-wizard-step:first-child.active>.progress>.progress-bar {
+        width: 0%;
+    }
+
+    .bs-wizard>.bs-wizard-step:last-child.active>.progress>.progress-bar {
+        width: 100%;
+    }
+
+    .bs-wizard>.bs-wizard-step.disabled>.bs-wizard-dot {
+        background-color: #f5f5f5;
+    }
+
+    .bs-wizard>.bs-wizard-step.disabled>.bs-wizard-dot:after {
+        opacity: 0;
+    }
+
+    .bs-wizard>.bs-wizard-step:first-child>.progress {
+        left: 50%;
+        width: 50%;
+    }
+
+    .bs-wizard>.bs-wizard-step:last-child>.progress {
+        width: 50%;
+    }
+
+    .bs-wizard>.bs-wizard-step.disabled a.bs-wizard-dot {
+        pointer-events: none;
+    }
+
+    .bs-wizard {
+        .bs-wizard-step {
+
+            &.disabled,
+            &.active {
+                .bs-wizard-dot {
+                    &:after {
+                        display: none;
+                    }
+                }
+
+                .bs-wizard-info a {
+                    color: #dfdfdf;
+                }
+            }
+
+            &.active {
+                .bs-wizard-dot {
+                    border: solid 1px #2A3F54;
+                    background-color: #ffffff;
+                    color: #2A3F54;
+                }
+
+                .bs-wizard-info a {
+                    color: #2A3F54;
+                }
+            }
+
+            &.complete {
+                .bs-wizard-dot {
+                    border: solid 1px #2A3F54;
+                    background: #2A3F54;
+                    color: #2A3F54;
+
+                    &:after {
+                        color: #ffffff;
+                        content: '\2713';
+                        top: 1px;
+                    }
+                }
+
+                .bs-wizard-info a {
+                    color: #2A3F54;
+                }
+            }
+        }
+    }
+}

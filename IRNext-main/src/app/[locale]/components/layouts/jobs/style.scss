@@ -1,0 +1,118 @@
+#job_container {
+    font-family: SF Compact Display;
+    background-color:  #F8F8F8;
+    min-height: 100vh;
+    #job_header {
+        height: 60px;
+        color: #fff;
+        vertical-align: middle;
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10);
+
+        h1 {
+            line-height: 60px;
+        }
+
+        .bn-back {
+            height: 24px;
+            cursor: pointer;
+            pointer-events: auto;
+            color: white;
+            margin-top: -4px;
+        }
+
+        .header-title {
+            font-family: SF Compact Display Semibold;
+            font-weight: 499 !important;
+            margin-left: 20px;
+            color: #FFF;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.24px;
+        }
+    }
+
+    #job_content {
+        padding: 15px;
+
+        #job_description_title {
+            font-family: SF Compact Display Semibold;
+            font-weight: 499 !important;
+            color: #413E38;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        #job_description_content {
+            color: #a9a9a9;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    .form-control {
+        border-radius: 10px;
+        border: none;
+        background: #fff;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+
+        &[type="text"]:not(textarea),
+        &[type="email"],
+        &[type="tel"] {
+            height: 50px;
+        }
+    }
+
+    .form-control::placeholder {
+        color: #949494;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.24px;
+    }
+
+    .btn-submit {
+        width: 241px;
+        height: 47px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: none;
+        background: #413e38;
+        margin-top: 28px;
+        color: white;
+        text-align: center;
+        font-family: SF Compact Display;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .messageField {
+        position: fixed;
+        bottom: 0;
+        font-family: SF Compact Display;
+        font-size: 0.9rem;
+        color: white;
+        border-radius: 10px;
+        background-color: #595856;
+        height: 50px;
+        width: 90%;
+    }
+    
+    .messageField p {
+        margin-bottom: 0 !important;
+    }
+    .form-control-custom-invalid::placeholder {
+        color: red;
+    }
+    
+    .form-control-custom-invalid {
+        background-color: #f2e6e8;
+        border: 1px solid red !important;
+    }
+}

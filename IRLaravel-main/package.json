@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch",
+    "doc": "apidoc -i app/Http/Controllers/API -o public/doc/"
+  },
+  "engines": {
+    "node": "^8.11.0"
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-install": "^1.1.0",
+    "gulp.spritesmith": "^6.9.0",
+    "lang.js": "^1.1.14",
+    "node-sass": "^4.9.2",
+    "socket.io-client": "^3.0.3"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.14",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-setup": "^2.2.1",
+    "laravel-elixir": "^6.0.0-18",
+    "laravel-elixir-livereload": "^1.0"
+  }
+}

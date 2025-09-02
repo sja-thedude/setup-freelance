@@ -1,0 +1,8 @@
+{
+    "created_successfully": "Optionselement wurde erstellt",
+    "updated_successfully": "Optionselement wurde aktualisiert",
+    "deleted_successfully": "Optionselement wurde gel\u00f6scht",
+    "message_retrieved_successfully": "Optionselement wurde erfolgreich abgerufen",
+    "message_retrieved_multiple_successfully": "Optionselemente wurden erfolgreich abgerufen",
+    "not_found": "Optionselement nicht gefunden"
+}

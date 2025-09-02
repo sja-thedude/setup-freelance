@@ -1,0 +1,19 @@
+{
+    "title": "VAT rules",
+    "take_out": "Take out",
+    "delivery": "Delivery",
+    "in_house": "On site",
+    "save_success": "VAT rules have been saved successfully.",
+    "name_holder": "Name of VAT rate",
+    "message_retrieved_successfully": "VAT has been retrieved successfully",
+    "message_retrieved_list_successfully": "VAT list has been retrieved successfully",
+    "message_created_successfully": "VAT job has been created successfully",
+    "message_updated_successfully": "VAT job has been updated successfully",
+    "message_deleted_successfully": "VAT job has been deleted successfully",
+    "message_saved_successfully": "VAT job has been saved successfully",
+    "not_found": "VAT not found",
+    "id": "ID",
+    "validation.take_out_required": "Take out is required",
+    "validation.delivery_required": "Delivery is required",
+    "validation.in_house_required": "On site is required"
+}

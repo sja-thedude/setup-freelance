@@ -1,0 +1,7 @@
+{
+    "message_created_successfully": "Benachrichtigungskategorie wurde erfolgreich erstellt.",
+    "message_updated_successfully": "Benachrichtigungskategorie wurde erfolgreich aktualisiert.",
+    "message_saved_successfully": "Benachrichtigungskategorie wurde erfolgreich gespeichert.",
+    "message_deleted_successfully": "Benachrichtigungskategorie wurde erfolgreich gel\u00f6scht.",
+    "not_found": "Benachrichtigungskategorie nicht gefunden"
+}

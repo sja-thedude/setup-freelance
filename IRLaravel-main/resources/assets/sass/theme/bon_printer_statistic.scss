@@ -1,0 +1,90 @@
+.layout-bon-printer {
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+
+    .bon-printer-title {
+        font-weight: bold;
+        font-size: 36px;
+    }
+    .bon-printer-normal {
+        font-size: 18px;
+    }
+    .bon-printer-restaurant {
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .bon-printer-list {
+        .bp-list-header {
+            font-weight: bold;
+            font-size: 18px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #000000;
+        }
+        .bp-list-body {
+            .bp-cat {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-top: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+            }
+            .bp-product {
+                font-size: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        }
+        .bp-list-footer {
+            border-top: 2px solid #000000;
+            font-weight: bold;
+            font-size: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+    .bon-printer-total {
+        .pb-total-item {
+            border: 1px solid #000000;
+            padding: 10px;
+            margin-bottom: 15px;
+
+            .s-number {
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 29px;
+            }
+            .s-description {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 27px;
+            }
+        }
+    }
+}
+
+.bon-printer-discount,
+.bon-printer-payment-method {
+    .bon-printer-list {
+        .bp-list-header {
+            font-size: 17px;
+        }
+        .bp-list-body {
+            .bp-cat {
+                font-weight: bold;
+                font-size: 16px;
+            }
+            .bp-product {
+                font-weight: 300;
+                font-size: 16px;
+            }
+        }
+        .bp-list-footer {
+            font-size: 16px;
+        }
+    }
+}

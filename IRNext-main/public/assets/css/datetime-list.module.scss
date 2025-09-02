@@ -1,0 +1,498 @@
+@import 'table_ordering.module.scss';
+@import 'mixins';
+
+.datetime-list {
+  padding: 15px;
+
+  .time-group {
+    padding: 0px 15px;
+  }
+
+  .type-label {
+    color: var(--White, #FFF);
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #413E38;
+    width: fit-content;
+    min-width: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-transform: uppercase;
+  }
+
+  @media (min-width: 1280px) {
+    .type-label {
+      font-size: 16px;
+      @include fontSemiBold;
+      font-weight: 790;
+    }
+  }
+
+  .datetime-label {
+    color: #000;
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 20px;
+    margin-top: 34px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .datetime-line {
+    background: #C4C4C4;
+    width: 50px;
+    height: 1px;
+  }
+}
+
+.date-picker {
+  margin-top: 30px;
+  position: relative;
+
+  .date-icon {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    border-radius: 6px;
+    padding: 7px 9px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .date-input {
+    width: inherit;
+    border-radius: 6px;
+    border: 1px solid var(--Cart-stroke, #D1D1D1);
+    background: var(--White, #FFF);
+    height: 42px;
+    padding: 12px 0px 12px 12px;
+    color: var(--Input-field, #717171);
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    min-width: 100%;
+    margin-bottom: 27px;
+  }
+
+  .date-input:focus {
+    outline: none;
+  }
+
+  .date-input-portal {
+    border-radius: 6px;
+    border: 1px solid var(--Cart-stroke, #D1D1D1);
+    background: var(--White, #FFF);
+    height: 50px;
+    padding: 12px 42px 12px 12px;
+    color: var(--Input-field, #717171);
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    min-width: 100%;
+    margin-bottom: 27px;
+  }
+
+  .date-input-portal:focus {
+    outline: none;
+  }
+}
+
+.header-cal {
+  display: flex;
+  justify-content: center;
+}
+
+.header-cal-btn {
+  width: 28px;
+  height: 28px;
+}
+
+.header-cal-btn:hover {
+  cursor: pointer;
+}
+
+.header-cal-year {
+  padding: 2px;
+  color: var(--black-50, #808080);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.12px;
+  @include fontCompactDisplay;
+}
+
+.group-time {
+  display: flex !important;
+
+  .time-btn {
+    padding: 4px !important;
+
+    .time-item {
+      text-align: center;
+      @include fontCompactDisplay;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      border-radius: 6px;
+      padding: 9px 7px;
+      background: var(--White, #FFF);
+    }
+
+    .time-btn-disable {
+      border: 1px solid var(--Cart-stroke, #D1D1D1) !important;
+      color: var(--Cart-stroke, #D1D1D1) !important;
+    }
+
+    .time-btn-active {
+      color: white;
+    }
+  }
+
+  .time-btn:hover {
+    cursor: pointer;
+  }
+
+  .time-btn-disable:hover {
+    cursor: not-allowed;
+  }
+}
+
+.next-step-btn {
+  border-radius: 6px;
+  background: #413E38;
+  text-transform: uppercase;
+  width: 168px;
+  height: 42px;
+  @include fontCompactDisplay;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+
+  .step-item {
+    .step-number {
+      color: #C4C4C4;
+      text-align: center;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      width: 23px;
+      height: 23px;
+      border-radius: 100%;
+      border: 1px solid #C4C4C4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      margin-bottom: 3px;
+    }
+
+    .step-name {
+      color: #C4C4C4;
+      text-align: center;
+      @include fontSemiBold;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
+
+.nav-bar {
+  letter-spacing: -0.24px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 0px 0px 5px 5px;
+  color: #FFF;
+  @include fontSemiBold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px;
+  /* 110% */
+  letter-spacing: -0.24px;
+}
+
+.step-card {
+  margin-top: 37px;
+  padding: 0px 15px 18px 15px;
+  //border-radius: 6px;
+  background: #FFF;
+  //box-shadow: 2px 10px 20px 0px rgba(109, 109, 109, 0.15);
+}
+
+.modal-content {
+  z-index: 200;
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-radius: 30px 30px 0px 0px !important;
+  background: #FFF !important;
+}
+
+.modal-content-text {
+  color: #000;
+  text-align: center;
+  @include fontCompactDisplay;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 15px;
+}
+
+.btn-no {
+  color: #B5B268;
+  text-align: center;
+  @include fontCompactDisplay;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  margin-top: 10px;
+}
+
+.btn-yes {
+  border-radius: 6px;
+  background: #413E38;
+  color: #FFF;
+  text-align: center;
+  @include fontCompactDisplay;
+  font-size: 14px;
+  font-weight: 600;
+  width: fit-content;
+  margin: auto;
+  padding: 13px 40px;
+  margin-top: 30px;
+}
+
+.modal-content-title {
+  padding-top: 1rem;
+  color: #000;
+  text-align: center;
+  @include fontSemiBold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.group-order {
+  @include fontSemiBold;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 1280px) {
+  .backing:hover {
+    cursor: pointer;
+  }
+
+  .notMargin{
+    margin: 0 !important;
+  }
+
+  .datetime-error {
+    border-radius: 2px 2px 0px 0px;
+    background: #F7DBD5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 15px -16px;
+
+    .datetime-error-text {
+      color: var(--red, #E03009);
+      @include fontCompactDisplayMedium;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 556;
+      line-height: normal;
+    }
+  }
+
+  .changing {
+    text-align: center;
+    margin-top: 40px;
+
+    .change-ordertype {
+      color: #404040;
+      @include fontCompactDisplay;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      border-bottom: 1px solid #C4C4C4;
+    }
+  }
+
+  .cart-types {
+    margin-bottom: 15px;
+    justify-content: center;
+
+    .cart-type-item {
+      padding: 19px 12px;
+      min-width: 110px;
+      text-align: center;
+      @include fontSemiBold;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 790;
+      line-height: normal;
+      text-transform: uppercase;
+      border-radius: 5px;
+
+      &:first-of-type {
+        margin-right: -3px;
+      }
+
+      &:last-of-type {
+        margin-left: -3px;
+      }
+
+      &.active {
+        color: #FFFFFF;
+        border-radius: 5px;
+        background: #413E38;
+      }
+    }
+  }
+
+  .datetime-list {
+    padding: 15px 0px 0px 0px;
+
+    .time-group {
+      padding: 0px 30px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .group-time {
+    display: flex !important;
+
+    .time-btn {
+      padding: 4px !important;
+
+      .time-item {
+        @include fontCompactDisplay;
+        display: flex;
+        justify-content: center;
+        font-weight: 556;
+        border-radius: 6px;
+        background: var(--W1, #F5F5F5);
+      }
+
+      .time-btn-disable {
+        border-radius: 6px;
+        border: 1px solid var(--Cart-stroke, #D1D1D1);
+        background: var(--White, #FFF);
+      }
+
+      .time-btn-active {
+        color: white;
+      }
+    }
+  }
+
+  .date-picker {
+    padding: 0px 20px;
+    margin-top: 0px;
+
+    .date-icon {
+      margin-right: 20px;
+    }
+
+    .date-input {
+      font-weight: 556;
+      margin-bottom: 15px;
+    }
+  }
+
+  .next-step-btn {
+    margin-top: 0px;
+    width: 158px;
+    height: 50px;
+    padding: 15px 23px;
+    color: #FFF;
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 790;
+    line-height: normal;
+    letter-spacing: 1.44px;
+  }
+
+  .steps {
+    display: flex;
+    justify-content: space-around;
+
+    .step-item {
+      .step-number {
+        color: #C4C4C4;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 23px;
+        height: 23px;
+        border-radius: 100%;
+        border: 1px solid #C4C4C4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 3px;
+      }
+
+      .step-name {
+        @include fontSemiBold;
+        font-weight: 790;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1900px) {
+  .step-card {
+    margin-top: 20vh;
+  }
+}
+
+@media (min-width: 1900px) {
+  .step-card {
+    margin-top: 25vh;
+  }
+}
+
+@media (max-width: 1279px) {
+  .nav-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+}

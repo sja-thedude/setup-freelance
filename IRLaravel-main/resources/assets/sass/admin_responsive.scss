@@ -1,0 +1,448 @@
+#modal_create_manager #create_manager div.modal-dialog {
+  width: 467px;
+  height: 551px;
+  margin-top: 120px;
+  .modal-content.text-left {
+    background-color: white;
+    .modal-header {
+      .modal-title.ir-h4 {
+        padding-left: 60px;
+      }
+    }
+    .modal-body {
+      padding-left: 75px;
+      padding-top: 30px;
+      padding-right: 75px;
+    }
+    .modal-footer {
+      // padding-left: 90px;
+      // padding-right: 90px;
+      padding: 0 90px;
+    }
+  }
+}
+.right_col {
+  .ir-panel .ir-content .list-responsive .list-body div.row {
+    .modal-dialog.modal-medium {
+      .modal-dialog {
+        margin-top: 150px;
+      }
+    }
+    .ir-modal.modal.fade {
+      .modal-dialog {
+        margin-top: 150px;
+      }
+    }
+    .modal.fade {
+      .modal-dialog {
+        margin-top: 150px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .ir-btn-secondary{
+    min-width: inherit;
+  }
+  .page-general .ir-content{
+    .pdl-30{
+      padding-left: 10px;
+    }
+    .pdr-30{
+      padding-right: 10px;
+    }
+    .form-group{
+      label{
+        margin: 0;
+        margin-top: 11px;
+      }
+    }
+  }
+  .ir-sidebar-bg.ir-theme .general-color-picker span{
+    top: 13px;
+  }
+  
+  .ir-theme .form-group.form-with-text .text-block.normal-text{
+    font-size: 13px;
+  }
+  .ir-sidebar-bg.ir-theme .general .ir-content{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ir-theme .nav_menu .navbar-left{
+    padding: 7px 0 7px 7px;
+  }
+  
+}
+
+@media  (max-width: 1300px) {
+  .ir-sidebar-bg{
+    &.ir-theme .nav_menu .navbar-left{
+      padding: 7px 0 7px 7px;
+    }
+    &.ir-theme .nav_menu .navbar-left > li{
+      margin-right: 0;
+    } 
+    .nav > li > a{
+      padding: 13px 5px 12px;
+    }
+  }
+  
+}
+
+@media  (max-width: 1250px) {
+  .ir-theme .form-group.form-with-text .text-block.normal-text{
+    font-size: 12px;
+  }
+  .ir-sidebar-bg.ir-theme .form-group.form-with-text input.form-control.large{
+    max-width: 100%;
+  }
+  .ir-sidebar-bg{
+    &.ir-theme {
+      .form-group.form-with-text input.form-control{
+        margin: 0;
+      }
+      .container.body .right_col{
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+    &.ir-theme .nav_menu {
+      .navbar-left{
+        width: 60%;
+        margin: 0;
+      }
+      .navbar-right{
+        width: 40%;
+      }
+    }
+  }
+  .page-admin{
+    &.nav-md .container.body .main_container .top_nav .col-sm-8{
+      width: 100%;
+    }
+  }
+}
+
+@media  (max-width: 1200px) {
+  .right_col .ir-panel.ir-title {
+    margin-bottom: 32px;
+  }
+}
+
+@media  (max-width: 1100px) {
+  .ir-theme .form-group.form-with-text .text-block.normal-text{
+    font-size: 10px;
+  }
+}
+
+.daterangepicker .drp-buttons .btn{
+  margin-bottom: 0;
+}
+.daterangepicker .drp-buttons{
+  padding: 2px 8px;
+}
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td{
+  padding: 1px 7px;
+}
+
+@media  (max-width: 1024px) {
+  .nav-md .mgt--80{
+    margin-top: 0;
+  }
+ 
+  .ir-sidebar-bg #sidebar-menu .nav > li > a{
+    padding: 10px 5px;
+    text-align: center;
+  }
+  .ir-theme .ir-panel .ir-content{
+    float: none;
+  }
+  .nav-md {
+    .maps .maps-marker{
+      right: 5px;
+    }
+  }
+
+  .modal.in .modal-dialog,   .modal-dialog{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  .nav-md.ir-theme .layout-manager #newCategoryModal {
+    .col-md-5, .pd-0{
+      padding: 0;
+    }
+  }
+  .display-table-flex{
+    display: flex;
+  }
+ 
+}
+
+@media (max-width: 991px) {
+  .nav-md {
+    .container.body .main_container .nav_menu.ir-topbar {
+      div.ir-top-menu {
+        margin-left: 70px;
+      }
+      nav.col-sm-8.col-xs-12 {
+        margin-left: -70px;
+      }
+    }
+    &.page-admin{
+      .container.body .main_container .nav_menu.ir-topbar {
+        nav.col-sm-8.col-xs-12 {
+          margin-left: 0;
+        }
+      }
+    }
+    .container.body .col-md-3.left_col {
+      display: block;
+      min-height: 100%;
+      width: 70px;
+      padding: 0;
+      z-index: 1038;
+      position: absolute;
+    }
+    &.ir-theme {
+      .blue_logo,
+      .ir-sidebar-item a span {
+        display: none;
+      }
+      .icon_logo {
+        display: block !important;
+        margin: 27px auto;
+        margin-bottom: 75px;
+      }
+    }
+    .navbar.nav_title {
+      width: 70px;
+    }
+  }
+
+  // .list-responsive {
+  //   .list-body {
+  //     overflow-x: scroll;
+  //     width: 100px;
+  //   }
+  // }
+
+  .noti-group.disable {
+    margin-bottom: 25px;
+    min-width: 300px;
+  }
+  // .row.noti-group.mgt-25.disable {
+  //   div:nth-child(2),
+  //   div:nth-child(3) {
+  //     min-width: 400px;
+  //   }
+  //   // div:nth-child(3) {
+  //   //   min-width: 400px;
+  //   // }
+  // }
+  
+}
+
+@media (max-width: 980px) {
+  .ir-theme .layout-manager #newCategoryModal .show-img{
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 930px) {
+  .modal-dialog.model-large, .modal-dialog{
+      width: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .modal-open.ir-theme .layout-manager #newCategoryModal .modal-body{
+    padding: 0;
+  }
+  
+}
+
+
+
+@media  (max-width: 767px) {
+  .nav-md {
+    [class*="col-sm-"]{
+        width: 100%;
+    }
+  }
+  .ir-sidebar-bg.ir-theme .nav_menu {
+    .navbar-left , .navbar-right{
+      width: 100%;
+    }
+  }
+  .nav-md.ir-theme .layout-manager #newCategoryModal {
+    .col-md-5, .pd-0{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  .display-table-flex{
+    display: block;
+  }
+  
+  .modal.in .modal-dialog{
+    width: 95%;
+    
+  }
+  .mb-mb-10{
+    margin-bottom: 10px;
+  }
+  .nav-md {
+    .container.body .main_container .nav_menu.ir-topbar {
+      div.ir-top-menu {
+        margin-left: 0;
+      }
+    }
+  }
+  .modal-dialog .modal-content .modal-body .form-create .mgb-55 {
+    margin-right: 20px;
+  }
+  .modal-dialog .modal-content .modal-body .form-create .form-group {
+    text-align: left;
+    .switch .mgr-35 {
+      margin-right: 10px;
+    }
+  }
+  .modal-content .modal-body .form-create .row {
+    div.col-md-6 {
+      width: 100%;
+    }
+  }
+  .noti-group.disable {
+    margin-bottom: 40px;
+    .ir-input.ir-datepicker {
+      width: 90%;
+    }
+  }
+  .ir-btn.ir-btn-primary.mgr-20 {
+    margin-right: 10px;
+  }
+  .right_col {
+    .ir-panel .ir-title {
+      margin-bottom: 30px;
+    }
+    .ir-modal .modal-dialog .modal-content .modal-body {
+      .modal-title.ir-h4.inline-block {
+        margin-bottom: 30px;
+      }
+      .form-create .form-group {
+        margin-bottom: 15px;
+      }
+    }
+    .ir-modal
+      .modal-dialog
+      .modal-content
+      .modal-body
+      .form-create
+      .form-group
+      .ir-label {
+      margin-bottom: 0;
+      line-height: 0;
+    }
+  }
+
+  .modal-footer {
+    div.col-sm-6.col-xs-12 {
+      margin-top: 10px;
+    }
+  }
+
+  #modal_create_manager #create_manager div.modal-dialog {
+    width: auto;
+    height: auto;
+    margin-top: 120px;
+    .modal-content.text-left {
+      background-color: white;
+
+      .modal-header {
+        .modal-title.ir-h4 {
+          padding-left: 0;
+        }
+      }
+      .modal-body {
+        padding: 15px;
+      }
+      .modal-footer {
+        padding: 0 90px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .ir-title .panel_toolbox > li {
+    margin-top: 10px;
+  }
+
+  .modal-content .modal-body .form-create .row {
+    div.col-md-6 {
+      width: 80%;
+    }
+  }
+
+  .noti-group.disable {
+    margin-bottom: 40px;
+    .ir-input.ir-datepicker {
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .modal-content .modal-body .form-create .row {
+    div.col-md-6 {
+      width: 60%;
+    }
+  }
+  .noti-group.disable {
+    margin-bottom: 40px;
+    .ir-input.ir-datepicker {
+      width: 60%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .modal-content .modal-body .form-create .row {
+    div.col-md-6 {
+      width: 50%;
+    }
+  }
+  .main_container .right_col .ir-panel .ir-title {
+    margin-bottom: 10px;
+  }
+  .panel_toolbox > li > a {
+    margin-top: 5px;
+  }
+  .ir-title .panel_toolbox .ir-modal .modal-dialog .modal-content .modal-body {
+    padding: 0;
+    padding-top: 27px;
+  }
+  .swal2-popup.swal2-modal.swal2-show {
+    padding: 35px 30px 10px;
+  }
+  .swal2-popup.swal2-modal.swal2-show .swal2-actions {
+    margin-top: 25px;
+  }
+  .modal-dialog .modal-content .modal-body .form-create .mgb-55 {
+    margin-bottom: 15px;
+    margin-right: 20px;
+  }
+  .modal-dialog .modal-content .modal-body .form-create .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+    .switch .mgr-35 {
+      margin-right: 10px;
+    }
+  }
+}

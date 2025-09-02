@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/ENV_APP_NAME" 
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:usesCleartextTraffic="true"
+      android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/ENV_FACEBOOK_APP_ID"/> <!-- From .env file -->
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/ENV_FACEBOOK_CLIENT_TOKEN"/> <!-- From .env file -->
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/ENV_GG_MAP_API_KEY"/> <!-- From .env file -->
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/ENV_APP_NAME"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+        android:screenOrientation="portrait"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustPan"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        <intent-filter
+            android:autoVerify="true"
+        >
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <!-- <data android:host="itsready.be"/> -->
+            <!-- <data android:pathPattern=".*"/> -->
+            <data android:scheme="@string/ENV_APP_SCHEME"/> <!-- From .env file -->
+      </intent-filter>
+      </activity>
+    </application>
+</manifest>

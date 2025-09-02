@@ -1,0 +1,38 @@
+<?php
+
+$originalTranslations = [
+    'dashboard'          => 'Tableau de bord',
+    'role_manager'       => 'Gestionnaire des rôles',
+    'role_backoffice'    => 'Gestionnaire des rôles',
+    'role_client'        => 'Gestionnaire des rôles clients',
+    'admin_manager'      => 'Gestionnaire des utilisateurs',
+    'workspaces'         => 'Espaces de travail',
+    'platform'           => 'Plateforme',
+    'category'           => 'Catégories',
+    'menukaart'          => 'Carte des menus',
+    'product'            => 'Produits',
+    'lang_manager'       => 'Gestionnaire des langues',
+    'home'               => 'Accueil',
+    'restaurants'        => 'Commerçants',
+    'users'              => 'Utilisateurs',
+    'settings'           => 'Paramètres',
+    'managers'           => 'Gestionnaires',
+    'option'             => 'Options',
+    'vat'                => 'Paramètres TVA',
+    'push_notifications' => 'Notifications push',
+    'manage_app'         => 'Application mobile',
+    'manage_app_functions' => 'Fonctionnalités',
+    'manage_app_theme'   => 'Design',
+    'orders'             => 'Commandes',
+    'groups'             => 'Groupes',
+    'loyalty'            => 'Fidélité',
+    'coupon'             => 'Coupons',
+    'account_managers'   => 'Gestionnaires de compte',
+    'reward'             => 'Cartes de fidélité',
+    'statistic'          => 'Statistiques',
+    'type_zaak'          => 'Type d\'établissement',
+    'cms'                => 'CMS',
+    'printer_groups'     => 'Groupes d\'imprimantes',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

@@ -1,0 +1,16 @@
+<?php
+
+$originalTranslations = [
+    'switch_afhaal'   => 'BESTELLEN VOOR AFHAAL',
+    'switch_levering' => 'BESTELLEN VOOR LEVERING',
+    'wenst_u_te'      => 'Wenst u te bestellen als <b>bedrijf</b>, <b>groep</b> of <b>klas</b>?',
+    'btn_terug'       => 'Terug',
+    'example'         => 'bv.: Rijksweg 20, 1000 Brussel',
+    'btn_bestelling'  => 'START BESTELLING',
+    'ontdek_ons'      => 'ONTDEK ONS ASSORTIMENT',
+    'home'            => 'HOME',
+    'lb_mijn_adres'   => 'MIJN ADRES',
+    'vul_hier_uw'     => 'Vul hier uw gewenst leveradres in.',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

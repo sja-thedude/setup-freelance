@@ -1,0 +1,9 @@
+{
+    "message_retrieved_list_successfully": "Workspace app metas have been retrieved successfully",
+    "message_retrieved_successfully": "Workspace app meta has been retrieved successfully",
+    "message_created_successfully": "Workspace app meta has been created successfully.",
+    "message_updated_successfully": "Workspace app meta has been updated successfully.",
+    "message_saved_successfully": "Workspace app meta has been saved successfully.",
+    "message_deleted_successfully": "Workspace app meta has been deleted successfully.",
+    "not_found": "Workspace app meta not found"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Gruppenname",
+    "add_group": "Gruppe hinzuf\u00fcgen",
+    "placeholder_search": "Gruppe suchen",
+    "deleted_confirm": "Die Gruppe wurde gel\u00f6scht",
+    "message_retrieved_successfully": "Die Gruppe wurde erfolgreich abgerufen",
+    "restaurant_list_retrieved_successfully": "Die Restaurantliste wurde erfolgreich abgerufen",
+    "not_found": "Gruppe nicht gefunden",
+    "color": "Farbe"
+}

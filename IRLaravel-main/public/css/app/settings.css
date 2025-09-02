@@ -1,0 +1,111 @@
+
+.workspace_app_description {
+    font-weight: bold;
+}
+
+.workspace_app_theme {
+    margin-bottom: 20px;
+}
+
+.workspace_app_theme_chosen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.workspace_app_image_container {
+    text-align: center;
+}
+
+.workspace_app_image_container img {
+    width: 80%;
+}
+
+.workspace_app_meta_item {
+    min-height: 40px;
+    margin-top: 10px;
+}
+
+.btn-save-item {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.btn-remove-item {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+/* Begin sort order */
+
+.container-sort {
+    display: inline-block;
+    margin-top: 8px;
+    float: left;
+}
+
+.ui-sortable-handle {
+    cursor: move;
+}
+
+.ui-sortable-helper {
+    width: 100% !important;
+    height: 40px !important;
+}
+
+/* End sort order */
+
+
+/* Begin Field status switch */
+
+.container-status {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.container-status .switch {
+    float: left;
+    margin-top: 2px;
+}
+
+.group-function .title {
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.group-function .group-function-field input[name="title"] {
+    padding-left: 10px;
+}
+
+.group-function .group-function-field.hide-border input[name="title"] {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* End Field status switch */
+
+/* Error input */
+
+.ir-theme .error.form-control {
+    background: #FDE8E8;
+    border: 1px solid #CE0000;
+}
+
+.error.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #C14949;
+    opacity: 1; /* Firefox */
+}
+
+.error.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #C14949;
+}
+
+.error.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #C14949;
+}
+
+/* /Error input */

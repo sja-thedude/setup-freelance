@@ -1,0 +1,746 @@
+@import 'mixins';
+
+.register {
+    color: #FFF;
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 76.923% */
+    letter-spacing: -0.24px;
+}
+
+.title {
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.term {
+    color: #444;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+}
+
+.termo {
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.underlinem {
+    text-decoration-line: underline;
+}
+
+.vbm {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: SF Compact Display
+}
+
+.underline:hover {
+    cursor: pointer;
+    text-decoration-line: none;
+    color: #B5B268;
+}
+
+.regisButton {
+    width: 67%;
+    border-radius: 10px !important;
+    background-color: #322F28 !important;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    height: 50px;
+    border-radius: 10px !important;
+}
+
+.regisButton:hover {
+    width: 67%;
+    border-radius: 10px !important;
+    background-color: #322F28 !important;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    height: 50px;
+    border-radius: 10px !important;
+}
+
+.regisButtonText {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.login-with {
+    @include fontCompactDisplay;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.line {
+    color: #FFF;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+    padding: 0;
+}
+
+.dash-line {
+    border-bottom: 5px solid white;
+    /* Dấu gạch ngang sử dụng đường kẻ đen */
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 39%;
+    /* Độ dài tối thiểu của dấu gạch ngang */
+
+    /* Độ rộng của dấu gạch ngang, bạn có thể điều chỉnh tùy ý */
+    text-align: center;
+    /* Căn giữa nội dung trong dấu gạch ngang */
+    margin: 0 5px;
+    /* Khoảng cách giữa các dấu gạch ngang */
+}
+
+.messaging {
+    border-radius: 6px;
+    border: 1px solid var(--Cart-stroke, #D1D1D1) !important;
+    background: var(--White, #FFF);
+    box-shadow: none;
+    height: 97px !important;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.messaging::placeholder {
+    color: #949494 !important;
+    /* Màu của placeholder */
+}
+
+.textingPortal {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    height: 50px !important;
+}
+
+.textingPortal.invalid {
+    border: 1px solid red !important;
+    /* Đổi màu của placeholder thành đỏ khi không hợp lệ */
+    z-index: 9999;
+    position: relative;
+    /* Thiết lập position thành relative */
+    overflow: hidden;
+    background-color: #F2E8E8 !important;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+}
+
+.country {
+    @include fontSemiBold;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.bv {
+    color: #EE3C3C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: SF Compact Display
+}
+
+.bvf {
+    color: #979797;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: SF Compact Display
+}
+
+.bvfm {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: SF Compact Display
+}
+
+.message {
+    position: relative;
+    z-index: 10 !important;
+    margin-top: -25%;
+    margin-left: 5%;
+    @include fontCompactDisplay;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 10px;
+    background-color: #595856;
+    margin-bottom: 5%;
+    height: 50px;
+    width: 90%;
+}
+
+.btn-dark {
+    border-radius: 10px;
+    background: #413E38;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    width: 102px;
+    height: 50px;
+}
+
+.btn-dark-register-portal {
+    border-radius: 10px;
+    background: #322F28;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    width: 251px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.ready {
+    text-align: center;
+}
+
+.buttoning {
+    margin-top: -110px;
+}
+
+.textong p {
+    color: var(--black-primary, #404040);
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 556;
+    line-height: normal;
+
+    b {
+        @include fontSemiBold;
+        font-weight: 943;
+    }
+}
+
+.heading {
+    color: var(--bg, #404040);
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 790;
+    line-height: 25px;
+    /* 113.636% */
+}
+
+.contact-us {
+    @include fontSemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 943;
+    line-height: normal;
+}
+
+.fromGroupDesktop {
+    padding-top: 4px;
+
+    .title {
+        margin-bottom: 12px;
+        padding-top: 30px !important;
+    }
+
+    .back {
+        color: #D87833;
+        text-align: center;
+        @include fontSemiBold;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 790;
+        line-height: normal;
+        letter-spacing: 1.44px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+
+    .regisButtonText {
+        color: #FFF;
+        text-align: center;
+        @include fontSemiBold;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 790;
+        line-height: normal;
+        letter-spacing: 1.44px;
+    }
+
+    .texting {
+        background: #FFF !important;
+        box-shadow: none;
+
+        svg[data-testid="ArrowDropDownIcon"] {
+            top: 7px;
+        }
+
+        div[aria-haspopup="listbox"] {
+            margin-top: 2px;
+        }
+    }
+
+    .messaging {
+        background: #FFF !important;
+        box-shadow: none;
+        outline: none;
+    }
+
+    .messaging {
+        border-radius: 6px;
+        border: 1px solid var(--Cart-stroke, #D1D1D1) !important;
+        background: var(--White, #FFF);
+        box-shadow: none;
+        color: #212529 !important;
+    }
+
+    .messaging.invalid {
+        border: 1px solid red !important;
+        /* Đổi màu của placeholder thành đỏ khi không hợp lệ */
+        z-index: 9999;
+        position: relative;
+        /* Thiết lập position thành relative */
+        overflow: hidden;
+    }
+
+    .messaging.invalid::placeholder {
+        color: rgb(217, 75, 44) !important;
+    }
+
+    ul {
+        li {
+            div {
+                display: flex !important;
+                align-items: center !important;
+            }
+        }
+    }
+
+    .errorMessage {
+        margin-top: 20px !important;
+        margin-bottom: 0px !important;
+        min-height: 70px;
+    }
+
+    .errorMessageHide {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    input {
+        @include fontCompactDisplay;
+        font-size: 16px;
+        font-weight: 457;
+        color: #717171;
+    }
+
+    input::placeholder {
+        @include fontCompactDisplay;
+        font-size: 16px;
+        font-weight: 457;
+        color: #717171;
+        opacity: 1;
+    }
+
+    textarea[name="message"] {
+        @include fontCompactDisplay;
+        font-size: 16px;
+        font-weight: 457;
+        color: #717171 !important;
+        opacity: 1;
+    }
+
+    textarea::placeholder {
+        @include fontCompactDisplay;
+        font-size: 16px;
+        font-weight: 457;
+        color: #717171 !important;
+        opacity: 1;
+    }
+}
+
+.inputing {
+    height: 42px;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid var(--Cart-stroke, #D1D1D1);
+    background: var(--White, #FFF);
+    border-right: none;
+    padding-left: 12px;
+}
+
+
+.timing {
+    width: 20%;
+    height: 42px;
+    border-radius: 0 6px 6px 0;
+    border: 1px solid var(--Cart-stroke, #D1D1D1);
+    background: var(--White, #FFF);
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        color: var(--button, #888);
+        text-align: center;
+        font-family: SF Compact;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 556;
+        line-height: normal;
+    }
+}
+
+.inputing:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.listContain {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    overflow-y: auto;
+    padding-left: 13px;
+    padding-right: 16px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    width: 345px;
+    background: #FFF;
+}
+
+.listGroup {
+    padding-left: 12px;
+    margin: auto;
+    padding-right: 12px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.listGroup:hover {
+    cursor: pointer;
+}
+
+.listEmpty {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.05);
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.listEmpty p {
+    color: #BFBFBF;
+
+    text-align: center;
+    /* Input field */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.listGroupText {
+    color: #717171;
+    margin-bottom: 0;
+    color: var(--bg, #404040);
+    /* Input field */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.listGroupText:hover {
+    cursor: pointer;
+}
+
+.closeTime p {
+    color: #888;
+    text-align: right;
+    /* Input field */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fromGroupDesktopSuccess {
+    .message {
+        height: calc(100vh - 36px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        margin-top: 0px;
+        text-align: center;
+
+        svg {
+            width: 134px;
+        }
+
+        h3 {
+            color: #404040;
+            text-align: center;
+            @include fontSemiBold;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 790;
+            line-height: normal;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #888;
+            text-align: center;
+            @include fontCompactDisplayMedium;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 556;
+            margin-bottom: 0px;
+        }
+
+        a {
+            color: #D87833;
+            text-align: center;
+            @include fontSemiBold;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 790;
+            line-height: normal;
+            letter-spacing: 1.44px;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 26px;
+        }
+    }
+}
+
+.addressIcon {
+    position: absolute;
+    top: 16px;
+    left: 22px;
+    z-index: 1200;
+}
+
+.cart-type-item {
+    border: 1px solid #444;
+    padding: 12px;
+    min-width: 110px;
+    text-align: center;
+    color: #444;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    &:first-of-type {
+        margin-right: -3px;
+    }
+
+    &:last-of-type {
+        margin-left: -3px;
+    }
+
+    &.active {
+        color: #FFFFFF;
+        border-radius: 5px;
+        background: #444;
+    }
+}
+
+.cart-type-item-mobile {
+    border: 1px solid #FFF;
+    padding: 12px;
+    min-width: 99px;
+    text-align: center;
+    color: #FFF;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    &:first-of-type {
+        margin-right: -3px;
+    }
+
+    &:last-of-type {
+        margin-left: -10px;
+    }
+
+    &.active {
+        color: #B5B268;
+        border-radius: 5px;
+        background: #FFF;
+    }
+}
+
+.steping:hover {
+    cursor: pointer;
+}
+
+.line {
+    color: #000000;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+    padding: 0;
+}
+
+.line-mobile {
+    color: #FFF;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+    padding: 0;
+}
+
+.dash-line {
+    border-bottom: 1px solid #000000;
+    /* Dấu gạch ngang sử dụng đường kẻ đen */
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 34%;
+    /* Độ dài tối thiểu của dấu gạch ngang */
+
+    /* Độ rộng của dấu gạch ngang, bạn có thể điều chỉnh tùy ý */
+    text-align: center;
+    /* Căn giữa nội dung trong dấu gạch ngang */
+    margin: 0 5px;
+    /* Khoảng cách giữa các dấu gạch ngang */
+    margin-bottom: 3px;
+}
+
+.dash-line-mobile {
+    border-bottom: 3px solid #FFF;
+    /* Dấu gạch ngang sử dụng đường kẻ đen */
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 34%;
+    /* Độ dài tối thiểu của dấu gạch ngang */
+
+    /* Độ rộng của dấu gạch ngang, bạn có thể điều chỉnh tùy ý */
+    text-align: center;
+    /* Căn giữa nội dung trong dấu gạch ngang */
+    margin: 0 5px;
+    /* Khoảng cách giữa các dấu gạch ngang */
+    margin-bottom: 3px;
+}
+
+.login-with {
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.login-with-mobile {
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.stepingCirle:hover {
+    fill: #413E38;
+}
+
+.teamIcon:hover {
+    cursor: pointer;
+}
+
+.cart-types:hover {
+    cursor: pointer;
+}
+
+.socialing:hover {
+    cursor: pointer;
+}
+
+.vb {
+    color: #979797;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: -0.24px;
+}

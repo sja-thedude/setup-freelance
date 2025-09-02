@@ -1,0 +1,19 @@
+/* Location icon */
+.icn-location {
+  background-image: url("../../images/icons/address-marker.svg");
+  background-repeat: no-repeat;
+}
+
+.icn-location:before {
+  background-image: none;
+}
+
+/* Term and condition checkbox */
+.checkbox-register {
+  //background-image: url("../../images/icons/checkbox-unchecked.svg");
+  //background-repeat: no-repeat;
+}
+
+.checkbox-register:before {
+  background-image: none;
+}

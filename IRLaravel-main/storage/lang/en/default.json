@@ -1,0 +1,11 @@
+{
+    "dashboard": "Dashboard",
+    "post": "Post",
+    "category": "Category",
+    "tag": "Tag",
+    "page": "Page",
+    "menu": "Menu Manager",
+    "logout": "Logout",
+    "theme": "Theme Manager",
+    "widget": "Widget Manager"
+}

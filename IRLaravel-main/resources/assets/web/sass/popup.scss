@@ -1,0 +1,103 @@
+#backgroundPopup {
+    display: none;
+    position: fixed;
+    _position: absolute; /* hack for internet explorer 6*/
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #cecece;
+    z-index: 998;
+}
+
+#popupContact {
+    display: none;
+    position: fixed; /* hack for internet explorer 6*/
+    text-align: center;
+    vertical-align: middle;
+    z-index: 999;
+    padding: 15px 20px 30px 20px;
+    font-size: 13px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    width: 600px;
+
+    .popup-content {
+        .popupContactClose {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 999;
+            font-size: 12px;
+            line-height: 16px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .close-popup {
+            height: auto;
+            padding: 15px 60px;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+            box-shadow: 0 5px 10px rgba(110, 55, 30, 0.15);
+
+            img {
+                -o-object-fit: cover;
+                object-fit: cover;
+                object-position: 50% 50%;
+                -o-object-position: 50% 50%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .display-content {
+            max-height: 400px;
+            overflow: auto;
+            padding: 0 10px;
+            margin-bottom: 25px;
+            text-align: center;
+            
+            p {
+                font-style: normal;
+                font-weight: normal;
+                color: #797979;
+                font-size: 18px;
+                line-height: 120%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    h1 {
+        text-align: left;
+        color: #096;
+        font-size: 18px;
+        font-weight: 700;
+        border-bottom: 1px dotted #CCC;
+        padding-bottom: 2px;
+        margin-bottom: 20px;
+    }
+}
+
+#button {
+    text-align: center;
+    margin: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    #popupContact {
+        width: 360px;
+    }
+}

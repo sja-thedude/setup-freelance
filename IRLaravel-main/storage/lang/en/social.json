@@ -1,0 +1,5 @@
+{
+    "token_invalid": "Invalid token",
+    "provider_invalid": "Invalid provider",
+    "login_success": "Login successful"
+}

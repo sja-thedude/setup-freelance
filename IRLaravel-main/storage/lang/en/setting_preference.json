@@ -1,0 +1,10 @@
+{
+    "message_not_found": "The restaurant reference settings have not been configured",
+    "message_retrieved_list_successfully": "Setting references have been retrieved successfully",
+    "message_retrieved_successfully": "Setting reference has been retrieved successfully",
+    "message_created_successfully": "Setting reference has been created successfully",
+    "message_updated_successfully": "Setting reference has been updated successfully",
+    "message_deleted_successfully": "Setting reference has been deleted successfully",
+    "message_saved_successfully": "Setting reference has been saved successfully",
+    "not_found": "Setting reference not found"
+}

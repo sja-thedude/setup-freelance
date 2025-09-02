@@ -1,0 +1,9 @@
+{
+    "message_retrieved_list_successfully": "Einstellungs-Zeitslots wurden erfolgreich abgerufen",
+    "message_retrieved_successfully": "Einstellungs-Zeitslot wurde erfolgreich abgerufen",
+    "message_created_successfully": "Einstellungs-Zeitslot wurde erfolgreich erstellt",
+    "message_updated_successfully": "Einstellungs-Zeitslot wurde erfolgreich aktualisiert",
+    "message_deleted_successfully": "Einstellungs-Zeitslot wurde erfolgreich gel\u00f6scht",
+    "message_saved_successfully": "Einstellungs-Zeitslot wurde erfolgreich gespeichert",
+    "not_found": "Einstellungs-Zeitslot nicht gefunden"
+}

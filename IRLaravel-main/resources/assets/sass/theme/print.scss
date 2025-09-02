@@ -1,0 +1,359 @@
+@import "theme_variables";
+@import "theme_mixins";
+@import "../vendor/mixins";
+
+.body-print {
+    background: $colorWhite;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-style: normal;
+}
+
+.print-werkbon-content,
+.print-a4-content {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+
+    .print-type {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        text-transform: uppercase;
+    }
+
+    .print-order-id {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28.13px;
+    }
+
+    .print-name {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .print-phone {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 22.27px;
+    }
+
+    .print-time {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .print-note {
+        padding: 10px;
+        width: 100%;
+        font-size: 24px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    .print-category {
+        padding: 10px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+        border-bottom: 1px solid #000000;
+    }
+
+    .print-product-name {
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .print-product-option {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 32px;
+    }
+
+    .print-total {
+        padding: 10px;
+        font-size: 21px;
+        line-height: 25px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .print-payment {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .order-print-pay {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .dash-line {
+        border-top: 2px dashed #000000;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .solid-line-1 {
+        border-top: 1px solid #000000;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .print-client-name {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .print-client-phone {
+        font-weight: 500;
+        font-size: 12px;
+        //color: #757575;
+    }
+
+    .print-create-date {
+        font-size: 10px;
+        text-align: right;
+        //color: #757575;
+    }
+
+    .print-title {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .print-cat-name {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 12px;
+    }
+}
+
+.print-werkbon-content {
+    .print-name {
+        font-size: 34px;
+    }
+
+    .print-phone {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .print-note {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+}
+
+.print-a4-content {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+
+    .print-title {
+        margin-top: 30px;
+        border-bottom: 1px solid #000000;
+        transform: rotate(-0.01deg);
+        padding-bottom: 10px;
+    }
+
+    .print-type {
+        font-weight: bold;
+        font-size: 14px;
+        text-align: right;
+        line-height: inherit;
+    }
+
+    .print-cat-name {
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        margin: 10px 0px;
+        padding: 5px 0px;
+    }
+
+    .print-product-item {
+        margin-bottom: 10px;
+    }
+
+    .print-total-area {
+        padding-top: 10px;
+        margin-top: 10px;
+        border-top: 2px solid #000000;
+    }
+
+    .print-product-name {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .order-print-pay {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .print-total {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .print-note {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .print-product-option {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+.print-kassabon-content {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+
+    .p-res-name {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 42px;
+    }
+
+    .p-res-des {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .p-client-date {
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .border-line {
+        border-top: 1px solid #000000;
+    }
+
+    .p-product-name {
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .p-product-item {
+        font-size: 18px;
+    }
+
+    .p-subtotal {
+        font-weight: bold;
+        font-size: 18px;
+
+        &.border-bottom {
+            border-bottom: 1px solid #000000;
+        }
+    }
+
+    .p-total {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .p-normal {
+        font-size: 18px;
+    }
+
+    .p-payment {
+        padding: 10px;
+        margin: 20px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    .p-kasticket {
+        font-size: 36px;
+        color: #000000;
+    }
+
+    .p-thanks {
+        font-size: 24px;
+    }
+}
+
+.print-sticker-content {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px; // 13px
+
+    .sticker-name {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .sticker-price {
+        font-size: 22px;
+        font-weight: normal;
+    }
+
+    .sticker-time {
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .sticker-product-name {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .sticker-product-number {
+        font-size: 22px;
+    }
+
+    .sticker-product-option {
+        font-size: 20px;
+    }
+
+    .sticker-border-bt {
+        border-bottom: 1px solid #000000;
+    }
+
+    .sticker-note-border {
+        border: 2px solid #000000;
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+}
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}

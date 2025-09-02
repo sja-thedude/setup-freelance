@@ -1,0 +1,16 @@
+.wrap-table-time{
+    .content-tab{
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+}
+
+.wrap-info-map-header .wrap-table-header h6{
+    cursor: pointer;
+    &:hover{
+        color: #D94B2C;
+        font-weight: bold;
+    }
+}

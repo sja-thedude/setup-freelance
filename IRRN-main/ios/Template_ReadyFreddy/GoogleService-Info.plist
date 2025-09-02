@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>747199944401-i048iea7u60mhepeoreh3h4a6cklpdpg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.747199944401-i048iea7u60mhepeoreh3h4a6cklpdpg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>747199944401-6hp0p7od1j7m3qp1al3hj452a5esi23e.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCueqgHVAD0v_wklzQWW7VjsILPozMCjgg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>747199944401</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.itsready.readyfreddy</string>
+	<key>PROJECT_ID</key>
+	<string>it-s-ready-prod</string>
+	<key>STORAGE_BUCKET</key>
+	<string>it-s-ready-prod.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:747199944401:ios:5911e3bdcf902bd8bcd7f0</string>
+</dict>
+</plist>

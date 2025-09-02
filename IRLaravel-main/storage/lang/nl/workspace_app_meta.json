@@ -1,0 +1,9 @@
+{
+    "message_retrieved_list_successfully": "Werkruimte-app-metadata zijn succesvol opgehaald",
+    "message_retrieved_successfully": "Werkruimte-app-metadata is succesvol opgehaald",
+    "message_created_successfully": "Werkruimte-app-metadata is succesvol aangemaakt.",
+    "message_updated_successfully": "Werkruimte-app-metadata is succesvol bijgewerkt.",
+    "message_saved_successfully": "Werkruimte-app-metadata is succesvol opgeslagen.",
+    "message_deleted_successfully": "Werkruimte-app-metadata is succesvol verwijderd.",
+    "not_found": "Werkruimte-app-metadata niet gevonden"
+}

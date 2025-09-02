@@ -1,0 +1,8 @@
+{
+    "message_sent_successfully": "Nachricht wurde erfolgreich gesendet. Wir werden uns so schnell wie m\u00f6glich mit Ihnen in Verbindung setzen.",
+    "message_created_successfully": "Workspace-App wurde erfolgreich erstellt.",
+    "message_updated_successfully": "Workspace-App wurde erfolgreich aktualisiert.",
+    "message_saved_successfully": "Workspace-App wurde erfolgreich gespeichert.",
+    "message_deleted_successfully": "Workspace-App wurde erfolgreich gel\u00f6scht.",
+    "not_found": "Workspace-App nicht gefunden"
+}

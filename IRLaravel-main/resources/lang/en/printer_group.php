@@ -1,0 +1,15 @@
+<?php
+
+$originalTranslations = [
+    'name' => 'Printer group name',
+    'add_group' => 'Add printer group',
+    'placeholder_search' => 'Search printer group',
+    'deleted_confirm' => 'The printer group has been deleted',
+    'message_retrieved_successfully' => 'The printer group has been retrieved successfully',
+    'restaurant_list_retrieved_successfully' => 'The restaurant list has been retrieved successfully',
+    'not_found' => 'Printer group is not found',
+    'color' => 'Color',
+    'one_restaurant_join_one_group' => 'A restaurant can only be in one printer group',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

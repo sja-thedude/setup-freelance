@@ -1,0 +1,7 @@
+{
+    "message_created_successfully": "Druckauftragseinstellung wurde erfolgreich erstellt",
+    "message_updated_successfully": "Druckauftragseinstellung wurde erfolgreich aktualisiert",
+    "message_deleted_successfully": "Druckauftragseinstellung wurde erfolgreich gel\u00f6scht",
+    "message_saved_successfully": "Druckauftragseinstellung wurde erfolgreich gespeichert",
+    "not_found": "Druckauftragseinstellung nicht gefunden"
+}

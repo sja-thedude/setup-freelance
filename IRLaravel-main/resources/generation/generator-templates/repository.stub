@@ -1,0 +1,23 @@
+<?php
+
+namespace $NAMESPACE_REPOSITORY$;
+
+use $NAMESPACE_MODEL$\$MODEL_NAME$;
+
+class $MODEL_NAME$Repository extends AppBaseRepository
+{
+    /**
+     * @var array
+     */
+    protected $fieldSearchable = [
+        $FIELDS$
+    ];
+
+    /**
+     * Configure the Model
+     */
+    public function model()
+    {
+        return $MODEL_NAME$::class;
+    }
+}

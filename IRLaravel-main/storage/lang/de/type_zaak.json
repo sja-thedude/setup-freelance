@@ -1,0 +1,12 @@
+{
+    "created_successfully": "Erfolgreich erstellt",
+    "created_confirm": "Der Typ Zaak wurde erstellt.",
+    "updated_successfully": "Erfolgreich aktualisiert",
+    "updated_confirm": "Der Typ Zaak wurde aktualisiert.",
+    "deleted_successfully": "Erfolgreich gel\u00f6scht",
+    "deleted_confirm": "Der Typ Zaak wurde gel\u00f6scht.",
+    "add": "Typ Zaak hinzuf\u00fcgen",
+    "edit": "Bearbeiten",
+    "name": "Name",
+    "placeholder_search": "Nach Typ Zaak suchen"
+}

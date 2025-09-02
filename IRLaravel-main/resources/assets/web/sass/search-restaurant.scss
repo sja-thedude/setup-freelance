@@ -1,0 +1,799 @@
+@keyframes skeletonAnimation {
+    0% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+.type-zaak {
+    margin: 30px 0px 67px 0px;
+
+    .wrap-search {
+        background: #FFFFFF;
+        border: 1px solid #444444;
+        box-sizing: border-box;
+        border-radius: 60px;
+        position: relative;
+        margin-left: 56px;
+
+        .owl-search-type {
+            position: relative;
+            margin: 0 17.5px;
+            overflow: hidden;
+
+            .owl-stage-outer {
+                margin-right: 20px;
+            }
+
+            .owl-item {
+                float: left;
+
+                &:first-child {
+                    margin-left: 56px;
+                }
+            }
+
+            .owl-prev.disabled, .owl-next.disabled {
+                display: none;
+            }
+
+            .owl-prev, .owl-next {
+                position: absolute;
+                border: 0;
+                outline: none;
+                height: 93%;
+                width: 5%;
+                background-color: #fff;
+                margin-top: 3px;
+                cursor: pointer;
+                color: #000;
+            }
+
+            .owl-prev {
+                left: 0;
+
+                i {
+                    &:before {
+                        font-size: 24px;
+                        content: "\f104";
+                        color: #444444 !important;
+                    }
+                }
+            }
+
+            .owl-next {
+                right: 0px;
+
+                i {
+                    &:before {
+                        font-size: 24px;
+                        content: "\f105";
+                        color: #444444 !important;
+                    }
+                }
+            }
+        }
+
+        .active-type {
+            display: inline-block;
+            padding: 10px 0;
+            width: 72px;
+
+            a {
+                padding-bottom: 10px;
+                font-family: "SF Compact Display Regular";
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #444444;
+                text-transform: capitalize;
+
+                &:first-letter {
+                    text-transform: uppercase;
+                }
+            }
+
+            &.active a, a:hover {
+                border-bottom: 2px solid #444444;
+                font-family: "SF Compact Display Bold";
+                font-weight: 700;
+            }
+        }
+    }
+
+    .col-md-1 {
+        padding-top: 7px;
+    }
+}
+
+.main-search {
+    a.choose-order {
+        border: none;
+        background-color: #B5B35C;
+        padding: 0 20px;
+        width: 100%;
+        height: 49px;
+        font-family: "SF Compact Display Bold";
+        font-weight: 700;
+        text-transform: uppercase;
+        box-shadow: none;
+
+        svg.i-people {
+            float: left;
+            margin-top: 13px;
+        }
+
+        svg.i-arrow-down {
+            float: right;
+            margin-top: 21px;
+        }
+
+        &:after {
+            clear: both;
+        }
+    }
+
+    .dropdown-menu {
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 18px;
+        width: 91%;
+
+        h3 {
+            font-size: 18px;
+            line-height: 21px;
+            margin-left: 22px;
+            margin-top: 5px;
+        }
+
+        ul {
+            list-style: none;
+            text-transform: capitalize;
+            font-size: 20px;
+            line-height: 45px;
+            letter-spacing: -0.24px;
+        }
+
+        li {
+            i.icon-choice {
+                &:before {
+                    content: '';
+                    width: 36px;
+                    height: 22px;
+                    background: url("/images/home/check.svg") no-repeat;
+                    visibility: hidden;
+                }
+            }
+
+            &.active {
+                i.icon-choice {
+                    &:before {
+                        visibility: visible;
+                    }
+                }
+
+                a {
+                    color: #B5B268;
+                }
+            }
+        }
+    }
+
+    .choose-type {
+        .dropdown-menu {
+            left: 5%;
+            top: 20%;
+        }
+    }
+
+    .filter-pane {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        margin-top: 15px;
+        width: 100%;
+        padding: 5px 27px;
+
+        h4 {
+            font-family: "SF Compact Display Bold";
+            font-weight: 700;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 17px;
+        }
+
+        a {
+            &.choose-order-by {
+                background-color: #ffffff;
+                color: #000000;
+                width: 100%;
+                text-align: left;
+                margin-bottom: 14px;
+                font-size: 14px;
+                font-family: Open Sans;
+                font-weight: normal;
+                line-height: 40px;
+                height: 40px;
+                padding-left: 10px;
+                text-transform: capitalize;
+                position: relative;
+                border: 1px solid #D1D1D1;
+                border-radius: 6px;
+                box-shadow: none;
+
+                i {
+                    &.icn-arrow-down {
+                        &:before {
+                            position: absolute;
+                            right: 10px;
+                            top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .search-restaurant {
+            position: relative;
+
+            input {
+                &.restaurant-search {
+                    width: 100%;
+                    border-radius: 6px;
+                    margin-bottom: 18px;
+                    padding-left: 30px;
+                }
+            }
+
+            svg.search-logo {
+                position: absolute;
+                top: 14px;
+                left: 10px;
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        .dropdown-menu {
+            top: 50%;
+            left: 9%;
+            width: 78%;
+
+            ul {
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+
+        .wrap-checkbox-loyalty {
+            position: relative;
+            padding-bottom: 27px;
+            display: flex;
+
+            .checkbox-loyalty {
+                background-image: url(/images/icons/checkbox-unchecked.svg);
+                background-repeat: no-repeat;
+                background-position: 0;
+                width: 20px;
+                height: 15px;
+                position: relative;
+                top: auto;
+                margin: auto;
+
+                &:checked {
+                    background-image: url(/images/icons/checkbox-checked.svg);
+                }
+            }
+
+            label {
+                width: 100%;
+                position: relative;
+                font-family: "SF Compact Display Regular";
+                font-weight: 400;
+                display: flex;
+                margin-left: 5px;
+                margin-bottom: 0px;
+            }
+        }
+
+        &.levering {
+            .dropdown-menu {
+                top: 23%;
+                left: 9%;
+            }
+        }
+
+        .checkbox {
+            background-image: url(/images/icons/radio_unchecked.svg);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            font-family: SF Compact Display;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+
+            color: #000000;
+
+            &:checked {
+                background-image: url(/images/icons/radio_checked.svg);
+            }
+        }
+    }
+
+    .search-results {
+        h3.no-found {
+            text-align: center;
+            font-family: SF Compact Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            color: #A8A8A8;
+            margin-top: 10%;
+        }
+        h4 {
+            a {
+                font-family: 'SF Compact Display Bold';
+                font-weight: 400;
+            }
+        }
+
+        h4, span, a, p {
+            font-family: 'SF Compact Display Regular';
+            font-weight: 400;
+        }
+
+        .restaurant-box {
+            background: #FFFFFF;
+            box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            margin-bottom: 37px;
+            padding: 14px;
+            display: flex;
+
+            div.col-md-3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            div.show-image {
+                width: 100%;
+                height: 150px;
+                background-position: 50% 50%;
+                border-radius: 5px;
+            }
+
+            .pending-el {
+                color: #ccc !important;
+                background: #ccc !important;
+                animation-name: skeletonAnimation;
+                animation-duration: 1.5s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+
+                i {
+                    &::before {
+                        background: #ccc !important;
+                    }
+                }
+
+                span {
+                    color: #ccc !important;
+                }
+                .waiting-time-icon, .icon-loyalty {
+                    background: #ccc !important;
+                }
+            }
+
+            h4 {
+                font-family: "SF Compact Display Medium";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+                margin-bottom: 0;
+            }
+
+            .col-md-7 p {
+                font-family: "SF Compact Display Thin";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                color: #A8A8A8;
+                margin-bottom: 50px;
+            }
+
+            .delivery-info {
+                // position: absolute;
+                width: 100%;
+                bottom: 0;
+                .time, .delivery, .price {
+                    align-items: center;
+                }
+                span {
+                    margin-right: 16px;
+                    font-family: "SF Compact Display Thin";
+                }
+
+                .waiting-time-icon {
+                    margin-right: 4px;
+                    width: 23px;
+                    height: 18px;
+                    background: url("/images/home/waiting-time-icon.svg") no-repeat;
+                }
+
+                .icon-motobike {
+                    margin-right: 4px;
+                    width: 23px;
+                    height: 18px;
+                    background: url("/images/home/motobike.svg") no-repeat;
+                }
+
+                .icon-money-custom {
+                    margin-right: 4px;
+                    width: 23px;
+                    height: 12px;
+                    background: url("/images/home/money.svg") no-repeat;
+                }
+
+                .pending-icon-info {
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                }
+
+                .min-title {
+                    text-transform: uppercase;
+                    color: #B5B268;
+                    margin-right: 5px;
+                    font-size: 10px!important;
+                }
+                .icon-loyalty {
+                    width: 16px;
+                    height: 25px;
+                    background: url("/images/home/loyalty.svg") no-repeat;
+                }
+            }
+            .info-delivery {
+                width: 100%;
+                position: relative;
+                .info-status {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    .delivery-status {
+                        p {
+                            margin-bottom: 5px;
+                            &.distance {
+                                font-family: 'SF Compact Display Regular';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 24px;
+                                text-align: right;
+                                color: #A8A8A8;
+                            }
+                            &.status {
+                                font-family: 'SF Compact Display Bold';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 24px;
+                                text-align: right;
+                                letter-spacing: -0.24px;
+                                color: #B5B268;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                    .restaurant-info {
+                        p {
+                            color: #A8A8A8;
+                            margin-bottom: 0;
+                            font-family: 'SF Compact Display Regular';
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .delivery-info {
+                    position: absolute;
+                    bottom: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    span {
+                        font-size: 15px;
+                    }
+                    p {
+                        .show-pending {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            .logo-workspace {
+                min-width: 219px;
+                height: 150px;
+                margin-right: 23px;
+            }
+        }
+    }
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    display: none;
+}
+.g-map {
+    height: 500px;
+    width: 100%;
+}
+.restaurant-marker {
+    h3.restaurant-name {
+        font-family: SF Compact Display;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+
+        i.icon-chevron-right {
+            &::before {
+                color: #B5B268;
+                float: right;
+            }
+        }
+    }
+
+    p.type-zaak {
+        font-family: SF Compact Display;
+        font-size: 18px;
+        line-height: 21px;
+        margin: 10px 0;
+        color: #444444;
+    }
+
+    p.address {
+        font-family: SF Compact Display;
+        font-size: 18px;
+        line-height: 21px;
+        color: #A8A8A8;
+    }
+}
+
+.back-button-maps {
+    position: absolute;
+    top: 513px;
+    left: 40%;
+    background: #444444;
+    border-radius: 5px;
+    padding: 20px;
+    display: none;
+
+    a.back-button {
+        font-family: SF Compact Display;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-width: 768px) {
+    .page-search {
+        .container-fluid.new-home{
+            h1{
+                margin-bottom: 70px;
+            }
+        }
+        .main-content {
+            .col-search-left {
+                margin-bottom: 37px;
+            }
+            .search-results {
+                .restaurant-box {
+                    .restaurant-info{
+                        h4{
+                            font-size: 18px;
+                        }
+                        p {
+                            font-size: 15px;
+                        }
+                    }
+                    .delivery-status {
+                        p {
+                            font-size: 15px;
+                        }
+                    }
+                    .logo-workspace {
+                        min-width: 125px;
+                        height: 110px;
+                        .show-image {
+                            height: 100%;
+                        }
+                    }
+                    .info-delivery {
+                        .info-status { 
+                            .delivery-status {
+                                p {
+                                    &.distance, &.status {
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+                        }
+                        .delivery-info {
+                            .waiting-time-icon {
+                                width: 15px;
+                                height: 15px;
+                                background-size: 100%;
+                            }
+            
+                            .icon-motobike {
+                                width: 16px;
+                                height: 14px;
+                                background-size: 100%;
+                                margin-left: 2px;
+                            }
+            
+                            .icon-money-custom {
+                                width: 15px;
+                                height: 10px;
+                                background-size: 100%;
+                                margin-left: 2px;
+                            }
+                            .icon-loyalty {
+                                width: 12px;
+                                height: 20px;
+                                background-size: 100%;
+                            }
+                        }
+                    } 
+                }
+            }
+            .back-button-maps {
+                top: 340px;
+                padding: 10px;
+                left: 30%;
+                .back-button {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .page-search.sticky {
+        .search {
+            width: 93%;
+        }
+    }
+    .margin-top-10{
+        margin-top: 10px
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page-search {
+        .main-content {
+            .search-results {
+                .restaurant-box {
+                    .restaurant-info{
+                        padding: 5px 0px 0 5px;
+                        h4{
+                            font-size: 14px;
+                            line-height: 15px;
+                        }
+                        p {
+                            font-size: 10px;
+                        }
+                        .delivery-info span {
+                            font-size: 10px;
+                        }
+                    }
+                    .delivery-status {
+                        padding: 5px 5px 0 0;
+                        p {
+                            font-size: 10px;
+                        }
+                    }
+                    .status, p.distance {
+                        font-size: 10px!important;
+                        margin-bottom: 0px;
+                    }
+                    .logo-workspace {
+                        margin-right: 10px;
+                    }
+                    .show-image {
+                        height: 100px;
+                    }
+                    .info-delivery {
+                        .delivery-info {
+                            span {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            #map {
+                margin-top: 40px;
+            }
+            .back-button-maps {
+                top: 350px;
+                padding: 10px;
+                left: 20%;
+                .back-button {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page-search {
+        .main-content {
+            .search-results {
+                .restaurant-box {
+                    .restaurant-info{
+                        padding: 5px 0px 0 5px;
+                        h4{
+                            font-size: 14px;
+                            line-height: 15px;
+                        }
+                        p {
+                            font-size: 10px;
+                        }
+                        .delivery-info span {
+                            font-size: 10px;
+                        }
+                    }
+                    .delivery-status {
+                        padding: 5px 5px 0 0;
+                        p {
+                            font-size: 10px;
+                        }
+                    }
+                    .status, p.distance {
+                        font-size: 10px!important;
+                        margin-bottom: 0px;
+                    }
+                    .logo-workspace {
+                        padding: 0px 10px;
+                    }
+                    .show-image {
+                        height: 70px;
+                    }
+                }
+            }
+            .back-button-maps {
+                top: 340px;
+                padding: 10px;
+                left: 28%;
+                .back-button {
+                    font-size: 10px;
+                }
+            }
+        }
+        .search-logo {
+            display: none;
+        }
+        input.form-control.location-search.location {
+            padding-left: 12px!important;
+        }
+    }
+}
+.mg-bottom-15 {
+    margin-bottom: 15px
+}

@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'SF Compact Display Thin';
+    src: local('SF Compact Display Thin'), url('../fonts/sf-compact-display-thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Compact Display Medium';
+    src: local('SF Compact Display Medium'), url('../fonts/SF-Compact-Display-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: local('SF Compact Display Regular'), url('../fonts/SF-Compact-Display-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Compact Display Bold';
+    src: local('SF Compact Display Bold'), url('../fonts/SF-Compact-Display-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Compact Display Semibold';
+    src: local('SF Compact Display Semibold'), url('../fonts/SF-Compact-Text-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Compact Display Black';
+    src: local('SF Compact Display Black'), url('../fonts/sf-compact-display-black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: local('Roboto Bold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: local('SF Pro Text'), url('../fonts/SF-Pro-Text-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), url('../fonts/OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Track';
+    src: local('Track'), url('../fonts/Track.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: local('IBM Plex Sans'), url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans Bold';
+    src: local('IBM Plex Sans Bold'), url('../fonts/IBMPlexSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'), url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Bold';
+    src: local('Raleway Bold'), url('../fonts/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Bold Mobile';
+    src: local('Roboto Bold Mobile'), url('../fonts/mobile/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Medium Mobile';
+    src: local('Roboto Medium Mobile'), url('../fonts/mobile/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Regular Mobile';
+    src: local('Roboto Regular Mobile'), url('../fonts/mobile/Roboto-Regular.ttf') format('truetype');
+}
+
+@-moz-document url-prefix() {
+    @font-face {
+        font-family: 'SF Compact Display Thin';
+        src: local('SF Compact Display Thin'), url('../fonts/sf-compact-display-thin.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Medium';
+        src: local('SF Compact Display Medium'), url('../fonts/SF-Compact-Display-Medium.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display';
+        src: local('SF Compact Display Regular'), url('../fonts/SF-Compact-Display-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Bold';
+        src: local('SF Compact Display Bold'), url('../fonts/SF-Compact-Text-Semibold.ttf') format('truetype');
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Semibold';
+        src: local('SF Compact Display Semibold'), url('../fonts/SF-Compact-Text-Semibold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Black';
+        src: local('SF Compact Display Black'), url('../fonts/sf-compact-display-black.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Roboto Bold';
+        src: local('Roboto Bold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Pro Text';
+        src: local('SF Pro Text'), url('../fonts/SF-Pro-Text-Regular.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: 'Open Sans';
+        src: local('Open Sans'), url('../fonts/OpenSans-Regular.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Track';
+        src: local('Track'), url('../fonts/Track.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'IBM Plex Sans';
+        src: local('IBM Plex Sans'), url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'IBM Plex Sans Bold';
+        src: local('IBM Plex Sans Bold'), url('../fonts/IBMPlexSans-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Raleway';
+        src: local('Raleway'), url('../fonts/Raleway-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Raleway Bold';
+        src: local('Raleway Bold'), url('../fonts/Raleway-Bold.ttf') format('truetype');
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 1279px) {
+    @font-face {
+        font-family: 'SF Compact Display Thin';
+        src: local('SF Compact Display Thin'), url('../fonts/Roboto-Thin.ttf') format('woff');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Medium';
+        src: local('SF Compact Display Medium'), url('../fonts/Roboto-Medium.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display';
+        src: local('SF Compact Display Regular'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Bold';
+        src: local('SF Compact Display Bold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Semibold';
+        src: local('SF Compact Display Semibold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Black';
+        src: local('SF Compact Display Black'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+    }
+
+    @-moz-document url-prefix() {
+        @font-face {
+            font-family: 'SF Compact Display Thin';
+            src: local('SF Compact Display Thin'), url('../fonts/Roboto-Thin.ttf') format('woff');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display Medium';
+            src: local('SF Compact Display Medium'), url('../fonts/Roboto-Medium.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display';
+            src: local('SF Compact Display Regular'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display Bold';
+            src: local('SF Compact Display Bold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display Semibold';
+            src: local('SF Compact Display Semibold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display Black';
+            src: local('SF Compact Display Black'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+        }
+    }
+}
+
+/* CSS specific to iOS devices */
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+    @font-face {
+        font-family: 'SF Compact Display Thin';
+        src: local('SF Compact Display Thin'), url('../fonts/Roboto-Thin.ttf') format('woff');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Medium';
+        src: local('SF Compact Display Medium'), url('../fonts/Roboto-Medium.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display';
+        src: local('SF Compact Display Regular'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Bold';
+        src: local('SF Compact Display Bold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Semibold';
+        src: local('SF Compact Display Semibold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'SF Compact Display Black';
+        src: local('SF Compact Display Black'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+    }
+
+    @-moz-document url-prefix() {
+        @font-face {
+            font-family: 'SF Compact Display Thin';
+            src: local('SF Compact Display Thin'), url('../fonts/Roboto-Thin.ttf') format('woff');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display Medium';
+            src: local('SF Compact Display Medium'), url('../fonts/Roboto-Medium.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display';
+            src: local('SF Compact Display Regular'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display Bold';
+            src: local('SF Compact Display Bold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display Semibold';
+            src: local('SF Compact Display Semibold'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SF Compact Display Black';
+            src: local('SF Compact Display Black'), url('../fonts/Roboto-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('truetype');
+        }
+    }
+}

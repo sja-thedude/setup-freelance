@@ -1,0 +1,331 @@
+{
+    "project_info": {
+        "project_number": "488222945062",
+        "firebase_url": "https://its-ready-25c5b.firebaseio.com",
+        "project_id": "its-ready-25c5b",
+        "storage_bucket": "its-ready-25c5b.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:488222945062:android:a7999e8fe0c8d571e45be7",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.develop"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "488222945062-fed7sbfnil18l4b8hntibeuu8lndagq1.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.develop",
+                        "certificate_hash": "e87db0274588569632cc0c58856389e2116a3582"
+                    }
+                },
+                {
+                    "client_id": "488222945062-gkff040sppimadj2hv21u2i2j36bhsvp.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.develop",
+                        "certificate_hash": "3503cee011221cb9cb31ca5dbf1a4bab02c7b194"
+                    }
+                },
+                {
+                    "client_id": "488222945062-un5qqf2e23921rn351s92ge26gmvlfm0.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.develop",
+                        "certificate_hash": "fcc2cb72eb2f5bcc52d96eb0559f07872bcaeea9"
+                    }
+                },
+                {
+                    "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDK1HG2e4_K8A5zMIJfRDA43DKKe0e2xIU"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "488222945062-0tadon7qasu7jm736d0nf3m696faie7u.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.app"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:488222945062:android:0a6b1ee3d80ba584e45be7",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.group.develop"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "488222945062-30n06kqalrnhvluhd0m9ov2dogop3m1e.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.group.develop",
+                        "certificate_hash": "3503cee011221cb9cb31ca5dbf1a4bab02c7b194"
+                    }
+                },
+                {
+                    "client_id": "488222945062-h5qmv08mlpe6vnrcq2f6kh3ri54jup45.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.group.develop",
+                        "certificate_hash": "fcc2cb72eb2f5bcc52d96eb0559f07872bcaeea9"
+                    }
+                },
+                {
+                    "client_id": "488222945062-vq72e5o7r8gtl7sdarf9p6fb9rvtph3f.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.group.develop",
+                        "certificate_hash": "e87db0274588569632cc0c58856389e2116a3582"
+                    }
+                },
+                {
+                    "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDK1HG2e4_K8A5zMIJfRDA43DKKe0e2xIU"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "488222945062-0tadon7qasu7jm736d0nf3m696faie7u.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.app"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:488222945062:android:08801f781c4dad21e45be7",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.rn.dev"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "488222945062-t3uqg746u9vhphh2n6b64npn4m65stkg.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.rn.dev",
+                        "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+                    }
+                },
+                {
+                    "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDK1HG2e4_K8A5zMIJfRDA43DKKe0e2xIU"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "488222945062-0tadon7qasu7jm736d0nf3m696faie7u.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.app"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:488222945062:android:6a5173287371c40ae45be7",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.rn.group.dev"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "488222945062-tm21b7t85segauq413ksg6kg87tda804.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.rn.group.dev",
+                        "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+                    }
+                },
+                {
+                    "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDK1HG2e4_K8A5zMIJfRDA43DKKe0e2xIU"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "488222945062-0tadon7qasu7jm736d0nf3m696faie7u.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.app"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:488222945062:android:baab642f2877d05fe45be7",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.rn.template.dev"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "488222945062-rtigorjp0oprgbhao3tnqg05io7m175q.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.rn.template.dev",
+                        "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+                    }
+                },
+                {
+                    "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDK1HG2e4_K8A5zMIJfRDA43DKKe0e2xIU"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "488222945062-0tadon7qasu7jm736d0nf3m696faie7u.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.app"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:488222945062:android:483ce1098323c07ae45be7",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.template.develop"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "488222945062-545itn5ao1gnr3afi4nnh81jala1i8mm.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.template.develop",
+                        "certificate_hash": "3503cee011221cb9cb31ca5dbf1a4bab02c7b194"
+                    }
+                },
+                {
+                    "client_id": "488222945062-lt1bqqtlql5u1l889dfp7tikasj8k0p6.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.template.develop",
+                        "certificate_hash": "fcc2cb72eb2f5bcc52d96eb0559f07872bcaeea9"
+                    }
+                },
+                {
+                    "client_id": "488222945062-mm2t5bp40aha5dreu7blq0fb2qu7j8l2.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.template.develop",
+                        "certificate_hash": "e87db0274588569632cc0c58856389e2116a3582"
+                    }
+                },
+                {
+                    "client_id": "488222945062-q7u2utj7uu9ihlcm7ippolqlq9b4am66.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.template.develop",
+                        "certificate_hash": "93bcc7910d4ec743c27ca2eba755772a9f02dfec"
+                    }
+                },
+                {
+                    "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDK1HG2e4_K8A5zMIJfRDA43DKKe0e2xIU"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "488222945062-ka6ava0gt9gn5ac9p8qu33108aoj9db5.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "488222945062-0tadon7qasu7jm736d0nf3m696faie7u.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.app"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

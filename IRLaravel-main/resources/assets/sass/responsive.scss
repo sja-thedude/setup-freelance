@@ -1,0 +1,134 @@
+@media screen and (max-width: 1200px){
+    
+}
+@media screen and (max-width: 980px){
+    
+}
+@media screen and (max-width: 767px){    
+    .top_nav {
+        .nav_menu {
+            .navbar-left {
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    
+    .accordion-custom {
+        h4.panel-title {
+            margin-bottom: 20px;
+        }
+        
+        ul.panel_toolbox {
+            float: left;
+        }
+        
+        .brick.small { 
+            .brick-image {
+                width: 43%;
+            }
+        }    
+    }
+}
+@media screen and (max-width: 640px){
+    .accordion-custom {
+        .brick.small { 
+            .brick-image {
+                width: 53%;
+            }
+        }    
+    }
+    ul.bar_tabs {
+        height: auto;
+        
+        > li,
+        > li.active {
+            margin-top: 0px;
+        }
+    }
+    .gridly.ui-sortable {
+        padding-left: 10px;
+        
+        .dr-title {
+            margin-left: 0px;
+        }
+    }
+    
+    .user-small-screen {        
+        display: block !important;
+        overflow: hidden;
+    }
+    
+    .user-big-screen {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 480px){
+    .top_nav {
+        .nav_menu {
+            .navbar-right {
+                width: 100%;
+                float: left;
+                
+                li {
+                    float: left;
+                }
+            }
+            
+            .navbar-nav {
+                .open {
+                    .dropdown-menu {
+                        left: 0;
+                    }
+                }
+            } 
+        }
+    }
+    
+    .accordion-custom {
+        .brick.small { 
+            .brick-image {
+                width: 73%;
+            }
+        }    
+    }
+}
+@media screen and (max-width: 395px){
+    .top_nav {
+        .nav_menu {
+            .navbar-nav {
+                .open {
+                    .dropdown-menu {
+                        width: 100%;
+                    }
+                }
+            } 
+        }
+    }
+    .accordion-custom {
+        .brick.small { 
+            .brick-image {
+                width: 100%;
+                height: 200px !important;
+            }
+        }    
+    }    
+    ul.bar_tabs {
+        padding-left: 0px;
+        
+        li {
+            margin-left: 0px;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 320px){
+    .accordion-custom {
+        .brick.small { 
+            .brick-image {
+                width: 100%;
+                height: 160px !important;
+            }
+        }    
+    }    
+}

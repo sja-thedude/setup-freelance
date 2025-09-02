@@ -1,0 +1,101 @@
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+    .res-desktop {
+        .content-wrapper {    
+            .column-left {
+                .container-center {
+                    width: 652px !important;
+
+                    .menu-coupon {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+
+                    .product-section-title {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+
+                    .product-item {
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        margin-bottom: 40px;
+                    }
+
+                    .coupon-desk-description {
+                        width: 484px;
+                    }
+
+                    .coupon-desk-code {
+                        max-width: calc(100% - 484px);
+                    }
+
+                    .coupon-slide-dot-desk {
+                        left: 418px;
+                    }
+                }
+            }
+        }            
+    }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1397px) {
+    .res-desktop {
+        .content-wrapper {    
+            .column-left {
+                .container-center {
+                    width: 936px !important;
+
+                    .menu-coupon {
+                        padding-left: 13px;
+                        padding-right: 13px;
+                    }
+
+                    .product-section-title {
+                        padding-left: 13px;
+                        padding-right: 13px;
+                    }
+
+                    .product-item {
+                        margin-left: 13px;
+                        margin-right: 13px;
+                        margin-bottom: 26px;
+                    }
+                }
+            }
+        }            
+    }
+}
+
+@for $i from 0 through 20 {
+    $j: $i * 326;
+    $media-width: $j + 1398;
+    $container-width: $j + 978;
+
+    @media screen and (min-width: #{$media-width}px) {
+        .res-desktop {
+            .content-wrapper {    
+                .column-left {
+                    .container-center {
+                        width: #{$container-width}px !important;
+
+                        .menu-coupon {
+                            padding-left: 20px;
+                            padding-right: 20px;
+                        }
+    
+                        .product-section-title {
+                            padding-left: 20px;
+                            padding-right: 20px;
+                        }
+    
+                        .product-item {
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            margin-bottom: 40px;
+                        }
+                    }
+                }
+            }            
+        }
+    }
+}

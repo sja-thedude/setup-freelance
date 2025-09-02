@@ -1,0 +1,19 @@
+{
+    "message_retrieved_successfully": "Kontakt wurde erfolgreich abgerufen.",
+    "message_retrieved_list_successfully": "Kontakte wurden erfolgreich abgerufen.",
+    "message_created_successfully": "Kontakt wurde erfolgreich erstellt.",
+    "message_updated_successfully": "Kontakt wurde erfolgreich aktualisiert.",
+    "message_saved_successfully": "Kontakt wurde erfolgreich gespeichert.",
+    "message_deleted_successfully": "Kontakt wurde erfolgreich gel\u00f6scht.",
+    "not_found": "Kontakt nicht gefunden",
+    "back": "Zur\u00fcck",
+    "fill_info": "Bitte f\u00fcllen Sie die folgenden Informationen aus, wenn Sie als <b>Firma<\/b>, <b>Gruppe<\/b> oder <b>Klasse<\/b> bestellen m\u00f6chten.<br> Wir werden uns so schnell wie m\u00f6glich mit Ihnen in Verbindung setzen!",
+    "name_and_surname": "Name und Vorname",
+    "phone": "Telefon\/Handy",
+    "address": "Ort",
+    "send": "SENDEN",
+    "company": "Firma",
+    "email": "E-Mail-Adresse",
+    "message": "Nachricht",
+    "message_sent_successfully": "Nachricht wurde erfolgreich gesendet. Wir werden uns so schnell wie m\u00f6glich mit Ihnen in Verbindung setzen."
+}

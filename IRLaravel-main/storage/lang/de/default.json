@@ -1,0 +1,11 @@
+{
+    "dashboard": "Armaturenbrett",
+    "post": "Beitrag",
+    "category": "Kategorie",
+    "tag": "Stichwort",
+    "page": "Seite",
+    "menu": "Men\u00fc-Manager",
+    "logout": "Abmelden",
+    "theme": "Themen-Manager",
+    "widget": "Widget-Manager"
+}

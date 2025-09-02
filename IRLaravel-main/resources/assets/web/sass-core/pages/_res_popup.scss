@@ -1,0 +1,748 @@
+.user-modal {
+  //overflow-y: auto;
+}
+.check-modal-container {
+  //left: 391px;
+  //top: 181px;
+  //transform: translate(0, 0);
+  min-width: 658px;
+  .check-modal {
+    padding: 14px 16px 20px 22px;
+    .check-container {
+      //margin-top: -11px;
+      &:first-child {
+        margin-top: 0px;
+        .title-container {
+          h5 {
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+  }
+}
+.check-sub {
+  margin-left: -1px;
+}
+.mb-20 {
+  margin-bottom: 28px;
+}
+
+// .attr-meal {
+//   padding: 5px 11px;
+//   line-height: 11.7px;
+//   font-size: 10px;
+//   font-family: "Roboto";
+//   font-weight: 500;
+// }
+// .attr-meal.attr-veggie {
+//   margin-left: 7px;
+// }
+.check-modal-container .modal-content.check-modal {
+  margin-top: -29px;
+}
+.user-modal .pop-up .wrap-popup-card .wp-card .form-line {
+  padding: 50px 100px;
+}
+.user-modal .pop-up .wrap-popup-card .wp-card .modal-error-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.icn-gluten {
+  &:before {
+    margin-top: 6px;
+    margin-right: -2px;
+  }
+}
+.icn-ei {
+  &:before {
+    margin-top: 6px;
+    margin-right: -5px;
+  }
+}
+
+.user-modal {
+  .check-modal-container {
+    .modal-meal {
+      margin: auto;
+      width: 900px;
+    }
+  }
+}
+
+.user-modal {
+  .wrap-container {
+    display: block;
+    .wrap-selection {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// @media screen and (max-width: 1440px) {
+
+//   // .user-modal .pop-up .wrap-popup-card .wp-card .modal-error-content {
+//   //   margin-top: -20px;
+//   // }
+// }
+
+@media screen and (max-width: 1401px) {
+  .user-modal .pop-up .wrap-popup-card .wp-card .modal-register-form {
+    padding: 20px 30px 0 30px;
+  }
+  .wrap-container .wrap-selection .check-text {
+    padding: 0px 18px;
+  }
+}
+
+@media screen and (max-width: 1396px) {
+  .user-modal .pop-up .wrap-popup-card .wp-card .modal-login-container {
+    padding: 26px 30px 0 30px;
+  }
+}
+
+@media screen and (max-width: 1326px) {
+  .check-modal-container .modal-content.check-modal {
+    .col-md-2.price-container {
+      width: 25%;
+    }
+  }
+  .user-modal .pop-up .wrap-popup-card .wp-card .form-line {
+    padding: 30px 70px;
+  }
+  .wrap-container .wrap-selection .check-text {
+    margin-right: 5px;
+  }
+  .wrap-container.col-md-12 {
+    padding: 0px 0px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 1271px) {
+  .wrap-container .wrap-selection .check-text {
+    padding: 0px 13px;
+  }
+}
+
+@media screen and (max-width: 1232px) {
+  #userModal {
+    &.user-modal .modal-content {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: auto;
+      .form-line {
+        .input-container {
+          input {
+            max-width: 270px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1224px) {
+  .wrap-container .wrap-selection {
+    .wrap-border {
+      padding: 5px 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1214px) {
+  .wrap-container .wrap-selection {
+    .wrap-border {
+      padding: 5px 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .user-modal .pop-up .wrap-popup-card .wp-card .modal-register-form {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .check-modal-container .modal-content.check-modal {
+    margin-top: -12%;
+    .row.check-container {
+      .col-md-3.text-right {
+        width: 30%;
+      }
+    }
+    .row.check-container.mb-20 {
+      .col-md-10.check-content {
+        width: 75%;
+      }
+      .col-md-2.price-container {
+        width: 25%;
+      }
+    }
+  }
+
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 15px;
+      margin-right: 3px;
+      font-size: 14px;
+    }
+  }
+
+  .check-modal-container {
+    .check-image {
+      &.check-image-28 {
+        img {
+          // margin-top: 80px;
+          margin-top: 40px;
+        }
+
+        a {
+          // top: 58%;
+          top: 32%;
+        }
+      }
+    }
+  }
+  .user-modal .pop-up .wrap-popup-card .wp-card .form-line {
+    padding: 30px 50px;
+  }
+}
+
+@media screen and (max-width: 1133px) {
+  #userModal {
+    &.user-modal .modal-content {
+      width: auto;
+      .form-line {
+        .input-container {
+          input {
+            max-width: 230px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1126px) {
+  .wrap-container.col-md-12 {
+    padding: 0px 0px 0px 15px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .user-modal .pop-up .wrap-popup-card .wp-card .form-line {
+    padding: 30px 30px;
+  }
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 15px;
+      margin-right: 0px;
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 1101px) {
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 13px;
+      margin-right: 2px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 1061px) {
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 12px;
+      margin-right: 2px;
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 1041px) {
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 10px;
+      margin-right: 2px;
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 1011px) {
+  #userModal {
+    &.user-modal .modal-content {
+      .col-md-3 {
+        width: 20%;
+        .avatar-container {
+          .avatar-layer {
+            &::before {
+              width: 150px;
+              height: 150px;
+            }
+            img {
+              width: 150px;
+              height: 150px;
+            }
+          }
+        }
+      }
+      .col-md-4 {
+        width: 39%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1001px) {
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 10px;
+      margin-right: 2px;
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  #userModal {
+    &.user-modal .modal-content {
+      width: auto;
+      .form-line {
+        .input-container {
+          input {
+            max-width: 200px;
+          }
+        }
+      }
+    }
+  }
+  .user-modal {
+    .check-modal-container {
+      width: 80%;
+      .modal-meal {
+        margin: auto;
+        width: 700px;
+      }
+    }
+  }
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 18px;
+      margin-right: 0px;
+      font-size: 16px;
+    }
+    .user-modal .pop-up .wrap-popup-card .wp-card .form-line {
+      padding: 30px 30px;
+    }
+    .user-modal .pop-up .wrap-popup-card .wp-card .modal-login-container {
+      padding: 26px 20px 0 20px;
+    }
+  }
+  .check-modal-container {
+    .check-image {
+      &.check-image-28 {
+        img {
+          // margin-top: 80px;
+          margin-top: 15px;
+        }
+
+        a {
+          // top: 58%;
+          top: 15%;
+        }
+      }
+    }
+  }
+  .pop-up{
+    .col-md-6.col-md-push-3{
+      width: 75%;
+      left: 0;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+    }
+  }
+}
+// @media screen and (max-width: 991px) {
+//   #userModal {
+//     &.user-modal .modal-content {
+//       width: auto;
+//       .form-line {
+//         .input-container {
+//           input {
+//             max-width: 200px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media screen and (max-width: 970px) {
+  #userModal {
+    &.user-modal .modal-content {
+      .col-md-3 {
+        width: 20%;
+        .avatar-container {
+          .avatar-layer {
+            &::before {
+              width: 150px;
+              height: 150px;
+            }
+            img {
+              width: 150px;
+              height: 150px;
+            }
+          }
+        }
+      }
+      .col-md-4 {
+        width: 39%;
+      }
+      [class*="col-"] {
+        padding: 0 3px;
+      }
+      .form-line {
+        .input-container {
+          input {
+            max-width: 200px;
+          }
+        }
+        &:last-child {
+          .input-container {
+            .wap-radio {
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 896px) {
+  #userModal {
+    &.user-modal .modal-content {
+      .col-md-3 {
+        width: 20%;
+      }
+      .col-md-4 {
+        width: 39%;
+      }
+      [class*="col-"] {
+        padding: 0 3px;
+      }
+      .form-line {
+        .input-container {
+          input {
+            max-width: 200px;
+          }
+        }
+        .radio-container {
+          .holder {
+            width: 0;
+          }
+        }
+        &:last-child {
+          .input-container {
+            .wap-radio {
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 851px) {
+  .user-modal {
+    .check-modal-container {
+      .modal-meal {
+        margin: auto;
+        width: auto;
+        .wrap-meal .item-meal {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 820px) {
+  #userModal {
+    &.user-modal .modal-content {
+      .col-md-3 {
+        width: 19%;
+        margin-bottom: 10px;
+      }
+      .col-md-4 {
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #userModal {
+    &.user-modal .modal-content {
+      padding: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #userModal {
+    &.user-modal .modal-content {
+      .col-md-3 {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .col-md-4 {
+        width: 50%;
+      }
+      [class*="col-"] {
+        padding: 0 3px;
+      }
+      .form-line {
+        .input-container {
+          input {
+            max-width: 200px;
+          }
+        }
+        &:last-child {
+          .input-container {
+            .wap-radio {
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 13px;
+      margin-right: 0px;
+      font-size: 14px;
+    }
+  }
+}
+
+// @media screen and (max-width: 661px) {
+//   .modal-content.check-modal {
+//     .wrap-container .wrap-selection .check-text {
+//       padding: 0px 10px;
+//       margin-right: 0px;
+//       font-size: 13px;
+//     }
+//   }
+//   .check-modal-container {
+//     .check-image {
+//       &.check-image-28 {
+//         img {
+//           // margin-top: 80px;
+//           margin-top: 45px;
+//         }
+
+//         a {
+//           // top: 58%;
+//           top: 35%;
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media screen and (max-width: 767px) {
+  .user-modal .check-modal-container{
+    width: 95%;
+  }
+  .pop-up{
+    .col-md-6.col-md-push-3{
+      width: 95%;
+      left: 0;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+    }
+  }
+  .user-modal .pop-up .wrap-popup-card .wp-card{
+    padding: 10px;
+  }
+  .user-modal .pop-up .wrap-popup-card .wp-card .form-line{
+    padding: 10px;
+  }
+  .radio-custom .item-radio .wrap-content.with-input input{
+    width: 100%;
+  }
+  .user-modal .pop-up .wrap-popup-card .wp-card .modal-error-content{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .user-modal .modal-content{
+    padding: 10px;
+  }
+  .check-modal-container .modal-meal .grid-meal{
+    height: 300px;
+  }
+  .check-modal-container{
+    top: 20px;
+    transform: translate(-50%,0);
+  }
+  .check-modal-container .modal-meal .grid-meal .wrap-meal .item-meal{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #userModal {
+    &.user-modal {
+      overflow-y: auto;
+      .modal-content {
+        top: 0;
+        transform: translateY(0%);
+        [class*="col-"] {
+          padding: 0 3px;
+        }
+        .col-md-3 {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+        .col-md-4 {
+          width: 100%;
+        }
+        .form-line {
+          text-align: left;
+          .input-container {
+            display: block;
+            text-align: left;
+
+            input {
+              max-width: 100%;
+            }
+          }
+          label,
+          .error {
+            margin-left: 0;
+          }
+          .radio-container {
+            display: block;
+            text-align: left;
+            span {
+              display: block;
+              margin-bottom: 10px;
+            }
+            .holder {
+              width: 0;
+            }
+          }
+          &:last-child {
+            .input-container {
+              .wap-radio {
+                width: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .check-modal-container {
+    .check-image {
+      &.check-image-28 {
+        img {
+          // margin-top: 80px;
+          margin-top: 0;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .modal-content {
+    &.custom-modal {
+      display: block;
+      position: fixed;
+      z-index: 5;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      overflow-y: auto;
+      .wrap-content {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+        background: white;
+        border-radius: 10px;
+        position: relative;
+        padding: 30px 10px;
+        a.close {
+          top: -25px;
+          position: relative;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+  .wrap-container.col-md-12 {
+    padding: 0;
+  }
+  .check-modal-container .modal-content.check-modal {
+    margin-top: -25%;
+  }
+  .check-modal-container {
+    .check-image {
+      &.check-image-28 {
+        img {
+          // margin-top: 80px;
+          margin-top: 0;
+        }
+        a {
+          // top: 58%;
+          top: 5%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 559px) {
+  
+  .modal-content.check-modal {
+    .wrap-container .wrap-selection .check-text {
+      padding: 0px 13px;
+      margin-right: 0px;
+      font-size: 14px;
+    }
+  }
+  .mb-70 {
+    margin-bottom: 0;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+  [class*="col-"] {
+    padding: 0;
+  }
+  .check-modal-container {
+    .check-image {
+      margin-top: 80px;
+      height: 100px;
+    }
+    .check-modal {
+      padding: 10px;
+    }
+  }
+}

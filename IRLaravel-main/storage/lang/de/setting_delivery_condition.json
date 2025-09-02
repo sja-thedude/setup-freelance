@@ -1,0 +1,9 @@
+{
+    "message_retrieved_successfully": "Einstellung wurde erfolgreich abgerufen.",
+    "message_retrieved_list_successfully": "Einstellungen wurden erfolgreich abgerufen.",
+    "message_created_successfully": "Einstellung wurde erfolgreich erstellt.",
+    "message_updated_successfully": "Einstellung wurde erfolgreich aktualisiert.",
+    "message_saved_successfully": "Einstellung wurde erfolgreich gespeichert.",
+    "message_deleted_successfully": "Einstellung wurde erfolgreich gel\u00f6scht.",
+    "not_found": "Einstellung nicht gefunden"
+}

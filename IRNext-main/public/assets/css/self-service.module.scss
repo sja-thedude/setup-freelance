@@ -1,0 +1,51 @@
+@import 'mixins';
+
+.logo-confirmation {
+  img {
+    border-radius: 100%;
+    box-shadow: 0px 5px 10px 0px rgba(102, 102, 102, 0.15);
+  }
+}
+
+.title-confirmation {
+  margin-top: 1rem;
+  color: var(--bg, #404040);
+  @include fontCompactDisplay;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: -0.24px;
+}
+
+.sub-title-confirmation {
+  color: #808080;
+  margin-top: 1rem;
+  text-align: center;
+  @include fontCompactDisplay;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 145.455% */
+  letter-spacing: -0.24px;
+}
+
+.btn-confirmation {
+  color: #FFF;
+  text-align: center;
+  @include fontSemiBold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  padding: 15px;
+  width: fit-content;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background: #413E38;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+  margin-left: auto;
+  margin-right: auto;
+}

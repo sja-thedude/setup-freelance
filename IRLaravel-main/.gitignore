@@ -1,0 +1,31 @@
+/vendor
+/node_modules
+## Add .ignore file in each folder
+/public/storage
+#/public/uploads
+Homestead.yaml
+Homestead.json
+.env
+/.idea
+/.vscode
+.DS_Store
+/nbproject
+/docker/data/redis/*
+## Add .ignore file in each folder
+#/storage/logs/*
+#/storage/app/*
+#/storage/debugbar/*
+#/storage/framework/cache/*
+#/storage/framework/sessions/*
+#/storage/framework/views/*
+
+# Temporary files
+*.bak-*
+*.json-*
+*.php-*
+*.conf-*
+
+/storage/*.sql
+/storage/*.conf
+/storage/*.conf-*
+/db-backups

@@ -1,0 +1,47 @@
+{
+    "presets": [
+        "module:metro-react-native-babel-preset"
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "cwd": "babelrc",
+                "root": [
+                    "./src"
+                ],
+                "extensions": [
+                    ".ios.ts",
+                    ".android.ts",
+                    ".ts",
+                    ".ios.tsx",
+                    ".android.tsx",
+                    ".tsx",
+                    ".jsx",
+                    ".js",
+                    ".json"
+                ],
+                "alias": {
+                    "@src": "./src",
+                    "@assets": "./src/assets",
+                    "@components": "./src/components",
+                    "@configs": "./src/configs",
+                    "@hooks": "./src/hooks",
+                    "@languages": "./src/languages",
+                    "@navigation": "./src/navigation",
+                    "@network": "./src/network",
+                    "@redux": "./src/redux",
+                    "@screens": "./src/screens",
+                    "@storage": "./src/storage",
+                    "@utils": "./src/utils"
+                }
+            }
+        ],
+        [
+            "react-native-reanimated/plugin",
+            {
+                "relativeSourceLocation": true
+            }
+        ]
+    ]
+}

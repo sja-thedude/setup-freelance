@@ -1,0 +1,36 @@
+@import 'mixins';
+
+.footer{
+  background: #FFFFFF;
+  height: 37px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #C6C6C6;
+  @include fontCompactDisplay;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  z-index: 99;
+  a{
+    text-decoration: none;
+    color: #C6C6C6;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.3s;
+    &:hover{
+      color: #222;
+    }
+  }
+  @media screen and (max-width: 991px){
+    &{
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "message_retrieved_successfully": "Contact is succesvol opgehaald.",
+    "message_retrieved_list_successfully": "Contacten zijn succesvol opgehaald.",
+    "message_created_successfully": "Contact is succesvol aangemaakt.",
+    "message_updated_successfully": "Contact is succesvol bijgewerkt.",
+    "message_saved_successfully": "Contact is succesvol opgeslagen.",
+    "message_deleted_successfully": "Contact is succesvol verwijderd.",
+    "not_found": "Contact niet gevonden",
+    "back": "Terug",
+    "fill_info": "Vul onderstaande gegevens in indien u wenst te bestellen als <b>bedrijf<\/b>, <b>groep<\/b> of <b>klas<\/b>.<br> Wij nemen spoedig contact met u op!",
+    "name_and_surname": "Naam en voornaam",
+    "phone": "Telefoon\/GSM",
+    "address": "Gemeente",
+    "send": "VERZENDEN",
+    "company": "Bedrijf",
+    "email": "E-mailadres",
+    "message": "Bericht",
+    "message_sent_successfully": "Bericht is succesvol verstuurd. Wij nemen zo snel mogelijk contact met u op."
+}

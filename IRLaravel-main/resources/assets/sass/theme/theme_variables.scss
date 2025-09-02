@@ -1,0 +1,56 @@
+$settingDependColor: color background;
+$colorWhite: #ffffff;
+$colorBlack100: #000000;
+$colorBlack75: #404040;
+$colorBlack50: #808080;
+$colorBlack25: #BFBFBF;
+$colorPrimary100: #413E38;
+$colorPrimary75: #706E6A;
+$colorPrimary50: #A09E9B;
+$colorPrimary25: #CFCFCD;
+$colorSecondary100: #B5B268;
+$colorSecondary75: #C7C58E;
+$colorSecondary50: #DAD8B3;
+$colorSecondary25: #ECECD9;
+$colorBody: #494949;
+
+$fontTrack: 'Track';
+$fontTrackItalic: 'Track-Italic';
+$fontSFProText: 'SF Pro Text';
+$fontOpenSans: 'Open Sans';
+$fontRoboto: 'Roboto';
+
+@font-face {
+    font-family: $fontTrack;
+    font-style: normal;
+    font-weight: normal;
+    src: local($fontTrack), url('../fonts/Track.woff') format('woff');
+}
+
+@font-face {
+    font-family: $fontTrackItalic;
+    font-style: normal;
+    font-weight: normal;
+    src: local($fontTrackItalic), url('../fonts/Track-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: $fontSFProText;
+    font-style: normal;
+    font-weight: normal;
+    src: local($fontSFProText), url('../fonts/sf-pro-text-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: $fontOpenSans;
+    font-style: normal;
+    font-weight: normal;
+    src: local($fontOpenSans), url('../fonts/OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: normal;
+    src: local($fontOpenSans), url('../fonts/Roboto-Regular.ttf') format('ttf');
+}

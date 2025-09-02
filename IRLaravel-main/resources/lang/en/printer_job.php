@@ -1,0 +1,19 @@
+<?php
+
+$originalTranslations = [
+    'name' => 'Printer job name',
+    'add_job' => 'Add printer job',
+    'placeholder_search' => 'Search printer job',
+    'deleted_confirm' => 'The printer job has been deleted',
+    'message_retrieved_successfully' => 'The printer job has been retrieved successfully',
+    'restaurant_list_retrieved_successfully' => 'The restaurant list has been retrieved successfully',
+    'message_created_successfully' => 'The printer job has been created successfully',
+    'message_updated_successfully' => 'The printer job has been updated successfully',
+    'message_deleted_successfully' => 'The printer job has been deleted successfully',
+    'message_saved_successfully' => 'The printer job has been saved successfully',
+    'not_found' => 'Printer job is not found',
+    'color' => 'Color',
+    'one_restaurant_join_one_job' => 'A restaurant can only be in one printer job',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

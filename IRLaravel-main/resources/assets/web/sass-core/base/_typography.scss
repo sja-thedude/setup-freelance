@@ -1,0 +1,77 @@
+/// Typography
+
+/// Headings
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 100%;
+  font-family: $font-primary;
+  color: $color-primary;
+  font-weight: 700;
+  // anchors in headings should remain like headings, not anchors
+  a {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    &:hover {
+      color: $color-primary;
+      text-decoration: inherit;
+    }
+  }
+}
+h1, .h1 {
+  font-size: 38px;
+}
+h2, .h2 {
+  font-size: 36px;
+}
+h3, .h3 {
+  font-size: 32px;
+}
+h4, .h4 {
+  font-size: 30px;
+}
+h5, .h5 {
+  font-size: 24px;
+}
+h6, .h6 {
+  font-size: 18px;
+}
+.h1,.h2,.h3,.h4,.h5,.h6 {
+  display: block;
+}
+
+.font-size-12{
+  font-size: 12px !important;
+}
+
+
+/// Text elements
+strong, b, .bold {
+  font-weight: bold;
+  font-family: $font-bold;
+}
+em, dfn, i, .italic {
+  font-style: italic;
+}
+u, ins, .underline {
+  text-decoration: underline;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+sub, .subscribt {
+  font-size: small;
+  text-transform: subscribe;
+}
+sup, .superscript {
+  font-size: small;
+  text-transform: superscript;
+}
+del, s, .strike {
+  text-decoration: line-through;
+}
+small {
+  font-size: small;
+}

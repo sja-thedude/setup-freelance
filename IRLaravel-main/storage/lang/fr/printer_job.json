@@ -1,0 +1,15 @@
+{
+    "name": "Nom du travail d'impression",
+    "add_job": "Ajouter un travail d'impression",
+    "placeholder_search": "Rechercher un travail d'impression",
+    "deleted_confirm": "Le travail d'impression a \u00e9t\u00e9 supprim\u00e9",
+    "message_retrieved_successfully": "Le travail d'impression a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9 avec succ\u00e8s",
+    "restaurant_list_retrieved_successfully": "La liste des restaurants a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9e avec succ\u00e8s",
+    "message_created_successfully": "Le travail d'impression a \u00e9t\u00e9 cr\u00e9\u00e9 avec succ\u00e8s",
+    "message_updated_successfully": "Le travail d'impression a \u00e9t\u00e9 mis \u00e0 jour avec succ\u00e8s",
+    "message_deleted_successfully": "Le travail d'impression a \u00e9t\u00e9 supprim\u00e9 avec succ\u00e8s",
+    "message_saved_successfully": "Le travail d'impression a \u00e9t\u00e9 enregistr\u00e9 avec succ\u00e8s",
+    "not_found": "Le travail d'impression n'a pas \u00e9t\u00e9 trouv\u00e9",
+    "color": "Couleur",
+    "one_restaurant_join_one_job": "Un restaurant ne peut \u00eatre que dans un seul travail d'impression"
+}

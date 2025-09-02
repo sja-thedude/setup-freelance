@@ -1,0 +1,232 @@
+.btn {
+  box-shadow: none;
+  font-size: 15px;
+  display: inline-block;
+  border: 0;
+  height: 57px;
+  line-height: 51px;
+  padding: 0 34px;
+  text-align: center;
+  background-color: transparent;
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  white-space: nowrap;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.04);
+  /* Secondary button home screen BLURRED */
+  backdrop-filter: blur(15px);
+  -webkit-transition: color .3s ease-out, background .3s ease-out;
+  -moz-transition: color .3s ease-out, background .3s ease-out;
+  -o-transition: color .3s ease-out, background .3s ease-out;
+  transition: color .3s ease-out, background .3s ease-out;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  color: #fff;
+  font-family: $font-primary;
+
+  i {
+    display: inline-block;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  &:hover {
+    background-color: #fff;
+    color: $color-primary;
+  }
+
+  &.btn-yellow {
+    background: $color-secondary;
+    color: #000;
+
+    &:hover {
+      color: $color-secondary;
+      background: #000;
+    }
+  }
+
+  &.btn-gray {
+    color: #000;
+    background: #D3D3D3;
+
+    &:hover {
+      color: #D3D3D3;
+      background: #000;
+    }
+  }
+
+  &.btn-small {
+    height: 42px;
+    line-height: 36px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &.btn-medium {
+    height: 25px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  &.btn-disable {
+    background: rgba(0, 0, 0, 0.04);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.15);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+
+  &.btn-line-hight-19 {
+    line-height: 19px;
+  }
+
+  &.btn-order {
+    // background: rgb(58, 58, 58);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    color: rgb(87, 87, 87);
+    padding: 0 17px;
+
+    &:hover {
+      background: white;
+      color: #000!important;
+      border-color: #fff;
+    }
+  }
+
+  &.btn-send {
+    // background: rgb(58, 58, 58);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    color: rgb(87, 87, 87);
+    padding: 0 17px;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+      backdrop-filter: blur(15px);
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+
+  &.btn-andere {
+    height: 41px;
+    line-height: 41px;
+    background: #6E371E;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 0 48px;
+    border-radius: 6px;
+
+    &:hover {
+      background: #D1D1D1;
+    }
+
+    &.btn-duc {
+      height: 55px;
+      line-height: 55px;
+      width: 250px;
+    }
+  }
+
+  &.btn-pr-custom {
+    &:hover {
+      background: white!important;
+    }
+  }
+
+  &.btn-andere-gray {
+    height: 41px;
+    line-height: 41px;
+    background: #D1D1D1;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 0 48px;
+    border-radius: 6px;
+    border: 0;
+
+    &:hover {
+      background: #6E371E;
+    }
+  }
+}
+
+.btn-modal {
+  background: #6E371E;
+  padding: 11px 48px;
+  color: #ffffff;
+  border-width: 0;
+
+  &.btn-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 216px;
+    height: 55px;
+    color: #FFFFFF;
+    margin-left: 25px;
+    position: relative;
+    // &:hover{
+    //   color: #8c8c8c;
+    // }
+  }
+
+  &.btn-modal-error {
+    width: 135px;
+    height: 41px;
+    font-weight: normal;
+    line-height: 20px;
+  }
+
+  &.btn-modal-save {
+    padding: 11px 0;
+  }
+
+  &.btn-register {
+    padding: 0 12px;
+    line-height: 57px;
+    background-color: #FFFFFF;
+    color: #6E371E;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    border: 1px solid #6E371E;
+    box-shadow: none;
+  }
+  &.btn-modal-register {
+    width: 175px;
+    height: 41px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    padding: 0 48px;
+    color: #FFFFFF;
+  }
+  &.btn-recover-password {
+    width: 254px;
+    height: 41px;
+    font-weight: normal;
+    line-height: 19px;
+  }
+}

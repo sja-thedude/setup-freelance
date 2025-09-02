@@ -1,0 +1,149 @@
+@import 'mixins';
+
+.slide-order {
+    border-radius: 6px;
+        background: #FFF;
+        box-shadow: 2px 10px 20px 0px rgba(109, 109, 109, 0.15);
+        margin: 5px 30px 20px 30px;
+    .slide-card {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      .card-wrapper {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 2px 10px 20px 0px rgba(109, 109, 109, 0.15);
+      }
+  
+      .card-title {
+        padding: 20px 35px 0px 30px;
+        color: #000;
+        @include fontSemiBold;
+        font-size: 17px;
+      }
+  
+      .name-store {
+        padding: 5px 35px 0px 30px;
+        @include fontSemiBold;
+        font-size: 17px;
+      }
+  
+      .datetime {
+        padding: 10px 35px 0px 30px;
+        color: #000;
+        @include fontSemiBold;
+        font-size: 13px;
+        line-height: 25px;
+      }
+  
+      .card-body {
+        .card-items {
+          max-height: 150px;
+          overflow-y: scroll;
+          overflow-x: hidden;
+  
+          .main-item {
+            padding: 10px 15px 0px 12px;
+            @include fontCompactDisplay;
+            color: #000;
+            font-size: 16px;
+            font-weight: 400;
+  
+            .item-quantity {
+              font-size: 16px;
+              font-weight: 600;
+  
+              span {
+                font-size: 16px;
+                font-weight: 400;
+              }
+            }
+  
+            .item-price {
+              text-align: right;
+            }
+          }
+  
+          .sub-options {
+            @include fontCompactDisplay;
+            color: #797979;
+            padding: 0px 15px 0px 45px;
+            font-size: 14px;
+            font-weight: 400;
+  
+            .option-price {
+              text-align: right;
+            }
+          }
+  
+          .line-break {
+            text-align: center;
+  
+            padding: 4px 15px 0px 30px;
+  
+            .line-order {
+              border-bottom: 1px #D1D1D1 solid;
+            }
+          }
+        }
+  
+        .card-contents {
+          padding: 20px 15px 30px 30px;
+  
+          .card-label {
+            color: #000;
+            @include fontCompactDisplay;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 25px;
+          }
+  
+          .card-content {
+            color: #000;
+            text-align: right;
+            @include fontSemiBold;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 25px;
+          }
+        }
+      }
+  
+      .card-footer {
+        padding: 8px 15px 25px 30px;
+        color: #B4B4B4;
+        @include fontCompactDisplay;
+        font-size: 12px;
+        font-weight: 400;
+  
+        .line-break {
+          padding: 4px 0px 0px 0px;
+  
+          .line-order {
+            border-bottom: 1px #D1D1D1 solid;
+          }
+        }
+  
+        .sub-prices {
+          text-align: left;
+        }
+  
+        .sub-price {
+          text-align: right;
+        }
+  
+        .main-price-label,
+        .main-price {
+          color: #000;
+          @include fontSemiBold;
+          font-size: 16px;
+          font-weight: 700;
+        }
+  
+        .main-price {
+          text-align: right;
+        }
+  
+      }
+  
+    }
+  }

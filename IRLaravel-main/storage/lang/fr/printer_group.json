@@ -1,0 +1,11 @@
+{
+    "name": "Nom du groupe d'imprimantes",
+    "add_group": "Ajouter un groupe d'imprimantes",
+    "placeholder_search": "Rechercher un groupe d'imprimantes",
+    "deleted_confirm": "Le groupe d'imprimantes a \u00e9t\u00e9 supprim\u00e9",
+    "message_retrieved_successfully": "Le groupe d'imprimantes a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9 avec succ\u00e8s",
+    "restaurant_list_retrieved_successfully": "La liste des restaurants a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9e avec succ\u00e8s",
+    "not_found": "Groupe d'imprimantes introuvable",
+    "color": "Couleur",
+    "one_restaurant_join_one_group": "Un restaurant ne peut appartenir qu'\u00e0 un seul groupe d'imprimantes"
+}

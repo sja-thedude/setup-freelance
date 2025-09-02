@@ -1,0 +1,10 @@
+{
+    "message_not_found": "De restaurantreferentie-instellingen zijn niet geconfigureerd",
+    "message_retrieved_list_successfully": "Instellingsreferenties zijn succesvol opgehaald",
+    "message_retrieved_successfully": "Instellingsreferentie is succesvol opgehaald",
+    "message_created_successfully": "Instellingsreferentie is succesvol aangemaakt",
+    "message_updated_successfully": "Instellingsreferentie is succesvol bijgewerkt",
+    "message_deleted_successfully": "Instellingsreferentie is succesvol verwijderd",
+    "message_saved_successfully": "Instellingsreferentie is succesvol opgeslagen",
+    "not_found": "Instellingsreferentie niet gevonden"
+}

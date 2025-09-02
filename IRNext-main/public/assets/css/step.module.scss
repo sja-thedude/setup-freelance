@@ -1,0 +1,316 @@
+@import 'mixins';
+
+.invalid {
+  border-radius: 6px;
+  border: 1px solid var(--red, #D94B2C) !important;
+  color: var(--red, #D94B2C) !important;
+}
+
+.active-btn {
+  background: #413E38 !important;
+}
+
+.error_message {
+  color: var(--red, #D94B2C);
+  text-align: center;
+  @include fontCompactDisplay;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.table_ordering_step2 {
+  max-width: 289px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 2px;
+
+  h2 {
+    color: #000;
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  input {
+    width: 100%;
+    height: 74px;
+    border-radius: 6px;
+    border: 1px solid #D1D1D1;
+    color: #8F4669;
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    outline: none;
+    box-shadow: none;
+
+    &::placeholder {
+      @include fontSemiBold;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #D1D1D1;
+    }
+  }
+
+  input[name="gsm"] {
+    height: auto;
+    padding: 0px;
+  }
+
+  .customMenuItem {
+    padding: 0px !important;
+  }
+
+  .texting {
+    padding: 0px !important;
+    border-radius: 5px 0px 0px 5px;
+    background: #E6E6E6;
+    width: 72px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+    left: -1px;
+    border: none !important;
+    color: #413E38;
+    @include fontCompactDisplay;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  p {
+    color: #717171;
+    @include fontCompactDisplay;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+    margin-top: 4px;
+  }
+
+  .flex {
+    position: relative;
+    left: -5px;
+  }
+
+  .input_group {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 21px;
+
+    div[id="dropdown"] {
+      padding: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 43px;
+
+      svg {
+        margin-left: -9px;
+      }
+    }
+
+    .input_group_item {
+      width: 71px;
+      min-width: 71px;
+      height: 45px;
+      background: #E6E6E6;
+      border-radius: 5px 0px 0px 5px;
+    }
+
+    svg {
+      right: -4px;
+    }
+
+    fieldset {
+      border: none;
+    }
+
+    input {
+      padding: 0px;
+      height: 45px;
+      color: #717171;
+      @include fontCompactDisplay;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      outline: none;
+      box-shadow: none;
+      text-align: left;
+      text-indent: 15px;
+      border: 1px solid #D1D1D1;
+      border-radius: 0px 5px 5px 0px;
+      border-left: none;
+
+      &::placeholder {
+        @include fontCompactDisplay;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #717171;
+        opacity: 1 !important;
+      }
+    }
+  }
+
+  input[id="step_email"] {
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #D1D1D1;
+    background: #FFF;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    box-shadow: none;
+    text-align: left;
+    text-indent: 15px;
+    margin-top: 23px;
+    color: #717171;
+
+    &::placeholder {
+      @include fontCompactDisplay;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: #717171;
+      opacity: 1 !important;
+    }
+  }
+
+  button {
+    padding: 11px 55px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #413E38;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: #FFF;
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+    &.btn_disable {
+      background: rgba(65, 62, 56, 0.50);
+    }
+  }
+
+  .country {
+    color: #413E38;
+    @include fontSemiBold;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.step3Title {
+  color: #000;
+  text-align: center;
+  @include fontSemiBold;
+  font-size: 20px;
+  margin-top: 34px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: -10px;
+  @media screen and (max-width: 390px) {
+    margin-bottom: 0px;
+}
+}
+
+.paymenting{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.step3Contain {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.next-step-btn-step3 {
+  border-radius: 6px;
+  background: #413E38;
+  text-transform: uppercase;
+  width: 168px;
+  height: 42px;
+  @include fontCompactDisplay;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+
+.messErrorStep2 {
+  border: 1px solid #D94B2C !important;
+}
+
+.input_group_item.messErrorStep2 {
+  border: none !important;
+  border-right: 1px solid #D94B2C !important;
+}
+
+.messErrorStep2 input {
+  border-color: transparent !important;
+}
+
+.mess_step2 {
+  color: #D94B2C;
+  text-align: center;
+  @include fontCompactDisplay;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mess_step2_number {
+  margin-bottom: 8px;
+}
+
+.mess_step2_phone {
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+
+.mess_step2_email {
+  margin-top: 15px;
+  margin-bottom: -15px;
+}

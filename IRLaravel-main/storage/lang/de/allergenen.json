@@ -1,0 +1,16 @@
+{
+    "types.ei": "EI",
+    "types.gluten": "GLUTEN",
+    "types.lupine": "LUPINE",
+    "types.melk": "MILCH",
+    "types.mosterd": "SENF",
+    "types.noten": "N\u00dcSSE",
+    "types.pindas": "ERDN\u00dcSSE",
+    "types.schaald": "SCHALENTIERE",
+    "types.selderij": "SELLERIE",
+    "types.sesamzaad": "SESAMSAMEN",
+    "types.soja": "SOJA",
+    "types.vis": "FISCH",
+    "types.weekdieren": "WEICHTIERE",
+    "types.zwavel": "SCHWEFEL"
+}

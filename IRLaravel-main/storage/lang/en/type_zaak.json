@@ -1,0 +1,12 @@
+{
+    "created_successfully": "Created successfully",
+    "created_confirm": "The type zaak has been created.",
+    "updated_successfully": "Updated successfully",
+    "updated_confirm": "The type zaak has been updated.",
+    "deleted_successfully": "Deleted successfully",
+    "deleted_confirm": "The type zaak has been deleted.",
+    "add": "Add type zaak",
+    "edit": "Edit",
+    "name": "Name",
+    "placeholder_search": "Search for type zaak"
+}

@@ -1,0 +1,188 @@
+.container {
+    border-radius: 5px;
+    box-shadow: 2px 10px 20px 0px #6D6D6D26;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    /* Cài đặt container theo ý muốn */
+    display: flex;
+    flex-direction: column;
+    background: #8F4669;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.centered-text {
+    /* Cài đặt cho phần tử h1 */
+    font-weight: 800;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    margin: 0;
+    /* Loại bỏ margin mặc định của h1 */
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+/* CSS */
+.custom-link {
+    color: initial;
+    /* Để đảm bảo màu mặc định của thẻ a không bị ghi đè */
+}
+
+.custom-link.active {
+    color: #8F4669;
+    /* Đổi màu khi thẻ a có lớp active */
+}
+
+/* CSS */
+.nav-link {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #000;
+    /* Màu mặc định của thẻ a khi không hover */
+    text-decoration: none;
+    /* Loại bỏ gạch chân mặc định */
+    transition: color 0.3s, border-bottom 0.3s;
+    /* Hiệu ứng chuyển đổi màu và gạch chân */
+}
+
+.nav-link:hover {
+    color: #8F4669;
+    /* Màu khi hover */
+    border-bottom: 2px solid #8F4669;
+    /* Gạch chân khi hover */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-text-first h1 {
+    font-weight: 700;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.description {
+    display: flex;
+}
+
+.description-text {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #757575;
+    width: 110%;
+    margin-left: 3%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-new {
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+
+.btn-dark {
+    border: 0;
+    border-radius: 1.625rem;
+    font-size: 0.625rem;
+    font-weight: 500;
+    background: #8F4669;
+}
+
+.price {
+    margin-bottom: 3%;
+}
+
+.price-text {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #8F4669;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+
+.description-food {
+    margin-right: 2%;
+}
+
+.underline-title {
+    border-bottom: 2px solid #8F4669;
+}
+
+@media screen and (max-width: 1279px) {
+    .coupons {
+        font-size: 0.8125rem;
+        margin-left: 5%;
+        color: #FFFFFF;
+        font-weight: 400;
+        margin-top: 3%;
+    }
+
+    #group {
+        margin-bottom: 10%;
+    }
+
+    .title-text {
+        width: 80%;
+    }
+
+    .title-fav {
+        text-align: center;
+    }
+
+    .title-image {
+        margin-right: 5%;
+    }
+
+
+    .title-text-first {
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .title-text-first h1 {
+        font-size: 1.25rem;
+    }
+
+    
+    .nav-link {
+        font-size: 1rem;
+        color: #413E38;
+        ;
+    }
+
+    .title-text h1 {
+        font-size: 1.125rem;
+        font-weight: 650;
+        color: #000000;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .nav-link {
+        font-size: 0.74rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .nav-link {
+        font-size: 0.65rem;
+    }
+}
+

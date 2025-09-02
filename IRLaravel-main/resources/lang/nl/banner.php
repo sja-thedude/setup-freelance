@@ -1,0 +1,13 @@
+<?php
+
+$originalTranslations = [
+    'message_retrieved_successfully' => 'Banner is succesvol opgehaald.',
+    'message_retrieved_list_successfully' => 'Banners zijn succesvol opgehaald.',
+    'message_created_successfully' => 'Banner is succesvol aangemaakt.',
+    'message_updated_successfully' => 'Banner is succesvol bijgewerkt.',
+    'message_saved_successfully' => 'Banner is succesvol opgeslagen.',
+    'message_deleted_successfully' => 'Banner is succesvol verwijderd.',
+    'not_found' => 'Banner niet gevonden',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

@@ -1,0 +1,18 @@
+{
+    "title": "\u00d6ffnungszeiten",
+    "types.takeout": "Mitnahme",
+    "types.delivery": "Lieferung",
+    "types.in_house": "Im Haus",
+    "arrange_holiday": "Urlaub einstellen",
+    "closed": "geschlossen",
+    "holiday": "Urlaub",
+    "new_holiday": "+ Neuer Urlaub",
+    "note_holiday": "Nachricht",
+    "updated_success": "Ihre Einstellungen wurden erfolgreich aktualisiert.",
+    "updated_holiday_success": "Ihre Einstellungen wurden erfolgreich aktualisiert.",
+    "holiday_none": "Kein Urlaub verf\u00fcgbar. Stellen Sie Ihren Urlaub ein, um Ihr Gesch\u00e4ft f\u00fcr einen bestimmten Zeitraum zu schlie\u00dfen.",
+    "message_retrieved_successfully": "Die Einstellungen wurden erfolgreich abgerufen.",
+    "message_retrieved_list_successfully": "Die Einstellungen wurden erfolgreich abgerufen.",
+    "from_until": "VON - BIS",
+    "text_opening_hours": "!!Achtung!! Wenn Sie die \u00d6ffnungszeiten eines Wochentags \u00e4ndern, werden die dynamischen Zeitschloteinstellungen f\u00fcr diesen Tag automatisch zur\u00fcckgesetzt!"
+}

@@ -1,0 +1,53 @@
+@import 'mixins';
+
+.modal-popup {
+    .modal-dialog {
+        position: absolute;
+        max-width: 100%;
+        margin-bottom: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        margin-left: 0px;
+
+        .modal-content {
+            border-radius: 30px 30px 0px 0px;
+            background: #FFF;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            color: #413E38;
+            @include fontCompactDisplay;
+            font-style: normal;
+            line-height: normal;
+
+            .types-body {
+                padding-left: 35px;
+                padding-right: 35px;
+
+                .d-flex {
+                    align-items: center;
+                    cursor: pointer;
+                }
+
+                .types-title {
+                    @include fontSemiBold;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                }
+    
+                .types-normal {
+                    @include fontSemiBold;
+                    font-size: 18px;
+                    font-weight: 700;
+                    letter-spacing: -0.24px;
+                    margin-left: 15px;
+                }
+            }            
+        }    
+    }    
+}

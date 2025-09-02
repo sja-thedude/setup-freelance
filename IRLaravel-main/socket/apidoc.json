@@ -1,0 +1,17 @@
+{
+    "name": "PAN689",
+    "version": "1.0.0",
+    "description": "Football fantasy socket document",
+    "title": "PAN689",
+    "url": "http://localhost:3333",
+    "header": {
+        "filename": "header.md"
+    },
+    "footer": {
+        "filename": "footer.md"
+    },
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}

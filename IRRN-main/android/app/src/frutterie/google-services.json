@@ -1,0 +1,451 @@
+{
+    "project_info": {
+        "project_number": "1092197304656",
+        "project_id": "it-s-ready-prod-9",
+        "storage_bucket": "it-s-ready-prod-9.firebasestorage.app"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:de5526b11d353971164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.cityfoodloungegenk"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:98f500a0f1487e98164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frituurboulevard"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "1092197304656-6set4icjrlvqnl2gv0nanoa45a7c5gqu.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.frituurboulevard",
+                        "certificate_hash": "9b52f2f2c94e20261161e23d5d0367465e6f837f"
+                    }
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:961c6c26ae8f1bb3164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frituurdemolen"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:99f8607b820b079e164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frituurhollywood"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "1092197304656-l35lf4abpg6qalcaqmgp50plm244uic5.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.frituurhollywood",
+                        "certificate_hash": "9b52f2f2c94e20261161e23d5d0367465e6f837f"
+                    }
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:ef69edd7ee8c4f26164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frituurterzande"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "1092197304656-aq7qspaang7bf3pf1o3acgat8sli94od.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.frituurterzande",
+                        "certificate_hash": "9b52f2f2c94e20261161e23d5d0367465e6f837f"
+                    }
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:87653f5aa2b9779f164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frutterie"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "1092197304656-7dv42djin48tc5upoi330id9vop2uu2e.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.frutterie",
+                        "certificate_hash": "12ed1cb75129edcf9261ff060c95c2035c2ea9f4"
+                    }
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:b9c9815c637cf5ad164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.kebabantalya"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:6e6f9435748e76ca164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.lacasameerhout"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:030b6a5f16327051164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.mongout"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:4f2a08c385036f30164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.sparoelegem"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:25e62da7542ebf2e164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.tkastelsbroodje"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:937f14130f87abf1164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.tsnackskeopoeteren"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:443c76aaf3d3bea4164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.tven"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:4378f82530ec60a7164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.tzoutpotje"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1092197304656:android:db0e2cf256efa2b3164455",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.wowthai"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtBDr_UUMnLcmDvcF59AzbqlYetCSDCkA"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1092197304656-01047uc01llspbj1mrk5gfvlu6lnemdm.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.frituurhollywood"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

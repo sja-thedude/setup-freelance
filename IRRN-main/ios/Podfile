@@ -1,0 +1,102 @@
+# Resolve react_native_pods.rb with node to allow for hoisting
+require Pod::Executable.execute_command('node', ['-p',
+  'require.resolve(
+    "react-native/scripts/react_native_pods.rb",
+    {paths: [process.argv[1]]},
+  )', __dir__]).strip
+
+platform :ios, '14.0'
+prepare_react_native_project!
+
+
+def available_pods
+  $static_framework = []
+  # React Native Maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'Google-Maps-iOS-Utils', :git => 'https://github.com/Simon-TechForm/google-maps-ios-utils.git', :branch => 'feat/support-apple-silicon'
+  pod 'GoogleUtilities'
+
+  config = use_native_modules!
+  use_frameworks! :linkage => :static
+  $RNFirebaseAsStaticFramework = true
+
+  # Flags change depending on the env values.
+  flags = get_default_flags()
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # Hermes is now enabled by default. Disable by setting this flag to false.
+    # Upcoming versions of React Native may rely on get_default_flags(), but
+    # we make it explicit here to aid in the React Native upgrade process.
+    :hermes_enabled => flags[:hermes_enabled],
+    :fabric_enabled => flags[:fabric_enabled],
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
+  )
+end
+
+post_install do |installer|
+  react_native_post_install(
+    installer,
+    use_native_modules![:reactNativePath],
+    # Set `mac_catalyst_enabled` to `true` in order to apply patches
+    # necessary for Mac Catalyst builds
+    :mac_catalyst_enabled => false
+  )
+
+  # Change IPHONEOS_DEPLOYMENT_TARGET to 12.4.
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.4'
+    end
+  end
+  
+  __apply_Xcode_12_5_M1_post_install_workaround(installer)
+end
+
+
+target 'ItsReady' do
+    available_pods
+end
+
+target 'ItsReady_Dev' do
+    available_pods
+end
+
+target 'ItsReady_Staging' do
+    available_pods
+end
+
+target 'ItsReady_Template_Dev' do
+    available_pods
+end
+
+target 'ItsReady_Template_Staging' do
+    available_pods
+end
+
+target 'ItsReady_Group_Dev' do
+    available_pods
+end
+
+target 'ItsReady_Group_Staging' do
+    available_pods
+end
+
+target 'Template_ReadyFreddy' do
+    available_pods
+end
+
+target 'Template_Brightest' do
+    available_pods
+end
+
+target 'Template_BrightestPlayground' do
+    available_pods
+end
+
+target 'Template_Frutterie' do
+    available_pods
+end
+

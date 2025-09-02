@@ -1,0 +1,9 @@
+{
+    "message_retrieved_successfully": "Das Land wurde erfolgreich abgerufen.",
+    "message_retrieved_list_successfully": "Die L\u00e4nder wurden erfolgreich abgerufen.",
+    "message_created_successfully": "Das Land wurde erfolgreich erstellt.",
+    "message_updated_successfully": "Das Land wurde erfolgreich aktualisiert.",
+    "message_saved_successfully": "Das Land wurde erfolgreich gespeichert.",
+    "message_deleted_successfully": "Das Land wurde erfolgreich gel\u00f6scht.",
+    "not_found": "Land nicht gefunden"
+}

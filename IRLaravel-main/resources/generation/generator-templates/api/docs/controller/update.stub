@@ -1,0 +1,51 @@
+/**
+     * @api {put} /$MODEL_NAME_PLURAL_SNAKE$/:id Update
+     * @apiGroup $MODEL_NAME$
+     * @apiName Update$MODEL_NAME$
+     * @apiDescription Update the specified $MODEL_NAME$ in storage.
+     *
+     * @apiPermission api
+     * @apiPermission jwt.auth
+     *
+     * @apiHeader {String} Authorization Authorization Header
+     *
+     * @apiParam {Update$MODEL_NAME$APIRequest} request
+     *
+     * @apiSuccess {Number} id Id of $MODEL_NAME$
+     * @apiSuccess {String} created_at Created at of $MODEL_NAME$
+     * @apiSuccess {String} updated_at Updated at of $MODEL_NAME$
+     *
+     * @apiSuccessExample {json} Success-Response:
+     *     HTTP/1.1 200 OK
+     *     {
+     *          "meta": {
+     *             "success": true,
+     *             "message": "success",
+     *             "code": 200
+     *          },
+     *          "response": {
+     *              "id": 1,
+     *              "created_at": "2018-05-16 14:32:15",
+     *              "updated_at": "2018-05-16 14:32:15"
+     *          }
+     *     }
+     *
+     * @apiError Error Get list failure
+     * @apiErrorExample {json} Error-Response 500:
+     *     HTTP/1.1 500 GetErrorFailure
+     *     {
+     *        "meta": {
+     *            "success": false,
+     *            "message": "failure",
+     *            "code": 500,
+     *            "errors": null
+     *        },
+     *        "response": null
+     *     }
+     *
+     */
+    /**
+     * @param Update$MODEL_NAME$APIRequest $request
+     * @param int $id
+     * @return \Illuminate\Http\JsonResponse
+     */

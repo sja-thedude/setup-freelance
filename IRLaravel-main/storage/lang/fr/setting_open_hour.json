@@ -1,0 +1,18 @@
+{
+    "title": "Heures d'ouverture",
+    "types.takeout": "\u00c0 emporter",
+    "types.delivery": "Livraison",
+    "types.in_house": "Sur place",
+    "arrange_holiday": "D\u00e9finir les vacances",
+    "closed": "ferm\u00e9",
+    "holiday": "Vacances",
+    "new_holiday": "+ Nouvelle vacance",
+    "note_holiday": "Message",
+    "updated_success": "Votre param\u00e8tre a \u00e9t\u00e9 mis \u00e0 jour avec succ\u00e8s.",
+    "updated_holiday_success": "Votre param\u00e8tre a \u00e9t\u00e9 mis \u00e0 jour avec succ\u00e8s.",
+    "holiday_none": "Aucune vacance disponible. D\u00e9finissez vos vacances pour fermer votre magasin pendant une certaine p\u00e9riode.",
+    "message_retrieved_successfully": "Le param\u00e8tre a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9 avec succ\u00e8s",
+    "message_retrieved_list_successfully": "Les param\u00e8tres ont \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9s avec succ\u00e8s",
+    "from_until": "DE - JUSQU'\u00c0",
+    "text_opening_hours": "!!Attention!! Si vous modifiez les heures d'ouverture d'un jour de la semaine, les param\u00e8tres de cr\u00e9neaux horaires dynamiques pour ce jour seront automatiquement r\u00e9initialis\u00e9s!"
+}

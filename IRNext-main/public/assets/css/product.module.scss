@@ -1,0 +1,266 @@
+@import 'mixins';
+
+.product-image {
+    position: relative;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    background-size: cover;
+
+    .labels {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
+.product-detail {
+    padding-bottom: 150px;
+
+    .img-responsive {
+        max-width: 100%;
+    }
+
+    .product-title {
+        color: #000000;
+        @include fontSemiBold;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .product-description {
+        color: var(--Input-field, #717171);
+        @include fontCompactDisplay;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .allergenens {
+        .image {
+            width: 44px !important;
+            height: 43px;
+            object-fit: cover;
+        }
+    }
+
+    .options {
+        .title {
+            color: var(--Input-field, #717171);
+            @include fontSemiBold;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            span {
+                color: var(--Input-field, #717171);
+                @include fontCompactDisplay;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .validate-min-max {
+                color: #D94B2C;
+                @include fontCompactDisplay;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: lowercase;
+            }
+        }
+
+        .option-items {
+            border-radius: 20px;
+            border: 2px solid #F6B545;
+            background: #FFF;
+            color: #F6B545;
+            text-align: center;
+            @include fontCompactDisplay;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            display: inline-block;
+            padding: 8px 20px;
+            align-items: center;
+            gap: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            position: relative;
+
+            &.disabled-item {
+                border: 2px solid #cfcfcf !important;
+                background: #ffffff !important;
+                color: #dbdbdb !important;
+
+                &:before {
+                    position: absolute;
+                    content: "";
+                    top: 50%;
+                    left: 50%;
+                    border-bottom: 2px solid #cfcfcf;
+                    transform: translate(-50%, -50%);
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .minute-content {
+        border-radius: 10px;
+        border: 1px solid #C4C4C4;
+        background: #FFF;
+        display: flex;
+        height: 46px;
+        line-height: 46px;
+        flex-wrap: wrap;
+
+        svg {
+            margin-top: -5px;
+        }
+
+        .increase {
+            flex: 33%;
+        }
+
+        .decrease {
+            flex: 33%;
+        }
+
+        .total-number {
+            flex: 33%;
+            display: flex;
+
+            .saparate-line {
+                width: 1px;
+                height: 24px;
+                background: #D1D1D1;
+                margin-top: 10px;
+            }
+
+            .number {
+                width: 100%;
+                height: 44px;
+                line-height: 44px;
+                border: none;
+                text-align: center;
+                @include fontSemiBold;
+            }
+        }
+    }
+
+    .cart-money {
+        border-radius: 6px;
+        border: 2px solid #413E38;
+        background: #413E38;
+        color: var(--White, #FFF);
+        text-align: center;
+        @include fontCompactDisplay;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        svg {
+            margin-right: 5px;
+            margin-top: -5px;
+        }
+
+        .cart-money-wrapper {
+            line-height: 43px;
+            flex: 100%;
+            @include fontSemiBold;
+        }
+    }
+
+    .option-title {
+        display: flex;
+        justify-content: space-between;
+
+        .price-container {
+            justify-content: flex-end;
+            color: #000;
+            text-align: right;
+            @include fontSemiBold;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: 20px;
+            padding-right: 10px;
+        }
+    }
+
+    .close-page {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: #FFFFFF;
+        padding-top: 4px;
+    }
+
+    .add-to-cart {
+        position: fixed;
+        bottom: 60px;
+        width: 100%;
+        background: #FFFFFF;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .desContainer{
+        margin-left: 12px;
+    }
+    .marginLeft12{
+        margin-left: 12px;
+    }
+    .allerContain {
+        min-height: 200px;
+        padding-top: 10px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .productTitle {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+    }
+
+    .allerItem {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .quitting {
+        position: absolute;
+        right: 38px;
+        top: 10px;
+        z-index: 999;
+    }
+
+    .allergenensOf {
+        position: absolute;
+    }
+
+    .quitting:hover {
+        cursor: pointer;
+    }
+    .liking:hover {
+        cursor: pointer;
+    }
+}

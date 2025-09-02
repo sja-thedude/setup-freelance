@@ -1,0 +1,20 @@
+{
+    "id": "Id",
+    "restaurant": "Restaurant",
+    "sms-count": "Nombre de SMS",
+    "status": "Statut",
+    "message": "Message",
+    "sms": "Sms",
+    "sent_at": "Envoy\u00e9 \u00e0",
+    "created_at": "Cr\u00e9\u00e9 \u00e0",
+    "to_do": "\u00c0 faire",
+    "printing": "Impression",
+    "done": "Fait",
+    "error": "Erreur",
+    "kassabon": "Ticket de caisse",
+    "werkbon": "Bon de travail",
+    "sticker": "Autocollant",
+    "other": "Autre",
+    "all_restaurant": "Tous les restaurants",
+    "send": "Envoyer"
+}

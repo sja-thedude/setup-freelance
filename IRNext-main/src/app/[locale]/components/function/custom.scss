@@ -1,0 +1,27 @@
+.modal-content{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.modal{
+    --bs-modal-margin: 0rem;
+    --bs-modal-padding: 0rem;
+}
+.modal-dialog {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+ }
+.carousel-status{
+    display: none;
+} 
+.carousel .slide {
+    text-align: left;
+}
+.thumbs-wrapper.axis-vertical{
+    display: none;
+}
+.slide{
+    margin-bottom: 2% !important;
+}

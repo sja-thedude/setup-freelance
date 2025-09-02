@@ -1,0 +1,5 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+<div class="form-group">
+    {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:', ['class' => 'control-label col-xs-12 col-sm-2 col-md-2 col-lg-2']) !!}
+$CHECKBOXES$
+</div>

@@ -1,0 +1,10 @@
+{
+    "name": "Groepsnaam",
+    "add_group": "Groep toevoegen",
+    "placeholder_search": "Zoek groep",
+    "deleted_confirm": "De groep is verwijderd",
+    "message_retrieved_successfully": "De groep is succesvol opgehaald",
+    "restaurant_list_retrieved_successfully": "De restaurantlijst is succesvol opgehaald",
+    "not_found": "Groep niet gevonden",
+    "color": "Kleur"
+}

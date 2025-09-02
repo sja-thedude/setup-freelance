@@ -1,0 +1,13 @@
+/*
+|--------------------------------------------------------------------------
+| Routes of $MODEL_NAME$
+|--------------------------------------------------------------------------
+*/
+Route::get('$MODEL_NAME_PLURAL_CAMEL$', ['as'=> '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index', 'uses' => '$PATH_PREFIX$$MODEL_NAME$Controller@index']);
+Route::post('$MODEL_NAME_PLURAL_CAMEL$', ['as'=> '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.store', 'uses' => '$PATH_PREFIX$$MODEL_NAME$Controller@store']);
+Route::get('$MODEL_NAME_PLURAL_CAMEL$/create', ['as'=> '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.create', 'uses' => '$PATH_PREFIX$$MODEL_NAME$Controller@create']);
+Route::put('$MODEL_NAME_PLURAL_CAMEL$/{$MODEL_NAME_CAMEL$}', ['as'=> '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.update', 'uses' => '$PATH_PREFIX$$MODEL_NAME$Controller@update']);
+Route::patch('$MODEL_NAME_PLURAL_CAMEL$/{$MODEL_NAME_CAMEL$}', ['as'=> '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.update', 'uses' => '$PATH_PREFIX$$MODEL_NAME$Controller@update']);
+Route::delete('$MODEL_NAME_PLURAL_CAMEL$/{$MODEL_NAME_CAMEL$}', ['as'=> '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.destroy', 'uses' => '$PATH_PREFIX$$MODEL_NAME$Controller@destroy']);
+Route::get('$MODEL_NAME_PLURAL_CAMEL$/{$MODEL_NAME_CAMEL$}', ['as'=> '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.show', 'uses' => '$PATH_PREFIX$$MODEL_NAME$Controller@show']);
+Route::get('$MODEL_NAME_PLURAL_CAMEL$/{$MODEL_NAME_CAMEL$}/edit', ['as'=> '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.edit', 'uses' => '$PATH_PREFIX$$MODEL_NAME$Controller@edit']);

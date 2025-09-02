@@ -1,0 +1,11 @@
+{
+    "name": "Name der Druckergruppe",
+    "add_group": "Druckergruppe hinzuf\u00fcgen",
+    "placeholder_search": "Druckergruppe suchen",
+    "deleted_confirm": "Die Druckergruppe wurde gel\u00f6scht",
+    "message_retrieved_successfully": "Die Druckergruppe wurde erfolgreich abgerufen",
+    "restaurant_list_retrieved_successfully": "Die Restaurantliste wurde erfolgreich abgerufen",
+    "not_found": "Druckergruppe nicht gefunden",
+    "color": "Farbe",
+    "one_restaurant_join_one_group": "Ein Restaurant kann nur in einer Druckergruppe sein"
+}

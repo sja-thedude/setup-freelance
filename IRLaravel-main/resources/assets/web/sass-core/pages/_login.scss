@@ -1,0 +1,132 @@
+.register{
+    .hp-slider .wp-image .overlay{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.47) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    }
+}
+
+.max-width-326{
+    max-width: 326px;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.step-register{
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 16px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 16px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 16px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 16px;
+    }
+
+    .back-step{
+        i{
+            margin-right: 5px;
+            &:before{
+                font-size: 24px;
+                color: #fff;
+                vertical-align: middle;
+            }
+        }
+    }
+    a{
+        font-size: 14px;
+        color: #fff;
+    }
+    a.btn-register{
+        font-size: 16px;
+    }
+    p{
+        color: #fff;
+        a{
+            line-height: 19px;
+            color: #fff;
+            text-decoration: underline;
+            &:hover{
+                color: #8c8c8c;
+            }
+        }
+    }
+    a.text-underline{
+        &:hover {
+            color: #8c8c8c;
+        }
+    }
+    .wrap-action{
+        margin-bottom: 30px;
+        a{
+            margin-bottom: 30px;
+            display: inline-block;
+            i{
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 7px;
+            }
+        }
+        p{
+            margin-bottom: 0;
+            a{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .form-line{
+        max-width: 300px;
+        .btn{
+            margin-right: 16px;
+            &.last{
+                margin-right: 0;
+            }
+        }
+        &.mb-25{
+            margin-bottom: 25px;
+        }
+    }
+
+    .btn-login {
+        text-transform: uppercase;
+    }
+
+    .btn-register {
+        text-transform: uppercase;
+    }
+}
+
+#form-register {
+    .form-line {
+        max-width: inherit;
+    }
+}
+
+.invalid{
+    .form-line, .form-line-modal{
+        input, textarea{
+            &.required{
+                background: #FFE2E1;
+                border: 1px solid #EE3C3C;
+            }
+            
+        }
+        .password{
+            color: #FF0000;
+        }
+    }
+}
+
+.pl-35{
+    padding-left: 35px !important;
+}
+
+.dark-grey{
+    &:hover {
+        color: #8c8c8c !important;
+    }
+}

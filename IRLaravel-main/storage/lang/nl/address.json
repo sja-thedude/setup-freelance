@@ -1,0 +1,9 @@
+{
+    "message_retrieved_successfully": "Adres is succesvol opgehaald.",
+    "message_retrieved_list_successfully": "Adressen zijn succesvol opgehaald.",
+    "message_created_successfully": "Adres is succesvol aangemaakt.",
+    "message_updated_successfully": "Adres is succesvol bijgewerkt.",
+    "message_saved_successfully": "Adres is succesvol opgeslagen.",
+    "message_deleted_successfully": "Adres is succesvol verwijderd.",
+    "not_found": "Adres niet gevonden"
+}

@@ -1,0 +1,26 @@
+<?php
+
+$originalTranslations = [
+    'singular' => 'Klantenkaart',
+
+    'message_retrieved_successfully' => 'De loyaliteit is succesvol opgehaald',
+    'message_retrieved_multiple_successfully' => 'De loyaliteit is met succes teruggehaald',
+    'message_created_successfully' => 'De klantenkaart is succesvol aangemaakt',
+    'message_updated_successfully' => 'De klantenkaart is succesvol bijgewerkt',
+    'message_saved_successfully' => 'De klantenkaart is succesvol opgeslagen',
+    'message_deleted_successfully' => 'De klantenkaart is succesvol verwijderd',
+    'message_redeem_successfully' => 'U verzilvert succesvol',
+    'message_already_redeem' => 'Je hebt deze korting reeds ingewisseld! Plaats een bestelling en maak gebruik van deze korting!',
+    'message_not_enough_point' => ':point credits nodig',
+    'message_unable_re_redeemable' => 'Je hebt reeds een andere korting ingewisseld! Maak hiervan gebruik alvorens een nieuwe in te wisselen!',
+    'message_redeem_retrieved_successfully' => 'Het verzilveren is succesvol opgehaald',
+    'not_found' => 'Klantenkaart niet gevonden',
+
+    'text_credits' => ':number CREDITS',
+
+    'button_redeem' => 'Inwisselen',
+    'already_redeem' => 'Reeds ingewisseld',
+    'not_use_loyalty_card' => ':restaurant_name maakt geen gebruik van een klantenkaart',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

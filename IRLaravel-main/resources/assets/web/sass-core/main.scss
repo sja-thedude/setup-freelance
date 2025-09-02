@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+//@import 'bootstrap.min';
+/// Configuration and helpers
+@import "utils/variables", "utils/helpers";
+
+/// Vendors
+@import "vendor/media-queries", "vendor/aos", "vendor/mq", "vendor/owl.carousel",
+  "vendor/owl.theme.default",
+  //'vendor/datatables.min',
+  //'vendor/tempusdominus-bootstrap-4.min',
+  "vendor/jquery.datetimepicker",
+  //'vendor/metro-all.min',
+  "vendor/jquery.fancybox";
+
+/// Base
+@import "base/base", "base/fonts", "base/typography";
+
+/// Layout
+@import "layout/grid", "layout/header", "layout/footer";
+
+/// Components
+@import "components/form", "components/buttons";
+
+//@import 'owl.carousel.min';
+
+/// Page-specific
+@import "pages/home", "pages/login", "pages/register", "pages/andere",
+  "pages/landing", "pages/user", "pages/usert", "pages/userv", "pages/update","pages/res_home", "pages/res_landing", "pages/res_popup", "pages/res_user",  "pages/res_andere";

@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "fbsdk",
+        "IRRN",
+        "itsready",
+        "mollie",
+        "Signin",
+        "transform"
+    ],
+    "todo-tree.tree.scanMode": "workspace",
+    "java.compile.nullAnalysis.mode": "disabled",
+    "markdownlint.config": {
+        "MD033": {
+            "allowed_elements": [
+                "img",
+            ]
+        }
+    }
+}

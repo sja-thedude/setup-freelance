@@ -1,0 +1,14 @@
+<?php
+
+$originalTranslations = [
+    'message_invalid_token' => 'Restaurant heeft geen betalingstoken ingesteld',
+    'message_retrieved_list_successfully' => 'Betalingsinstellingen zijn succesvol opgehaald',
+    'message_retrieved_successfully' => 'Betalingsinstelling is succesvol opgehaald',
+    'message_created_successfully' => 'Betalingsinstelling is succesvol aangemaakt',
+    'message_updated_successfully' => 'Betalingsinstelling is succesvol bijgewerkt',
+    'message_deleted_successfully' => 'Betalingsinstelling is succesvol verwijderd',
+    'message_saved_successfully' => 'Betalingsinstelling is succesvol opgeslagen',
+    'not_found' => 'Betalingsinstelling niet gevonden',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

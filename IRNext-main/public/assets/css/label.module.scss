@@ -1,0 +1,53 @@
+.attr-meal {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    line-height: 22px;
+    
+  
+
+    svg {
+        margin-right: 3px;
+        margin-top: -4px;
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    i {
+        display: inline-block;
+        margin-right: 2px;
+        vertical-align: middle;
+        line-height: 100%;
+    }
+
+    &.attr-1 {
+        background: #91A900;
+    }
+
+    &.attr-2 {
+        background: #78A000;
+    }
+
+    &.attr-3 {
+        background: #E03009;
+    }
+}
+
+@media (min-width: 1280px) {
+    .attr-meal {
+        box-shadow: 3px 7px 10px 0px;
+    }
+}

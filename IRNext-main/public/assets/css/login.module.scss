@@ -1,0 +1,357 @@
+@import 'mixins';
+
+.login {
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 0px 0px 1000px #413E38;
+    /* Màu xanh cho phần thừa */
+    height: 585px;
+    @media screen and (max-width: 475px) {
+        height: 100%;
+    }
+}
+
+.portal-login-error-message{
+    color: #C82116;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.welcome {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontSemiBold;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    /* 76.923% */
+    letter-spacing: -0.24px;
+}
+
+.welcome-portal{
+    color: var(--Primary-100, #413E38);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Track;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.socialMedia {
+    justify-content: space-evenly;
+    margin: auto;
+    width: 95%;
+}
+
+.introduce {
+    color: #FFF;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.content {
+    @include fontCompactDisplay;
+    font-size: 0.9rem;
+    margin-top: 25px;
+    width: 69%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.nunet {
+    @include fontCompactDisplay;
+    font-size: 0.9rem;
+    color: white;
+    margin-bottom: 5%;
+    opacity: 0.4;
+}
+
+.message {
+    @include fontCompactDisplay;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 10px;
+    background-color: #595856;
+    margin-bottom: 5%;
+    height: 50px;
+    width: 90%;
+}
+
+.btn-dark {
+    border-radius: 10px;
+    width: 95%;
+    margin-right: 5%;
+    background-color: #413E38;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.input {
+    margin-bottom: 3.8%;
+}
+
+.decore {
+    @include fontCompactDisplay;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.login-with {
+    @include fontCompactDisplay;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.forget-password {
+    @include fontCompactDisplay;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.error {
+    @include fontCompactDisplay;
+    font-size: 0.9rem;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.custom-input {
+    border-radius: 10px;
+}
+
+/* CSS tùy chỉnh cho trường input */
+.custom-input::placeholder {
+    color: #949494;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+    /* Màu mặc định của placeholder */
+}
+
+.custom-input {
+    border: 0;
+}
+
+/* CSS tùy chỉnh cho trường input khi không hợp lệ */
+.custom-input.invalid::placeholder {
+    color: red;
+    /* Đổi màu của placeholder thành đỏ khi không hợp lệ */
+}
+
+/* CSS tùy chỉnh cho trường input khi không hợp lệ */
+.custom-input.invalid {
+    color: red !important;
+    /* Đổi màu của placeholder thành đỏ khi không hợp lệ */
+    border: 1px solid #D94B2C;
+}
+
+/* CSS tùy chỉnh cho trường input khi không hợp lệ */
+.custom-input.invalid-portal-login::placeholder {
+    color: #D94B2C;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.24px;
+}
+
+/* CSS tùy chỉnh cho trường input khi không hợp lệ */
+.custom-input.invalid-portal-login {
+    border-radius: 10px;
+    border: 1px solid #D94B2C !important;
+    background: #F2E8E8 !important;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* CSS tùy chỉnh cho trường input khi không hợp lệ */
+.custom-input.invalid-portal-login-desktop::placeholder {
+    @include fontCompactDisplay;
+    color: #C82116;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.24px;
+}
+
+/* CSS tùy chỉnh cho trường input khi không hợp lệ */
+.custom-input.invalid-portal-login-desktop {
+    color: #C82116 !important;
+    border: 1px solid #D94B2C !important;
+    background: #F2E8E8 !important;
+}
+
+.eye {
+    border: 0;
+}
+
+.eye.invalid {
+    color: #D94B2C;
+    border: 1px solid #D94B2C;
+}
+
+.eye.invalid-portal-login {
+    color: #D94B2C;
+    border: 1px solid #D94B2C;
+    background: #F2E8E8 !important;
+}
+
+.eye.invalid-portal-login-desktop {
+    color: #C82116 !important;
+    border: 1px solid #D94B2C !important;
+    border-left: none !important;
+    background: #F2E8E8 !important;
+}
+
+.line {
+    color: #FFF;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.dash-line {
+    border-bottom: 3px solid white;
+    /* Dấu gạch ngang sử dụng đường kẻ đen */
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 50px;
+    /* Độ dài tối thiểu của dấu gạch ngang */
+
+    /* Độ rộng của dấu gạch ngang, bạn có thể điều chỉnh tùy ý */
+    text-align: center;
+    /* Căn giữa nội dung trong dấu gạch ngang */
+    margin: 0 5px;
+    margin-bottom: 3px;
+    /* Khoảng cách giữa các dấu gạch ngang */
+}
+
+.dash-line-portal-login {
+    border-bottom: 3px solid #8898AA;
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    margin: 0 5px 3px;
+}
+
+.copy-right {
+    color: #656565;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 181.818% */
+    letter-spacing: -0.24px;
+}
+
+.term {
+    color: #656565;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 181.818% */
+    letter-spacing: -0.24px;
+}
+
+.nav-text {
+    color: #413E38;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.nav-item h2 {
+    color: #413E38;
+    font-size: 14px;
+    font-weight: 500;
+    @include fontCompactDisplay;
+    line-height: normal;
+    letter-spacing: -0.23999999463558197px;
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 1279px) {
+    .dash-line {
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .dash-line {
+        width: 39%;
+    }
+}
+
+
+@media screen and (max-width: 395px) {
+    .dash-line {
+        width: 39%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .dash-line {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .dash-line {
+        width: 37%;
+    }
+}

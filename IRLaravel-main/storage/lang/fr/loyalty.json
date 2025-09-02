@@ -1,0 +1,19 @@
+{
+    "singular": "Carte de fid\u00e9lit\u00e9",
+    "message_retrieved_successfully": "La carte de fid\u00e9lit\u00e9 a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9e avec succ\u00e8s",
+    "message_retrieved_multiple_successfully": "Les cartes de fid\u00e9lit\u00e9 ont \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9es avec succ\u00e8s",
+    "message_created_successfully": "La carte de fid\u00e9lit\u00e9 a \u00e9t\u00e9 cr\u00e9\u00e9e avec succ\u00e8s",
+    "message_updated_successfully": "La carte de fid\u00e9lit\u00e9 a \u00e9t\u00e9 mise \u00e0 jour avec succ\u00e8s",
+    "message_saved_successfully": "La carte de fid\u00e9lit\u00e9 a \u00e9t\u00e9 enregistr\u00e9e avec succ\u00e8s",
+    "message_deleted_successfully": "La carte de fid\u00e9lit\u00e9 a \u00e9t\u00e9 supprim\u00e9e avec succ\u00e8s",
+    "message_redeem_successfully": "Vous avez \u00e9chang\u00e9 avec succ\u00e8s",
+    "message_already_redeem": "Vous avez d\u00e9j\u00e0 utilis\u00e9 cette r\u00e9duction ! Passez une commande et profitez de cette r\u00e9duction !",
+    "message_not_enough_point": ":point cr\u00e9dits n\u00e9cessaires",
+    "message_unable_re_redeemable": "Vous avez d\u00e9j\u00e0 \u00e9chang\u00e9 une autre r\u00e9duction ! Utilisez-la avant d'en \u00e9changer une nouvelle !",
+    "message_redeem_retrieved_successfully": "L'\u00e9change a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9 avec succ\u00e8s",
+    "not_found": "Carte de fid\u00e9lit\u00e9 non trouv\u00e9e",
+    "text_credits": ":number CR\u00c9DITS",
+    "button_redeem": "\u00c9changer",
+    "already_redeem": "D\u00e9j\u00e0 \u00e9chang\u00e9",
+    "not_use_loyalty_card": ":restaurant_name n'utilise pas de carte de fid\u00e9lit\u00e9"
+}

@@ -1,0 +1,81 @@
+@import "theme_variables";
+@import "theme_mixins";
+@import "../vendor/mixins";
+
+.list-responsive {
+    .list-header {
+        background: #F6F9FC;
+        color: $colorBody;
+        font-weight: 600;
+        padding: 0 10px;
+        border-radius: 10px;
+
+        .col-item {
+            padding: 10.5px 10px;
+            a {
+                display: block;
+                color: $colorBody;
+                i {
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+
+    .list-body {
+        padding: 0px 10px 10px 10px;
+
+        > .row {
+            color: $colorBlack100;
+            border-bottom: 1px solid #E9ECEF;
+
+            &:hover {
+                background-color: #f9f9f9;
+            }
+
+            .col-item {
+                padding: 17px 10px;
+                word-break: break-word;
+            }
+        }
+        
+        &.white {
+            background: #FFFFFF;
+            @include box-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+            @include border-radius(0 0 10px 10px);
+        }
+    }
+    
+    &.black {
+        .list-header {
+            background: $colorPrimary100;
+            
+            .col-item {
+                color: $colorWhite;
+                a {
+                    color: $colorWhite;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .list-responsive {
+        .col-sm-1-5 {
+            width: 12.45%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .list-responsive {
+        .nav-md [class*="col-sm-"] {
+            width: auto;
+        }
+        
+        .col-sm-1-5 {
+            width: 12.45%;
+        }
+    }
+}

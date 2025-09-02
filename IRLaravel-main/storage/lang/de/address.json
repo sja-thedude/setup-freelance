@@ -1,0 +1,9 @@
+{
+    "message_retrieved_successfully": "Adresse wurde erfolgreich abgerufen.",
+    "message_retrieved_list_successfully": "Adressen wurden erfolgreich abgerufen.",
+    "message_created_successfully": "Adresse wurde erfolgreich erstellt.",
+    "message_updated_successfully": "Adresse wurde erfolgreich aktualisiert.",
+    "message_saved_successfully": "Adresse wurde erfolgreich gespeichert.",
+    "message_deleted_successfully": "Adresse wurde erfolgreich gel\u00f6scht.",
+    "not_found": "Adresse nicht gefunden"
+}

@@ -1,0 +1,448 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #000000;
+  margin: 0;
+  font-family: $font-primary;
+  
+  &.has-popup {
+    overflow: hidden;
+  }
+}
+
+//
+// Make all elements from the DOM inherit from the parent box-sizing
+// Since `*` has a specificity of 0, it does not override the `html` value
+// making all elements inheriting from the root box-sizing value
+// See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+//
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/// Anchor
+a {
+  color: $color-primary;
+  font-size: 16px;
+  text-decoration: none;
+  outline: none !important;
+  font-family: $font-secondary;
+  font-weight: normal;
+  -webkit-transition: color .3s ease-out;
+  -moz-transition: color .3s ease-out;
+  -o-transition: color .3s ease-out;
+  transition: color .3s ease-out;
+  &:hover, &:focus {
+    color: #6E371E;
+    text-decoration: none;
+  }
+}
+
+/// Block elements
+p, pre, figure {
+  margin: 0 0 20px 0;
+  line-height: 100%;
+  color: #000000;
+  font-size: 14px;
+  line-height: 19px;
+  font-style: medium;
+  font-family: $font-secondary;
+  font-weight: normal;
+  &:empty {
+    display: none;
+  }
+}
+blockquote, .explanation {
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding-left: 1em;
+
+    font-weight: lighter;
+    font-style: normal;
+
+    border-left: 5px solid $color-primary;
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: $gray-light;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+
+/// Table
+/// Unstyled table
+table {
+  margin-bottom: 1rem;
+
+  th {
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+/// Styled table
+.table {
+  width: 100%;
+  max-width: 100%;
+
+  td, th {
+    padding: 1rem;
+    border-bottom: 1px solid $gray-light;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  thead {
+    td, th {
+      border-bottom-width: 2px;
+    }
+  }
+
+  tbody, tfoot {
+    tr:last-child {
+      td, th {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  tfoot {
+    td,th {
+      border-top: 2px solid $gray-light;
+    }
+  }
+
+  caption {
+    padding: 0.75rem;
+    font-size: small;
+    color: $gray;
+  }
+}
+
+/// Lists
+ul {
+  @extend p;
+  list-style: disc;
+  margin-left: 1.4em;
+  padding-left: 0;
+
+  ul, ol {
+    margin-bottom: 0;
+  }
+}
+ol {
+  @extend p;
+  list-style: decimal;
+  margin-left: 1.4em;
+  padding-left: 0;
+
+  ul, ol {
+    margin-bottom: 0;
+  }
+}
+.no-bullet {
+  list-style: outside none none;
+  margin-left: 0;
+}
+dl {
+  @extend p;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
+
+#main-body{
+  padding-bottom: 70px;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+#container{
+  position: relative;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.box{
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+
+.line{
+  width: 160px;
+  height: 4px;
+  border-radius: 4px;
+  display: block;
+  float: right;
+  background: #ECECEC;
+  font-size: 5.5px;
+  text-align: center;
+  line-height: 4px;
+  position: relative;
+  margin-top: 3px;
+  .active{
+    background: $color-primary;
+    display: block;
+    height: 4px;
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    &.yellow{
+      background: $color-secondary;
+    }
+  }
+  .text{
+    position: relative;
+    z-index: 2;
+  }
+  
+}
+
+.font-size-11{
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 26px;
+}
+.font-size-10{
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}
+.font-size-9{
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 10px;
+}
+
+.font-size-18{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.font-size-28{
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 26px;
+}
+
+.title-with-icon{
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  i{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      display: inline-block;
+      line-height: 100%;
+  }
+}
+
+.box-dashed{
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 86px;
+  img{
+      display: block;
+      width: 100%;
+  }
+  p{
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.3;
+  }
+}
+
+.mb-mt-20{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.mb-0{
+  margin-bottom: 0;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.wrap-advertisem{
+  position: relative;
+  .advertisem{
+    height: 600px;
+    position: absolute;
+    width: 160px;
+    top: 0;
+    p{
+      margin-bottom: 0;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 0.3;
+      margin-top: 210px;
+      padding: 0 15px;
+    }
+    &.advertisem-left{
+      left: -165px;
+    }
+    &.advertisem-right{
+      right: -165px;
+    }
+  }
+}
+
+.hr-20{
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
+
+.mt-70{
+  margin-top: 70px;
+}
+
+.mb-70{
+  margin-bottom: 70px;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mt-8{
+  margin-top: 8px;
+}
+
+.color-red{
+  color: #D73327;;
+}
+
+.mb-25{
+  margin-bottom: 25px;
+}
+
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.mt-25{
+  margin-top: 25px;
+}
+
+.ml-8{
+  margin-left: 8px;
+}
+
+.ml-20{
+  margin-left: 20px;
+}
+
+.mb-5{
+  margin-bottom: 5px;
+}
+
+.ml-30{
+  margin-left: 30px;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.mb-45{
+  margin-bottom: 45px;
+}
+
+.mr-30{
+  margin-right: 30px;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
+
+.ml-15{
+  margin-left: 10px;
+}
+
+.ml-5{
+  margin-left: 5px;
+}
+
+.mb-0{
+  margin-bottom: 0;
+}

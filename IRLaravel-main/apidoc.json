@@ -1,0 +1,17 @@
+{
+    "name": "APP697",
+    "version": "1.0.0",
+    "description": "Appoint Project Document",
+    "title": "APP697",
+    "url": "http://localhost",
+    "header": {
+        "filename": "header.md"
+    },
+    "footer": {
+        "filename": "footer.md"
+    },
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}

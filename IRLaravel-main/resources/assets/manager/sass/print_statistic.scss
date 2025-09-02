@@ -1,0 +1,158 @@
+@media print {
+    .print-statistic {
+        color: #000000;
+
+        .print-header {
+            display: block !important;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #000000;
+            overflow: hidden;
+
+            .ir-title {
+                .ir-h2 {
+                    font-weight: bold;
+                    font-size: 28px;
+                    line-height: 33px;
+                }
+                .statistic-sub-title {
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+                .statistic-date {
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #979797;
+                }
+            }
+            .ir-right {
+                h3 {
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+                p {
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+            }
+        }
+        .ir-content {
+            width: auto;
+
+            .list-responsive {
+                width: 100%;
+                height: auto;
+                min-height: auto;
+                overflow-x: inherit;
+
+                .list-header {
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid #000000;
+                    box-shadow: none;
+                    -moz-box-shadow: none;
+                    -webkit-box-shadow: none;
+                    border-radius: 0px;
+                    -moz-border-radius: 0px;
+                    -webkit-border-radius: 0px;
+                    margin-bottom: 10px;
+
+                    .row {
+                        margin-left: -20px;
+                    }
+                }
+                .list-body {
+                    .row-item {
+                        padding: 0px !important;
+                        margin-left: -20px;
+
+                        .row-cat {
+                            font-weight: bold;
+                            font-size: 12px;
+                            line-height: 14px;
+                            border-top: 1px solid #B9B9B9;
+                            border-bottom: 1px solid #B9B9B9;
+                            transform: matrix(1, 0, 0, 1, 0, 0);
+                            margin-bottom: 10px;
+                            text-transform: uppercase;
+
+                            .col-item {
+                                padding: 10px;
+                            }
+                        }
+                        .row-product {
+                            display: block !important;
+                            font-weight: normal;
+                            font-size: 11px;
+                            line-height: 13px;
+
+                            .col-item {
+                                padding: 0px 10px 10px 10px;
+                            }
+
+                            &.payment-method {
+                                .col-item {
+                                    padding: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .row-statistic {
+                        border-bottom: 0px;
+                    }
+                }
+                .list-footer {
+                    border-top: 1px solid #000000;
+                    font-weight: bold;
+                    padding-top: 10px;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    .row {
+                        margin-left: -20px;
+                    }
+                }
+                .pdl-i-30 {
+                    padding-left: 10px !important;
+                }
+                .pdr-i-30 {
+                    padding-right: 10px !important;
+                }
+            }
+            .statistic-only-total {
+                display: block;
+
+                .statistic-item {
+                    display: block !important;
+                    float: right;
+                    margin: auto;
+                    margin-top: 0px;
+                    margin-right: 0px;
+                    margin-left: 50px;
+                    text-align: center;
+                    border: 1px solid #000000;
+                    padding: 15px;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 14px;
+
+                    .s-number {
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+                }
+            }
+        }
+    }
+
+    .print-item-type-a4 {
+        min-height: 842px;
+    }
+}

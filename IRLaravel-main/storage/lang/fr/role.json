@@ -1,0 +1,10 @@
+{
+    "Administrator": "Administrateur",
+    "User": "Utilisateur",
+    "backoffice_role_title": "R\u00f4les",
+    "client_role_title": "R\u00f4les des clients",
+    "add_role": "Ajouter un r\u00f4le",
+    "edit_role": "Modifier le r\u00f4le",
+    "detail_role": "D\u00e9tail du r\u00f4le",
+    "are_you_sure_delete": "\u00cates-vous s\u00fbr de vouloir supprimer ce r\u00f4le?"
+}

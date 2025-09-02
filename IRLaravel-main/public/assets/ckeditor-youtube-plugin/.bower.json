@@ -1,0 +1,28 @@
+{
+  "name": "ckeditor-youtube-plugin",
+  "version": "2.1.12",
+  "homepage": "https://github.com/fonini/ckeditor-youtube-plugin",
+  "authors": [
+    "Jonnas Fonini"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ckeditor": ">= 4.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "2.1.12",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.1.12",
+    "commit": "d0c6f67f9526bc68e41d1ce5b8c1c46e04e46dee"
+  },
+  "_source": "https://github.com/fonini/ckeditor-youtube-plugin.git",
+  "_target": "^2.1.10",
+  "_originalSource": "ckeditor-youtube-plugin"
+}

@@ -1,0 +1,5 @@
+{
+    "message_retrieved_successfully": "Die Lieferbedingung wurde erfolgreich abgerufen",
+    "message_retrieved_list_successfully": "Die Lieferbedingungen wurden erfolgreich abgerufen",
+    "not_found": "Lieferbedingung nicht gefunden"
+}

@@ -1,0 +1,9 @@
+{
+    "message_retrieved_successfully": "Banner wurde erfolgreich abgerufen.",
+    "message_retrieved_list_successfully": "Banner wurden erfolgreich abgerufen.",
+    "message_created_successfully": "Banner wurde erfolgreich erstellt.",
+    "message_updated_successfully": "Banner wurde erfolgreich aktualisiert.",
+    "message_saved_successfully": "Banner wurde erfolgreich gespeichert.",
+    "message_deleted_successfully": "Banner wurde erfolgreich gel\u00f6scht.",
+    "not_found": "Banner nicht gefunden"
+}

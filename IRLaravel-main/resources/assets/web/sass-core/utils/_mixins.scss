@@ -1,0 +1,12 @@
+/// Mixins
+
+/// Background rgba, defined color as fallback
+// @link http://stackoverflow.com/questions/6902944/sass-mixin-for-background-transparency-back-to-ie8
+@mixin background-alpha($color, $alpha) {
+  $rgba: rgba($color, $alpha);
+  $ie-hex-str: ie-hex-str($rgba);
+  background-color: $color;
+  background-color: $rgba;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str});
+  zoom: 1;
+}

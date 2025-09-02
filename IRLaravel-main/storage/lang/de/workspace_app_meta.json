@@ -1,0 +1,9 @@
+{
+    "message_retrieved_list_successfully": "Arbeitsbereich-App-Metadaten wurden erfolgreich abgerufen",
+    "message_retrieved_successfully": "Arbeitsbereich-App-Metadaten wurden erfolgreich abgerufen",
+    "message_created_successfully": "Arbeitsbereich-App-Metadaten wurden erfolgreich erstellt.",
+    "message_updated_successfully": "Arbeitsbereich-App-Metadaten wurden erfolgreich aktualisiert.",
+    "message_saved_successfully": "Arbeitsbereich-App-Metadaten wurden erfolgreich gespeichert.",
+    "message_deleted_successfully": "Arbeitsbereich-App-Metadaten wurden erfolgreich gel\u00f6scht.",
+    "not_found": "Arbeitsbereich-App-Metadaten nicht gefunden"
+}

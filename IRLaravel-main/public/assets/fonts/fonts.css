@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Rahayu";
+    src: url("rahayu/Rahayu.ttf"); /* IE */
+    src: local("Rahayu"), url("rahayu/Rahayu.ttf") format("truetype"); /*non-IE*/
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("oswald/Oswald-Regular.ttf"); /* IE */
+    src: local("Oswald-Regular"), url("oswald/Oswald-Regular.ttf") format("truetype"); /*non-IE*/
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("lato/Lato-Regular.ttf"); /* IE */
+    src: local("Lato-Regular"), url("lato/Lato-Regular.ttf") format("truetype"); /*non-IE*/
+}
+
+@font-face {
+    font-family: "Big Snow";
+    src: url("big_snow/Big Snow.ttf"); /* IE */
+    src: local("Big Snow"), url("big_snow/Big Snow.ttf") format("truetype"); /*non-IE*/
+}
+
+@font-face {
+    font-family: "Romantina";
+    src: url("romantina/Romantina.ttf"); /* IE */
+    src: local("Romantina"), url("romantina/Romantina.ttf") format("truetype"); /*non-IE*/
+}
+
+@font-face {
+    font-family: "Shorelines Script";
+    src: url("shorelines_script/Shorelines Script Bold.otf"); /* IE */
+    src: local("Shorelines Script Bold"), url("shorelines_script/Shorelines Script Bold.otf") format("opentype"); /*non-IE*/
+}
+
+@font-face {
+    font-family: "Sweet Beaches";
+    src: url("sweet_beaches/Sweet Beaches.ttf"); /* IE */
+    src: local("Sweet Beaches"), url("sweet_beaches/Sweet Beaches.ttf") format("truetype"); /*non-IE*/
+}
+
+@font-face {
+    font-family: "Sweet Hipster";
+    src: url("sweet_hipster/Sweet Hipster.ttf"); /* IE */
+    src: local("Sweet Hipster"), url("sweet_hipster/Sweet Hipster.ttf") format("truetype"); /*non-IE*/
+}
+
+@font-face {
+    font-family: "The Queenthine";
+    src: url("the_queenthine/TheQueenthineDemo.ttf"); /* IE */
+    src: local("TheQueenthineDemo"), url("the_queenthine/TheQueenthineDemo.ttf") format("truetype"); /*non-IE*/
+}

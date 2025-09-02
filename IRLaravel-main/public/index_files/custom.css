@@ -1,0 +1,12 @@
+body {
+    font-family: 'arial';
+    padding:0 10px;
+}
+.fa-btn {
+    margin-right: 6px;
+}
+
+.has-error .error:focus {
+    border: 1px solid rgba(255, 0, 0, 0.75);
+}
+

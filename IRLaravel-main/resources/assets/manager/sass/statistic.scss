@@ -1,0 +1,186 @@
+.layout-statistic {
+    .list-responsive {
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+
+        .list-header {
+            background: #413E38;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            align-items: center;
+            color: #FFFFFF;
+        }
+
+        .list-body {
+            .row-statistic {
+                border-bottom: none;
+
+                &:hover {
+                    background-color: transparent;
+                }
+
+                &.row-cat {
+                    &:hover {
+                        background-color: #F3F3F3;
+                    }
+                }
+            }
+        }
+
+        .list-footer {
+            hr {
+                border-top: 0.5px solid #A09E9B;
+            }
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+
+            .sf-number {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 19px;
+                color: #000000;
+            }
+        }
+    }
+
+    .statistic-sub-title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #706E6A;
+    }
+    
+    .wrap-collapse {
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+
+    .row-statistic {
+        background: transparent;
+        height: auto;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+    .row-cat {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+
+        background: #F3F3F3;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+    .row-product {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        
+        &.collapse {
+            display: none;
+            
+            &.in {
+                display: block;
+            }
+        }
+    }
+
+    .statistic-only-total {
+        width: 100%;
+
+        .statistic-item {
+            width: 25%;
+            margin: 3% auto;
+            text-align: center;
+            padding: 15px;
+            overflow: hidden;
+            background: #FFFFFF;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+            -moz-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+            -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            font-family: 'Open Sans';
+            font-style: normal;
+
+            .s-number {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 33px;
+                color: #B5B268;
+                text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+            }
+
+            .s-description {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                color: #706E6A;
+                text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+            }
+        }
+    }
+
+    .font-w-normal {
+        font-weight: normal;
+    }
+}
+
+.opacity-0 {
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=0);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0;
+    
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0;
+}

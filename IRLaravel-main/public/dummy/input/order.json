@@ -1,0 +1,45 @@
+{
+  "workspace_id": 31,
+  "group_id": 1,
+  "coupon_id": 1,
+  "coupon_code": "1212HOT",
+  "reward_id": 17,
+  "date_time": "2020-12-13 14:18:00",
+  "date": "2020-12-13",
+  "time": "14:18:00",
+  "address": "So 6, Duong Dinh Nghe, Yen Hoa, Cau Giay, Ha Noi, Vietnam",
+  "address_type": 1,
+  "lat": "21.032022949918783",
+  "lng": "105.78886864627681",
+  "type": 1,
+  "note": "Nho giao dung gio",
+  "setting_payment_id": 1,
+  "payment_method": 3,
+  "setting_timeslot_detail_id": 2102,
+  "setting_delivery_condition_id": 18,
+  "items": [
+    {
+      "product_id": 90,
+      "quantity": 3,
+      "coupon_id": 1,
+      "redeem_history_id": 2,
+      "options": [
+        {
+          "option_id": 9,
+          "option_items": [
+            {
+              "option_item_id": 1300
+            },
+            {
+              "option_item_id": 1301
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": 91,
+      "quantity": 4
+    }
+  ]
+}

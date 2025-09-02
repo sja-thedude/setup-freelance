@@ -1,0 +1,13 @@
+/*
+|--------------------------------------------------------------------------
+| API routes of $MODEL_NAME$
+|--------------------------------------------------------------------------
+*/
+Route::group(['prefix' => '$API_PREFIX$/$API_VERSION$', 'middleware' => ['api', 'jwt.auth']], function () {
+    Route::get('$MODEL_NAME_PLURAL_SNAKE$', ['as' => '$API_PREFIX$.$MODEL_NAME_PLURAL_SNAKE$.index', 'uses' => '$PATH_PREFIX$$MODEL_NAME$APIController@index']);
+    Route::post('$MODEL_NAME_PLURAL_SNAKE$', ['as' => '$API_PREFIX$.$MODEL_NAME_PLURAL_SNAKE$.store', 'uses' => '$PATH_PREFIX$$MODEL_NAME$APIController@store']);
+    Route::get('$MODEL_NAME_PLURAL_SNAKE$/{$MODEL_NAME_SNAKE$}', ['as' => '$API_PREFIX$.$MODEL_NAME_PLURAL_SNAKE$.show', 'uses' => '$PATH_PREFIX$$MODEL_NAME$APIController@show']);
+    Route::put('$MODEL_NAME_PLURAL_SNAKE$/{$MODEL_NAME_SNAKE$}', ['as' => '$API_PREFIX$.$MODEL_NAME_PLURAL_SNAKE$.update', 'uses' => '$PATH_PREFIX$$MODEL_NAME$APIController@update']);
+    Route::patch('$MODEL_NAME_PLURAL_SNAKE$/{$MODEL_NAME_SNAKE$}', ['as' => '$API_PREFIX$.$MODEL_NAME_PLURAL_SNAKE$.patch', 'uses' => '$PATH_PREFIX$$MODEL_NAME$APIController@update']);
+    Route::delete('$MODEL_NAME_PLURAL_SNAKE$/{$MODEL_NAME_SNAKE$}', ['as' => '$API_PREFIX$.$MODEL_NAME_PLURAL_SNAKE$.destroy', 'uses' => '$PATH_PREFIX$$MODEL_NAME$APIController@destroy']);
+});

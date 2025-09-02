@@ -1,0 +1,266 @@
+@import 'mixins';
+
+.register {
+    color: #FFF;
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 76.923% */
+    letter-spacing: -0.24px;
+}
+
+.registerPortal{
+    color: var(--Primary-100, #413E38);
+    text-align: center;
+    /* H3 */
+    font-family: Track;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.registerPortalQuit:hover{
+    cursor: pointer;
+}
+
+.btn-dark-register {
+    border-radius: 10px;
+    background: #322F28;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    width: 251px;
+    height: 50px;
+}
+
+.btn-dark-register-portal {
+    border-radius: 10px;
+    background: #322F28;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    width: 251px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+
+.footerPortal {
+    text-align: center;
+    @include fontSemiBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 790;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    margin-bottom: 35px;
+    margin-top: 100px;
+    text-transform: uppercase;
+  }
+
+.title {
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.titlePortal {
+    margin: auto;
+    color: #413E38;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.termMobile {
+    color: #FFF;
+    @include fontCompactDisplay;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.regisButton {
+    width: 67%;
+    background-color: #322F28 !important;
+    height: 50px;
+    border-radius: 10px !important;
+}
+
+.regisButtonText {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.login-with {
+    @include fontCompactDisplay;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.line {
+    color: #FFF;
+    text-align: center;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+    padding: 0;
+}
+
+.dash-line {
+    border-bottom: 3px solid white;
+    /* Dấu gạch ngang sử dụng đường kẻ đen */
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 34%;
+    /* Độ dài tối thiểu của dấu gạch ngang */
+
+    /* Độ rộng của dấu gạch ngang, bạn có thể điều chỉnh tùy ý */
+    text-align: center;
+    /* Căn giữa nội dung trong dấu gạch ngang */
+    margin: 0 5px;
+    /* Khoảng cách giữa các dấu gạch ngang */
+    margin-bottom: 3px;
+}
+
+.texting {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: none;
+    height: 50px !important;
+}
+
+.texting.invalid {
+    border: 1px solid red;
+    /* Đổi màu của placeholder thành đỏ khi không hợp lệ */
+    z-index: 9999;
+    position: relative;
+    /* Thiết lập position thành relative */
+    overflow: hidden;
+}
+
+.country {
+    @include fontSemiBold;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.vb {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: SF Compact Display
+}
+
+.message {
+    position: relative;
+    z-index: 10 !important;
+    margin-top: -25%;
+    margin-left: 5%;
+    @include fontCompactDisplay;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 10px;
+    background-color: #595856;
+    margin-bottom: 5%;
+    height: 50px;
+    width: 90%;
+}
+
+.btn-dark {
+    border-radius: 10px;
+    background: #413E38;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    width: 102px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    @include fontCompactDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.24px;
+}
+
+.ready {
+    text-align: center;
+}
+
+.toping{
+    padding-top: 126px;
+}
+
+.term {
+    color: #444;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+}
+
+.termo {
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 28px;
+}
+
+.underlinem {
+    text-decoration-line: underline;
+}

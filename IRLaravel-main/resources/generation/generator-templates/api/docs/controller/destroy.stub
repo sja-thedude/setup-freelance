@@ -1,0 +1,43 @@
+/**
+     * @api {delete} /$MODEL_NAME_PLURAL_SNAKE$/:id Destroy
+     * @apiGroup $MODEL_NAME$
+     * @apiName Destroy$MODEL_NAME$
+     * @apiDescription Remove the specified $MODEL_NAME$ from storage.
+     *
+     * @apiPermission api
+     * @apiPermission jwt.auth
+     *
+     * @apiHeader {String} Authorization Authorization Header
+     *
+     * @apiParam {Number} id Id of $MODEL_NAME$
+     *
+     * @apiSuccessExample {json} Success-Response:
+     *     HTTP/1.1 200 OK
+     *     {
+     *          "meta": {
+     *             "success": true,
+     *             "message": "success",
+     *             "code": 200
+     *          },
+     *          "response": null
+     *     }
+     *
+     * @apiError Error Get list failure
+     * @apiErrorExample {json} Error-Response 500:
+     *     HTTP/1.1 500 GetErrorFailure
+     *     {
+     *        "meta": {
+     *            "success": false,
+     *            "message": "failure",
+     *            "code": 500,
+     *            "errors": null
+     *        },
+     *        "response": null
+     *     }
+     *
+     */
+    /**
+     * @param int $id
+     * @return \Illuminate\Http\JsonResponse
+     * @throws \Exception
+     */

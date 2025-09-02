@@ -1,0 +1,26 @@
+<?php
+
+$originalTranslations = [
+    'singular' => 'Loyalty Card',
+
+    'message_retrieved_successfully' => 'The loyalty has been retrieved successfully',
+    'message_retrieved_multiple_successfully' => 'The loyalties have been retrieved successfully',
+    'message_created_successfully' => 'The loyalty has been created successfully',
+    'message_updated_successfully' => 'The loyalty has been updated successfully',
+    'message_saved_successfully' => 'The loyalty has been saved successfully',
+    'message_deleted_successfully' => 'The loyalty has been deleted successfully',
+    'message_redeem_successfully' => 'You have redeemed successfully',
+    'message_already_redeem' => 'You have already redeemed this discount! Place an order and use this discount!',
+    'message_not_enough_point' => ':point credits needed',
+    'message_unable_re_redeemable' => 'You have already redeemed another discount! Use it before redeeming a new one!',
+    'message_redeem_retrieved_successfully' => 'The redeem has been retrieved successfully',
+    'not_found' => 'Loyalty not found',
+
+    'text_credits' => ':number CREDITS',
+
+    'button_redeem' => 'Redeem',
+    'already_redeem' => 'Already redeemed',
+    'not_use_loyalty_card' => ':restaurant_name does not use a loyalty card',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

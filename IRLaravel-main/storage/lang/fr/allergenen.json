@@ -1,0 +1,16 @@
+{
+    "types.ei": "OEUF",
+    "types.gluten": "GLUTEN",
+    "types.lupine": "LUPIN",
+    "types.melk": "LAIT",
+    "types.mosterd": "MOUTARDE",
+    "types.noten": "FRUITS \u00c0 COQUE",
+    "types.pindas": "ARACHIDES",
+    "types.schaald": "CRUSTAC\u00c9S",
+    "types.selderij": "C\u00c9LERI",
+    "types.sesamzaad": "S\u00c9SAME",
+    "types.soja": "SOJA",
+    "types.vis": "POISSON",
+    "types.weekdieren": "MOLLUSQUES",
+    "types.zwavel": "SULFITES"
+}

@@ -1,0 +1,84 @@
+#container {
+  background: url('../../images/bg-footer.jpg') repeat;
+}
+
+/* Loyalty row item */
+.wrap-page-card {
+  .wrap-content-card {
+    .wrap-text {
+      .btn {
+        display: inline-block;
+        float: left;
+      }
+
+      .btn.btn-andere-gray:hover {
+        background: white!important;
+      }
+
+      .btn-redeem {
+        box-shadow: none;
+      }
+
+      .btn-redeem-history {
+        display: inline-block;
+        float: left;
+        margin-left: 20px;
+
+        img {
+          width: 22px;
+          margin-top: 10px;
+        }
+      }
+      
+      .btn-pr-custom:hover {
+        background: white!important;
+      }
+
+      .reward-item.row-disabled {
+        color: #A8A8A8;
+
+        .title {
+          color: #A8A8A8;
+        }
+
+        .description {
+          color: #A8A8A8;
+        }
+
+        .credit {
+          color: #A8A8A8;
+        }
+      }
+    }
+    .mg-top-15 {
+      margin-top: 15px;
+    }
+  }
+}
+
+
+/* Loyalty popup */
+.pop-up {
+  .wrap-popup-card {
+    .wp-card {
+      .reward-image {
+        padding-top: 22px;
+      }
+
+      .image-popup {
+        width: 100%;
+        vertical-align: middle;
+
+        /* Reset from CSS */
+        position: static;
+        right: auto;
+        top: auto;
+        transform: none;
+      }
+    }
+  }
+}
+
+.mobile-content {
+  display: none;
+}

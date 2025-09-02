@@ -1,0 +1,19 @@
+{
+    "title": "MwSt-Regeln",
+    "take_out": "Mitnahme",
+    "delivery": "Lieferung",
+    "in_house": "Vor Ort",
+    "save_success": "MwSt-Regeln wurden erfolgreich gespeichert.",
+    "name_holder": "Name des Mehrwertsteuersatzes",
+    "message_retrieved_successfully": "MwSt wurde erfolgreich abgerufen",
+    "message_retrieved_list_successfully": "MwSt-Liste wurde erfolgreich abgerufen",
+    "message_created_successfully": "MwSt-Aufgabe wurde erfolgreich erstellt",
+    "message_updated_successfully": "MwSt-Aufgabe wurde erfolgreich aktualisiert",
+    "message_deleted_successfully": "MwSt-Aufgabe wurde erfolgreich gel\u00f6scht",
+    "message_saved_successfully": "MwSt-Aufgabe wurde erfolgreich gespeichert",
+    "not_found": "MwSt nicht gefunden",
+    "id": "ID",
+    "validation.take_out_required": "Mitnahme ist erforderlich",
+    "validation.delivery_required": "Lieferung ist erforderlich",
+    "validation.in_house_required": "Vor Ort ist erforderlich"
+}

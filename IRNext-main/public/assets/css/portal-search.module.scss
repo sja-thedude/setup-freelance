@@ -1,0 +1,138 @@
+@import 'mixins';
+
+.search {
+    position: relative;
+    border-radius: 5px;
+    background: #B5B35C;
+
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+    width: 44%;
+    height: 99px;
+    padding: 26px 15px 26px 19px;
+
+    .searchInput {
+        border-radius: 5px;
+        background: #FFF;
+        padding-left: 8px;
+        position: relative;
+
+        .searchImg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #inputing {
+            border: 0;
+            width: 95%;
+            color: #000;
+            @include fontCompactDisplay;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-left: 9px;
+        }
+
+        #inputing:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        .quitIcon {
+            position: absolute;
+            right: 15px;
+            top: 20px;
+        }
+
+        .quitIcon:hover {
+            cursor: pointer;
+        }
+    }
+
+    .butStore {
+        padding-left: 23px;
+        position: relative;
+
+        .searchIcon {
+            position: absolute;
+            top: 11px;
+            left: 51px;
+        }
+
+        .buttonSearch {
+            border-radius: 5px;
+            width: 188px;
+
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
+            border: 0;
+            height: 100%;
+            color: #FFF;
+
+            p {
+                position: absolute;
+                top: 15px;
+                left: 95px;
+                color: #FFF;
+                text-align: center;
+                @include fontSemiBold;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+
+    .butStore:hover {
+        cursor: pointer;
+    }
+
+
+}
+
+.disabled:hover {
+    cursor: not-allowed;
+}
+
+.iconMobile{
+    position: absolute;
+    top: 3px;
+}
+
+.portal-search-header{
+    position: relative;
+}
+
+.listContain {
+    position: absolute;
+    top: 73px;
+    left: 13px;
+    border-radius: 10px;
+    background: #FFF;
+
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.10);
+    width: 91%;
+    max-height: 311px;
+    overflow: auto;
+    z-index: 500;
+}
+
+.listContainMoblie{
+    position: absolute;
+    z-index: 5000;
+    top: 45px;
+    left: 58px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.1);
+    width: 79%;
+    @include fontSemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    max-height: 320px;
+    overflow: auto;
+}

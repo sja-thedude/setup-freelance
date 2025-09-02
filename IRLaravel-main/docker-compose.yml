@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  php-fpm:
+    build:
+      context: ./docker/php-fpm
+    volumes:
+      - .:/var/www/html
+      - ./docker/php-fpm/php.ini:/usr/local/etc/php/php.ini
+  nginx:
+    build:
+      context: ./docker/nginx
+    volumes:
+      - .:/var/www/html
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./docker/nginx/sites/:/etc/nginx/sites-available
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d
+    depends_on:
+      - php-fpm
+    ports:
+      - ${PORT_HTTP}:80
+      - ${PORT_HTTPS}:443
+  database:
+    build:
+      context: ./docker/database
+    environment:
+      - MYSQL_DATABASE=its_ready
+      - MYSQL_USER=its_ready
+      - MYSQL_PASSWORD=123@123A123a!
+      - MYSQL_ROOT_PASSWORD=123@123A123a!
+    volumes:
+      - .:/var/www/html
+#      - ./database/data.sql:/docker-entrypoint-initdb.d/data.sql
+    ports:
+      - 33066:3306
+      - 33082:3307
+  #redis
+  redis:
+    image: redis:5-alpine
+    volumes:
+      - ./docker/data/redis:/data
+    restart: unless-stopped

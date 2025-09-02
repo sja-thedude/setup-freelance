@@ -1,0 +1,702 @@
+{
+    "project_info": {
+        "project_number": "747199944401",
+        "project_id": "it-s-ready-prod",
+        "storage_bucket": "it-s-ready-prod.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:a03050c9ca039823bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-6hp0p7od1j7m3qp1al3hj452a5esi23e.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready",
+                        "certificate_hash": "e87db0274588569632cc0c58856389e2116a3582"
+                    }
+                },
+                {
+                    "client_id": "747199944401-jrlvmp1imafhpbjvm44lglagjf61a1dp.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready",
+                        "certificate_hash": "3503cee011221cb9cb31ca5dbf1a4bab02c7b194"
+                    }
+                },
+                {
+                    "client_id": "747199944401-s7ukaoj8q9c8fn1js8qghbm2kcjpg59i.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready",
+                        "certificate_hash": "fcc2cb72eb2f5bcc52d96eb0559f07872bcaeea9"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:ab8fe7f23a777356bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.chanrykermt"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-of1n9c0dj23b89je081m4ltdag0qdnp6.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.chanrykermt",
+                        "certificate_hash": "ff4d9083e11da205eb0c3157a64649a98970cb35"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:94735d32af8a6044bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.dekrommedraai"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-n42gj1feg2ct7cjfud26me3q4et1mns4.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.dekrommedraai",
+                        "certificate_hash": "efd0d59e5abf96f9fcfd33617c4171f4b89ce34b"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:ee0760018669e1e9bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frietshopham"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-legu27f3ef3tat6ujshg5orbjmjrbkca.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.frietshopham",
+                        "certificate_hash": "6bd6f61dc23454f1fb1350fefbd3a8b9d27fd422"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:8d6d2b5eefb6d334bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frituuralba"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-77alnebhpr45r9l03nj19mvtufklbba0.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.frituuralba",
+                        "certificate_hash": "be3956f611ec7eaad302f87d138ea2b91b6fa266"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:0d011806e7dc063fbcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.frituurtspoor"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-7t6cbqj3tjn68o4kvds8lifv2mu4l64r.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.frituurtspoor",
+                        "certificate_hash": "db4304fe84f9a64177015079652849fc92e51475"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:633692febac50a07bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.halte45"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-e7h3i85gfflfo0c8iiurdi66622jtt95.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.halte45",
+                        "certificate_hash": "72424b2b520d54d7493eac3df9e3acd72bd8f3b1"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:378a68d8e4557301bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.knabbelke"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-6ifeoitcqsuqd7nggcqutn2nun9nbqkc.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.knabbelke",
+                        "certificate_hash": "a3ee1f88ce646a27c93d9f50064f2512a2aea82f"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:6a0014cf4a2e0da2bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.nina"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-cp9v9tdnpbgfeqsulmgg4enpob808hg9.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.nina",
+                        "certificate_hash": "e692e1b5bd5d956192150888b15e9b28afc458f0"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:9dfc16e05ac4a213bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.planb"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-h8s4vna4318at2s9l4pcm9sar8onp8ap.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.planb",
+                        "certificate_hash": "ce08998e238c122a03a34626734e08f174ebf806"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:67a8018c9c42437bbcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.readyfreddy"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-9u1hpamfh7g2t9t5do1r5caut0q3d6vl.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.readyfreddy",
+                        "certificate_hash": "a174c12e281a6e9261135a1d5e8a12250a9ddcbc"
+                    }
+                },
+                {
+                    "client_id": "747199944401-avgdtk7qo4rvp15k1a8pe2psujsmm0mc.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.readyfreddy",
+                        "certificate_hash": "e87db0274588569632cc0c58856389e2116a3582"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:16587c7e8f42c0d3bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.rn.template.staging"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-qt9qhcn70galk02crhhvtlhgnepdskv1.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.rn.template.staging",
+                        "certificate_hash": "e87db0274588569632cc0c58856389e2116a3582"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:3669c47fc4774fbfbcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.sannekesfriet"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-luh9ov3cnuj7ifcqq7vohoeb5i09din4.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.sannekesfriet",
+                        "certificate_hash": "1109cedac9659fdbe05863d059af9b848fb09ae2"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:676d7650f15ca986bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.template.staging"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-ldcf1t4r74bougemuqlne6f0bmanmgi2.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.template.staging",
+                        "certificate_hash": "3503cee011221cb9cb31ca5dbf1a4bab02c7b194"
+                    }
+                },
+                {
+                    "client_id": "747199944401-lrdrogb31gbf3cveah3ruo3343n84ed3.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.template.staging",
+                        "certificate_hash": "e87db0274588569632cc0c58856389e2116a3582"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:747199944401:android:16ba7c8967467923bcd7f0",
+                "android_client_info": {
+                    "package_name": "be.appoint.itsready.whatshapp"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "747199944401-fcqjaftgtehg4cp55d2ucb8appqqni2f.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "be.appoint.itsready.whatshapp",
+                        "certificate_hash": "29932972b7a96fdc849c2f6abfc42146debc4b49"
+                    }
+                },
+                {
+                    "client_id": "747199944401-scjru2g469kiri3d2tuahon83jkqbd18.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBr--eaWXVmUu0dwmwSCkPTCInCX5AeT3Y"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "747199944401-9hjr9sj9omb0bv72k62o70q5gsvqru9n.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "747199944401-0rnjknfk24ql3i4ge1ine38f47r1p963.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "com.itsready.knabbelke"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

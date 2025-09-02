@@ -1,0 +1,217 @@
+function Default() {
+}
+
+Default.fn = {
+    init: function () {
+        Lang.setLocale(defaultLang);
+        Default.fn.loginFormValidation.call(this);
+        Default.fn.forgotFormValidation.call(this);
+        Default.fn.forgotSuccess.call(this);
+        Default.fn.customRequired.call(this);
+        Default.fn.onlyText.call(this);
+        Default.fn.phoneValid.call(this);
+        Default.fn.emailValid.call(this);
+        Default.fn.customValidateCutoffTime.call(this);
+        Default.fn.checkSubmitButton.call(this);
+        Default.fn.validateMin.call(this);
+        Default.fn.validateMax.call(this);
+        Default.fn.toggleShowPassword.call(this);
+    },
+    
+    validateMin: function() {
+        $(document).on('change keyup', '.validate-min', function(){
+            var value = $(this).val();
+            var min = $(this).data('min');
+
+            if(value < min) {
+                $(this).val(min);
+            }
+        });
+    },
+
+    validateMax: function() {
+        $(document).on('change keyup', '.validate-max', function(){
+            var value = $(this).val();
+            var max = $(this).data('max');
+
+            if(value > max) {
+                $(this).val(max);
+            }
+        });
+    },
+    
+    checkSubmitButton: function() {
+        $('.submit').map(function(){
+            $(this).attr('disabled', 'disabled');
+        });
+
+        $(document).on('change keyup', 'form input', function(){
+            var submit = $(this).closest('form').find('.submit');
+            Default.fn.triggerValidateSubmitButton(submit);
+        });
+        $(document).on('change', 'form select', function(){
+            var submit = $(this).closest('form').find('.submit');
+            Default.fn.triggerValidateSubmitButton(submit);
+        });
+        $(document).on('change keyup', 'form textarea', function(){
+            var submit = $(this).closest('form').find('.submit');
+            Default.fn.triggerValidateSubmitButton(submit);
+        });
+    },
+    
+    triggerValidateSubmitButton: function(submit) {
+        if(submit.length) {
+            var form = submit.closest('form');
+            
+            if(form.length) {
+                if(form.valid()) {
+                    submit.removeAttr('disabled');
+                } else {
+                    submit.attr('disabled', 'disabled');
+                }
+            }
+        }
+    },
+
+    customRequired: function() {
+        $.validator.addMethod( "customRequired", function( value, element ) {
+            if($.trim(value).length === 0){
+                $(element).val('');
+                return false;
+            }
+
+            return true;
+        }, Lang.get('common.validation.field_required'));
+    },
+
+    onlyText: function() {
+        $.validator.addMethod( "onlyText", function( value, element ) {
+            return this.optional( element ) || !/\d+/.test( value );
+        }, Lang.get('common.validation.only_text'));
+    },
+
+    phoneValid: function() {
+        $.validator.addMethod( "phoneValidate", function( value, element ) {
+            return this.optional( element ) || /(\+\d{1,2})(\d{3}){2}\d{4}/.test( value );
+        }, Lang.get('common.validation.phone_valid'));
+    },
+
+    emailValid: function() {
+        $.validator.addMethod( "emailValidate", function( value, element ) {
+            return this.optional( element ) || /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test( value );
+        }, Lang.get('common.validation.email_valid'));
+    },
+
+    customValidateCutoffTime: function() {
+        $.validator.addMethod( "cutoffTimeValidate", function( value, element ) {
+            var target = $(element).attr('target_element');
+            var targetValue = $(target).val();
+            var startTime = moment(targetValue, 'HH:mm');
+            var endTime = moment(value, 'HH:mm');
+            return startTime.isBefore(endTime);
+        }, Lang.get('common.validation.pickup_delivery_time_greater_cut_off'));
+
+        $.validator.addMethod( "cutoffTimeRequired", function( value, element ) {
+            return value != '00:00';
+        }, Lang.get('common.validation.field_required'));
+    },
+    
+    loginFormValidation: function() {
+        $('.login-validation form').validate({
+            onkeyup: false,
+            onfocusout: false,
+            rules: {
+                email: {
+                    customRequired: true,
+                    emailValidate: true
+                },
+                password: {
+                    customRequired: true,
+                },
+            },
+            invalidHandler: function(event, validator) {
+                $(event.currentTarget).find('.ip-has-icon.has-error').removeClass('has-error');
+
+                var errors = validator.numberOfInvalids();
+                if (errors) {
+                    if(validator.errorList && validator.errorList.length) {
+                        $.each(validator.errorList, function(index, item) {
+                            $(item.element).closest('.ip-has-icon').addClass('has-error');
+                        });
+                    }
+                }
+            },
+            submitHandler: function(form) {
+                if ($(form).valid()) {
+                    form.submit();
+                }
+            }
+        });
+    },
+
+    forgotFormValidation: function() {
+        $('.forgot-validation form').validate({
+            onkeyup: false,
+            onfocusout: false,
+            rules: {
+                email: {
+                    customRequired: true,
+                    emailValidate: true
+                },
+            },
+            invalidHandler: function(event, validator) {
+                $(event.currentTarget).find('.ip-has-icon.has-error').removeClass('has-error');
+
+                var errors = validator.numberOfInvalids();
+                if (errors) {
+                    if(validator.errorList && validator.errorList.length) {
+                        $.each(validator.errorList, function(index, item) {
+                            $(item.element).closest('.ip-has-icon').addClass('has-error');
+                        });
+                    }
+                }
+            },
+            submitHandler: function(form) {
+                if ($(form).valid()) {
+                    form.submit();
+                }
+            }
+        });
+    },
+
+    forgotSuccess: function() {
+        if($('.forgot-success').length) {
+            var route = $('.forgot-success').data('route');
+
+            setTimeout(function(){
+                location.href = route;
+            }, 5000);
+        }
+    },
+
+    /**
+     * Toggle show/hide password
+     */
+    toggleShowPassword: function () {
+        $(document).on('click', '.form-line .show-pass, .ip-has-icon .show-pass, .form-line-modal .show-pass, body .show-pass', function () {
+            if($(this).hasClass('active')){
+                if( $(this).prev().attr('type') == 'password' ){
+                    $(this).prev().attr('type', 'text');
+                }else{
+                    $(this).prev().attr('type', 'password');
+                }
+
+                $(this).find('.svg-icon').toggleClass('hidden');
+                return false;
+            }
+        });
+    },
+    
+    rule: function () {
+        $(document).ready(function () {
+            Default.fn.init.call(this);
+        });
+    },
+};
+
+Default.fn.rule();

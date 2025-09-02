@@ -1,0 +1,10 @@
+{
+    "message_not_found": "Die Restaurantreferenzeinstellungen wurden nicht konfiguriert",
+    "message_retrieved_list_successfully": "Einstellungsreferenzen wurden erfolgreich abgerufen",
+    "message_retrieved_successfully": "Einstellungsreferenz wurde erfolgreich abgerufen",
+    "message_created_successfully": "Einstellungsreferenz wurde erfolgreich erstellt",
+    "message_updated_successfully": "Einstellungsreferenz wurde erfolgreich aktualisiert",
+    "message_deleted_successfully": "Einstellungsreferenz wurde erfolgreich gel\u00f6scht",
+    "message_saved_successfully": "Einstellungsreferenz wurde erfolgreich gespeichert",
+    "not_found": "Einstellungsreferenz nicht gefunden"
+}

@@ -1,0 +1,614 @@
+@import 'mixins';
+
+.order-confirm {
+  margin-bottom: 80px;
+
+  .group-confirmation {
+    padding: 45px 0px 20px 0px;
+
+    .order-successfully {
+      color: #000;
+      @include fontSemiBold;
+      font-size: 20px;
+      padding: 25px 10px;
+      font-weight: 700;
+    }
+
+    .mail-order-successfully {
+      padding: 0px 15px 25px 15px;
+      @include fontCompactDisplay;
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .back-btn {
+      color: var(--White, #FFF);
+      @include fontCompactDisplay;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 11px 48px;
+      border-radius: 6px;
+      background: #413E38;
+      width: fit-content;
+      margin: auto;
+    }
+  }
+
+  .slide-order {
+    .slide-card {
+      border-radius: 6px;
+      background: #FFF;
+      box-shadow: 2px 10px 20px 0px rgba(109, 109, 109, 0.15);
+
+      .card-title {
+        padding: 20px 35px 0px 30px;
+        color: #000;
+        @include fontSemiBold;
+        font-size: 17px;
+        font-weight: 700;
+      }
+
+      .name-store {
+        padding: 5px 35px 0px 30px;
+        @include fontSemiBold;
+        font-weight: 700;
+        font-size: 17px;
+        text-transform: uppercase;
+      }
+
+      .datetime {
+        padding: 10px 35px 0px 30px;
+        color: #000;
+        @include fontSemiBold;
+        font-size: 13px;
+        line-height: 25px;
+        font-weight: 700;
+      }
+
+      .card-body {
+        .card-items {
+          max-height: 150px;
+          overflow-y: scroll;
+          overflow-x: hidden;
+
+          .main-item {
+            padding: 10px 15px 0px 12px;
+            @include fontCompactDisplay;
+            color: #000;
+            font-size: 16px;
+            font-weight: 400;
+
+            .item-quantity {
+              font-size: 16px;
+              font-weight: 600;
+
+              span {
+                font-size: 16px;
+                font-weight: 400;
+              }
+            }
+
+            .item-price {
+              text-align: right;
+            }
+          }
+
+          .sub-options {
+            @include fontCompactDisplay;
+            color: #797979;
+            padding: 0px 15px 0px 45px;
+            font-size: 14px;
+            font-weight: 400;
+
+            .option-price {
+              text-align: right;
+            }
+          }
+
+          .line-break {
+            padding : 4px 10px 0px 30px;
+            .line-order {
+              border-bottom: 1px #D1D1D1 solid;
+            }
+          }
+        }
+
+        .card-contents {
+          padding: 20px 35px 30px 30px;
+          .card-label {
+            color: #000;
+            @include fontCompactDisplay;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 25px;
+          }
+
+          .card-content {
+            color: #000;
+            text-align: right;
+            @include fontSemiBold;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 25px;
+            word-wrap: break-word;
+          }
+        }
+      }
+
+      .card-footer {
+        padding: 8px 15px 25px 30px;
+        color: #B4B4B4;
+        @include fontCompactDisplay;
+        font-size: 12px;
+        font-weight: 400;
+
+        .sub-price {
+          text-align: right;
+        }
+
+        .main-price-label, .main-price {
+          color: #000;
+          @include fontSemiBold;
+          font-size: 16px;
+          font-weight: 700;
+        }
+
+        .main-price {
+          text-align: right;
+        }
+
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .order-confirm {
+    padding-top: 70px;
+    gap: 60px;
+
+    .row-cart-confirmation {
+      padding: 62px 56px 124px 56px !important;
+    }
+
+    .group-confirmation {
+      background-color: #F5F5F5;
+      margin-bottom: 70px;
+      padding: 40px;
+      gap: 30px;
+      border-radius: 10px;
+
+      .group-confirmation-gap {
+        display: flex ;
+        flex-direction: column ;
+        gap: 11px ;
+      }
+
+      .order-successfully {
+        padding: 0 0 0 10px !important;
+        color: #404040;
+        @include fontSemiBold;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 1000;
+        line-height: normal;
+        text-transform: uppercase;
+        text-align: left !important;
+      }
+
+      .mail-order-successfully {
+        padding: 0 0 0 10px !important;
+        color: #888;
+        @include fontCompactDisplay;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 556;
+        line-height: normal;
+        max-width: 396px;
+        min-width: 375px;
+        height: 50px;
+      }
+
+      .back-btn {
+        border-radius: 5px;
+        box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.10);
+        color: #FFF;
+        display: flex;
+        padding: 20px 23px;
+        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+        @include fontCompactDisplay;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 790;
+        line-height: normal;
+        letter-spacing: 1.44px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+    }
+
+    .slide-order-information {
+      margin-right: 160px;
+
+      .slide-card-information {
+        gap: 30px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+
+        .card-title-information {
+          text-transform: uppercase;
+          align-self: stretch;
+          padding: 20px 20px 11px 20px;
+          @include fontSemiBold;
+          color: #404040;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 1000;
+          line-height: normal;
+        }
+
+        .datetime-information {
+          padding: 0 20px 0 20px;
+          color: #888;
+          @include fontCompactDisplay;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 556;
+          line-height: normal;
+          height: 50px;
+          align-self: stretch;
+        }
+
+        .card-body-information {
+          padding: 11px 20px 20px 20px;
+
+          .card-items-information {
+            display: flex;
+            color: #404040;
+            text-align: right;
+
+            .card-body-information-title,
+            .card-body-information-description {
+              min-width: 0;
+              word-wrap: break-word;
+              overflow-wrap: break-word;
+              font-size: 18px;
+              font-style: normal;
+              line-height: 35px;
+            }
+
+            .card-body-information-title {
+              display: flex;
+              color: #404040;
+              align-content: center;
+              justify-content: left;
+              @include fontCompactDisplay;
+              font-weight: 556;
+            }
+
+            .card-body-information-description {
+              color: #404040;
+              display: inline-flex;
+              justify-content: right;
+              align-content: center;
+              @include fontSemiBold;
+              text-align: right;
+              font-weight: 943;
+            }
+          }
+
+          .card-items {
+            max-height: 150px;
+            overflow-y: auto;
+
+            .main-item {
+              padding: 10px 15px 0px 12px;
+              @include fontCompactDisplay;
+              color: #000;
+              font-size: 16px;
+              font-weight: 400;
+
+              .item-quantity {
+                font-size: 16px;
+                font-weight: 600;
+
+                span {
+                  font-size: 16px;
+                  font-weight: 400;
+                }
+              }
+
+              .item-price {
+                text-align: right;
+              }
+            }
+
+            .sub-options {
+              @include fontCompactDisplay;
+              color: #797979;
+              padding: 0px 15px 0px 45px;
+              font-size: 14px;
+              font-weight: 400;
+
+              .option-price {
+                text-align: right;
+              }
+            }
+
+            .line-break {
+              padding : 4px 10px 0px 30px;
+              .line-order {
+                border-bottom: 1px #D1D1D1 solid;
+              }
+            }
+          }
+
+          .card-contents {
+            padding: 20px 35px 30px 30px;
+            .card-label {
+              color: #000;
+              @include fontCompactDisplay;
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 25px;
+            }
+
+            .card-content {
+              color: #000;
+              text-align: right;
+              @include fontSemiBold;
+              font-size: 13px;
+              font-weight: 700;
+              line-height: 25px;
+            }
+          }
+        }
+
+        .card-footer {
+          padding: 8px 15px 25px 30px;
+          color: #B4B4B4;
+          @include fontCompactDisplay;
+          font-size: 12px;
+          font-weight: 400;
+
+          .sub-price {
+            text-align: right;
+          }
+
+          .main-price-label, .main-price {
+            color: #000;
+            @include fontSemiBold;
+            font-size: 16px;
+            font-weight: 700;
+          }
+
+          .main-price {
+            text-align: right;
+          }
+
+        }
+
+      }
+    }
+    .slide-order-billing {
+      padding-left: 20px;
+      .slide-card-billing {
+        border-radius: 10px;
+        background-color: #F5F5F5;
+        padding: 20px;
+
+        .card-title-billing {
+          text-transform: uppercase;
+          color: #404040;
+          @include fontSemiBold;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 1000;
+          line-height: normal;
+          margin-bottom: 11px;
+        }
+
+        .name-store-billing {
+          padding: 5px 35px 0px 30px;
+          @include fontSemiBold;
+          font-weight: 700;
+          font-size: 17px;
+          text-transform: uppercase;
+        }
+
+        .datetime-billing {
+          padding: 10px 35px 0px 30px;
+          color: #000;
+          @include fontSemiBold;
+          font-size: 13px;
+          line-height: 25px;
+          font-weight: 700;
+        }
+
+        .line-break {
+          padding : 0;
+
+          .line-order {
+            border-bottom: 1px #D1D1D1 solid;
+          }
+        }
+
+        .card-body-billing {
+          .card-items-billing {
+            max-height: 100%;
+            overflow-y: hidden;
+            overflow-x: hidden;
+
+            .main-item-billing {
+              padding: 10px 15px 10px 12px;
+              @include fontCompactDisplay;
+              color: #000;
+              font-size: 16px;
+              font-weight: 400;
+
+              .item-quantity-billing {
+                color: #404040;
+                text-align: left;
+                @include fontSemiBold;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 1000;
+                line-height: normal;
+              }
+
+              .item-name-billing {
+                color: #404040;
+                text-align: left;
+                @include fontCompactDisplay;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 556;
+                line-height: normal;
+              }
+
+              .item-price-billing {
+                color: #D87833;
+                text-align: right;
+                @include fontSemiBold;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 1000;
+                line-height: normal;
+              }
+            }
+
+            .sub-item-billing {
+              padding: 0 15px 10px 41px;
+            }
+
+            .sub-options-billing {
+              color: #888;
+              @include fontCompactDisplay;
+              padding: 0px 15px 0px 41px;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 457;
+              line-height: normal;
+
+              .option-price {
+                text-align: right;
+              }
+            }
+
+            .line-break-billing {
+              padding : 0;
+              opacity: 50%;
+
+              .line-order-billing {
+                border-bottom: 1px #D1D1D1 solid;
+              }
+            }
+          }
+
+          .card-contents {
+            padding: 20px 35px 30px 30px;
+            .card-label {
+              color: #000;
+              @include fontCompactDisplay;
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 25px;
+            }
+
+            .card-content {
+              color: #000;
+              text-align: right;
+              @include fontSemiBold;
+              font-size: 13px;
+              font-weight: 700;
+              line-height: 25px;
+            }
+          }
+        }
+
+        .card-total-billing {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 60%;
+        }
+
+        .card-footer-billing {
+          padding: 0 15px;
+          .sub-prices-billing {
+            display: flex;
+            flex-wrap: wrap;
+            color: #888;
+            @include fontCompactDisplay;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 556;
+            line-height: normal;
+
+            .sub-price-label{
+              display: flex;
+              height: 34px;
+              align-items: center;
+              justify-content: start;
+            }
+
+            .sub-price {
+              display: flex;
+              height: 34px;
+              align-items: center;
+              justify-content: end;
+            }
+          }
+
+          .main-price-label, .main-price {
+            color: #000;
+            @include fontSemiBold;
+            font-size: 16px;
+            font-weight: 700;
+          }
+
+          .main-price {
+            text-align: right;
+          }
+
+        }
+
+        .total-prices-billing {
+          padding-left: 50%;
+
+          .main-price-label {
+            display: flex;
+            height: 52px;
+            flex-direction: column;
+            justify-content: center;
+            color: #404040;
+            font-family: SF Compact Display Black;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 1000;
+            line-height: normal;
+            text-align: right;
+          }
+
+          .main-price {
+            display: flex;
+            height: 52px;
+            flex-direction: column;
+            justify-content: center;
+            color: #D87833;
+            @include fontSemiBold;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 1000;
+            line-height: normal;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "message_retrieved_list_successfully": "Einstellungen der Zeitfensterdetails wurden erfolgreich abgerufen",
+    "message_retrieved_successfully": "Einstellung des Zeitfensterdetails wurde erfolgreich abgerufen",
+    "message_created_successfully": "Einstellung des Zeitfensterdetails wurde erfolgreich erstellt",
+    "message_updated_successfully": "Einstellung des Zeitfensterdetails wurde erfolgreich aktualisiert",
+    "message_deleted_successfully": "Einstellung des Zeitfensterdetails wurde erfolgreich gel\u00f6scht",
+    "message_saved_successfully": "Einstellung des Zeitfensterdetails wurde erfolgreich gespeichert",
+    "not_found": "Einstellung des Zeitfensterdetails nicht gefunden"
+}

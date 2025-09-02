@@ -1,0 +1,43 @@
+{
+  "name": "platform",
+  "description": "Laravel CMS",
+  "main": "",
+  "authors": [
+    "Hunter Le <hunter@vitex.asia>"
+  ],
+  "license": "MIT",
+  "homepage": "https://gitlab.com/huonglm09/appoint-core-none-workspace",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/assets/"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7",
+    "fontawesome": "~4.5.0",
+    "bootstrap": "^3.3.6",
+    "iCheck": "icheck#^1.0.2",
+    "select2": "^4.0.3",
+    "taggle": "^1.11.2",
+    "toastr": "^2.1.3",
+    "jquery-slimscroll": "^1.3.8",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "jquery-loading": "^1.2.0",
+    "bootbox.js": "^4.4.0",
+    "switchery": "^0.8.2",
+    "bootstrap-datepicker": "^1.8.0",
+    "dropzone": "^5.1.1",
+    "highcharts": "^6.1.0",
+    "bootstrap3-typeahead": "^4.0.2",
+    "ckeditor-youtube-plugin": "^2.1.10",
+    "kcfinder": "2.54",
+    "bootstrap-rating": "1.3.2",
+    "jquery-sortable": "0.9.13"
+  },
+  "devDependencies": {
+    "jasny-bootstrap": "^3.1.3"
+  }
+}

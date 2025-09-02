@@ -1,0 +1,16 @@
+#footer {
+  background: transparent;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  clear: both;
+  h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+}

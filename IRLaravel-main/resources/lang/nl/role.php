@@ -1,0 +1,14 @@
+<?php
+
+$originalTranslations = [
+    'Administrator'         => 'Beheerder',
+    'User'                  => 'Gebruiker',
+    'backoffice_role_title' => 'Rollen',
+    'client_role_title'     => 'Klantrollen',
+    'add_role'              => 'Rol toevoegen',
+    'edit_role'             => 'Rol bewerken',
+    'detail_role'           => 'Rol details',
+    'are_you_sure_delete'   => 'Weet je zeker dat je deze rol wilt verwijderen?',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

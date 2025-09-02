@@ -1,0 +1,19 @@
+{
+    "singular": "Kundenkarte",
+    "message_retrieved_successfully": "Die Treue wurde erfolgreich abgerufen",
+    "message_retrieved_multiple_successfully": "Die Treueprogramme wurden erfolgreich abgerufen",
+    "message_created_successfully": "Die Treue wurde erfolgreich erstellt",
+    "message_updated_successfully": "Die Treue wurde erfolgreich aktualisiert",
+    "message_saved_successfully": "Die Treue wurde erfolgreich gespeichert",
+    "message_deleted_successfully": "Die Treue wurde erfolgreich gel\u00f6scht",
+    "message_redeem_successfully": "Sie haben erfolgreich eingel\u00f6st",
+    "message_already_redeem": "Sie haben diesen Rabatt bereits eingel\u00f6st! Bestellen Sie und nutzen Sie diesen Rabatt!",
+    "message_not_enough_point": ":point Credits ben\u00f6tigt",
+    "message_unable_re_redeemable": "Sie haben bereits einen anderen Rabatt eingel\u00f6st! Nutzen Sie diesen, bevor Sie einen neuen einl\u00f6sen!",
+    "message_redeem_retrieved_successfully": "Der Einl\u00f6sevorgang wurde erfolgreich abgerufen",
+    "not_found": "Treue nicht gefunden",
+    "text_credits": ":number CREDITS",
+    "button_redeem": "Einl\u00f6sen",
+    "already_redeem": "Bereits eingel\u00f6st",
+    "not_use_loyalty_card": ":restaurant_name verwendet keine Kundenkarte"
+}

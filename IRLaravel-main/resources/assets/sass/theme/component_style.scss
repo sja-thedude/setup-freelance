@@ -1,0 +1,336 @@
+@import "theme_variables";
+@import "theme_mixins";
+@import "../vendor/mixins";
+
+.ir-theme {
+    font-size: 14px;
+    @include text-setting($fontOpenSans, normal, normal, $colorBody);
+    
+    h1, .h1, h2, .h2, h3, .h3 {
+        margin: 0;
+    }
+    .ir-h1 {
+        font-size: 48px;
+        line-height: 48px;
+        @include text-setting($fontTrack, normal, normal, $colorBlack100);
+    }
+    .ir-h2 {
+        font-size: 36px;
+        line-height: 36px;
+        @include text-setting($fontTrack, normal, normal, $colorBlack100);
+    }
+    .ir-h3 {
+        font-size: 28px;
+        line-height: 28px;
+        @include text-setting($fontTrack, normal, normal, $colorBlack100);
+    }
+    .ir-h4 {
+        font-size: 20px;
+        line-height: 20px;
+        @include text-setting($fontTrack, normal, normal, $colorBlack100);
+    }
+    .ir-h5 {
+        font-size: 14px;
+        line-height: 14px;
+        @include text-setting($fontTrack, normal, normal, $colorBlack100);
+    }
+    .ir-sidebar-active {
+        font-size: 16px;
+        line-height: 16px;
+        @include text-setting($fontTrack, normal, normal, $colorPrimary100);
+    }
+    .ir-text {
+        font-size: 18px;
+        line-height: 25px;
+        @include text-setting($fontOpenSans, normal, normal, $colorBody);
+    }
+    .ir-error {
+        font-size: 18px;
+        line-height: 25px;
+        @include text-setting($fontOpenSans, normal, normal, rgba(255, 0, 0, 0.75));
+    }
+    label.error {
+        margin-top: 5px;
+        @include text-setting($fontOpenSans, normal, normal, rgba(255, 0, 0, 0.75));
+    }
+    input.error,
+    .select2.error,
+    textarea.error{
+        background: #FFE2E1 !important;
+        color: rgba(255, 0, 0, 0.75) !important;
+        border: 1px solid rgba(255, 0, 0, 0.75) !important;
+    }
+    .select2.error {
+        @include border-radius(10px);
+    }
+
+    @each $setting in $settingDependColor {
+        .ir-#{$setting}-white {
+            #{$setting}: $colorWhite;
+        }
+        .ir-#{$setting}-black100 {
+            #{$setting}: $colorBlack100;
+        }
+        .ir-#{$setting}-black75 {
+            #{$setting}: $colorBlack75;
+        }
+        .ir-#{$setting}-black50 {
+            #{$setting}: $colorBlack50;
+        }
+        .ir-#{$setting}-black25 {
+            #{$setting}: $colorBlack25;
+        }
+        .ir-#{$setting}-primary100 {
+            #{$setting}: $colorPrimary100;
+        }
+        .ir-#{$setting}-primary75 {
+            #{$setting}: $colorPrimary75;
+        }
+        .ir-#{$setting}-primary50 {
+            #{$setting}: $colorPrimary50;
+        }
+        .ir-#{$setting}-primary25 {
+            #{$setting}: $colorPrimary25;
+        }
+        .ir-#{$setting}-secondary100 {
+            #{$setting}: $colorSecondary100;
+        }
+        .ir-#{$setting}-secondary75 {
+            #{$setting}: $colorSecondary75;
+        }
+        .ir-#{$setting}-secondary50 {
+            #{$setting}: $colorSecondary50;
+        }
+        .ir-#{$setting}-secondary25 {
+            #{$setting}: $colorSecondary25;
+        }
+    }
+
+    .ir-btn {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 12.5px 15px;
+        font-family: $fontSFProText;
+        border: none;
+        @include bg-transition;
+        @include border-radius(10px);
+
+        &.ir-btn-primary {
+            background: $colorPrimary100;
+            color: $colorWhite;
+            border: 1px solid transparent;
+            @include box-shadow(0px 10px 20px rgba(65, 62, 56, 0.15));
+            
+            &.active, &:focus {
+                @include box-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+            }
+
+            &:hover {
+                background: $colorPrimary75;
+                @include box-shadow(0px 10px 20px rgba(65, 62, 56, 0.15));
+            }
+
+            &:disabled,
+            &[disabled="disabled"] {
+                background: $colorPrimary25;
+                @include box-shadow(none);
+            }
+        }
+
+        &.ir-btn-secondary {
+            color: $colorWhite;
+            border: 1px solid $colorSecondary100;
+
+            &.active, &:focus {
+                //color: $colorSecondary100;
+                color: $colorWhite;
+                //background: rgba(0, 10, 20, 0.15);
+                background: $colorSecondary100;
+                box-sizing: border-box;
+                filter: drop-shadow(0px 10px 20px rgba(181, 178, 104, 0.15));
+            }
+
+            &:hover {
+                color: $colorWhite;
+                background: $colorSecondary75;
+                border-color: $colorSecondary75;
+                @include box-shadow(0px 10px 20px rgba(65, 62, 56, 0.15));
+            }
+
+            &:disabled,
+            &[disabled="disabled"]  {
+                background: $colorSecondary25;
+                @include box-shadow(none);
+            }
+        }
+
+        &.ir-btn-secondary-default {
+            color: $colorSecondary100;
+            background: transparent;
+            border: 1px solid $colorSecondary100;
+
+            &.active, &:focus {
+                color: $colorSecondary100;
+                background: rgba(0, 10, 20, 0.15);
+                box-sizing: border-box;
+                filter: drop-shadow(0px 10px 20px rgba(181, 178, 104, 0.15));
+            }
+
+            &:hover {
+                color: $colorWhite;
+                background: $colorSecondary75;
+                border-color: $colorSecondary75;
+                @include box-shadow(0px 10px 20px rgba(65, 62, 56, 0.15));
+            }
+
+            &:disabled,
+            &[disabled="disabled"]  {
+                background: $colorSecondary25;
+                @include box-shadow(none);
+            }
+        }
+
+        &.ir-btn-default {
+            background: $colorWhite;
+            color: $colorPrimary100;
+            border: 1px solid $colorPrimary100;
+            @include box-shadow(0px 4px 10px rgba(181, 178, 104, 0.15));
+
+            &.active, &:focus {
+                @include box-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+            }
+        }
+    }
+    
+    &.nav-sm {
+        .container {
+            &.body {
+                .col-md-3 {
+                    &.left_col {
+                        background: $colorPrimary100;
+                    }
+                }
+            }             
+        }
+    }
+    
+    .ir-plus {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        float: left;
+        position: relative;
+        top: -2px;
+        background: url("/assets/images/plus.svg") no-repeat;
+    }
+    
+    .ir-edit {
+        width: 24px;
+        height: 24px;
+        margin-left: 20px;
+        float: right;
+        position: relative;
+        top: -2px;
+        background: url("/assets/images/edit.svg") no-repeat;
+    }
+
+    .pagination>li>a,
+    .pagination>li>a:focus,
+    .pagination>li>a:hover,
+    .pagination>li>span:focus,
+    .pagination>li>span:hover {
+        color: $colorBody;
+    }
+    
+    .pagination>.active>a, 
+    .pagination>.active>a:focus, 
+    .pagination>.active>a:hover,
+    .pagination>.active>span,
+    .pagination>.active>span:focus,
+    .pagination>.active>span:hover {
+        background-color: $colorSecondary100;
+        border-color: $colorSecondary100;
+    }
+    
+    .normal-text {
+        color: #494949;
+    }
+    
+    .list-header-non-bg {
+        background: transparent !important;
+    }
+    .list-item-none {
+        border-bottom: none !important;
+        
+        &:hover {
+            background: transparent !important;
+        }
+    }
+    .hidden-error {
+        label.error {
+            display: none !important;
+        }
+    }
+
+    .select2-container--default.select2-container--open.select2-container--above .select2-selection--single,
+    .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+
+.has-symbol {
+    position: relative;
+    padding-right: 20px !important;
+
+    .symbol {
+        position: absolute;
+        top: 27px;
+        right: 5px;
+    }
+}
+
+.error-text {
+    margin-top: 5px;
+    font-family: $fontOpenSans !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    color: rgba(255, 0, 0, 0.75) !important;
+}
+
+.option-incl-img {
+    img {
+        max-height: 16px;
+        margin-right: 2px;
+    }
+}
+
+.ir-a {
+    cursor: pointer;
+    font-family: $fontOpenSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #B5B268;
+    position: relative;
+    overflow: hidden;
+    
+    &:hover,
+    &:focus {
+        color: #B5B268;    
+    }
+    
+    span {
+        position: absolute;
+        top: -5px;
+        left: 30px;
+    }
+}
+
+.ir-btn-search {
+    background: $colorWhite;
+    @include box-shadow(-2px 4px 8px rgba(0, 0, 0, 0.1));
+    @include border-radius(0px 5px 5px 0px);
+    height: 40px;
+}

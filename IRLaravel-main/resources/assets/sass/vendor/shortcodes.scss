@@ -1,0 +1,205 @@
+@import "variables";
+@import "mixins";
+
+@each $mg in $series {    
+    .mg-top-#{$mg} {
+        margin-top: #{$mg}px;        
+    }
+    .mg-bottom-#{$mg} {
+        margin-bottom: #{$mg}px;        
+    }
+    .mg-left-#{$mg} {
+        margin-left: #{$mg}px;        
+    }
+    .mg-right-#{$mg} {
+        margin-right: #{$mg}px;        
+    }
+    .mg-#{$mg} {
+        margin: #{$mg}px;        
+    }
+    .mgt-#{$mg} {
+        margin-top: #{$mg}px;
+    }
+    .mgb-#{$mg} {
+        margin-bottom: #{$mg}px;
+    }
+    .mgl-#{$mg} {
+        margin-left: #{$mg}px;
+    }
+    .mgr-#{$mg} {
+        margin-right: #{$mg}px;
+    }
+    .mg-#{$mg} {
+        margin: #{$mg}px;
+    }
+    .mgt-i-#{$mg} {
+        margin-top: #{$mg}px !important;
+    }
+    .mgb-i-#{$mg} {
+        margin-bottom: #{$mg}px !important;
+    }
+    .mgl-i-#{$mg} {
+        margin-left: #{$mg}px !important;
+    }
+    .mgr-i-#{$mg} {
+        margin-right: #{$mg}px !important;
+    }
+    .mg-i-#{$mg} {
+        margin: #{$mg}px !important;
+    }
+}
+
+@each $pd in $series {    
+    .pd-top-#{$pd} {
+        padding-top: #{$pd}px;        
+    }
+    .pd-bottom-#{$pd} {
+        padding-bottom: #{$pd}px;        
+    }
+    .pd-left-#{$pd} {
+        padding-left: #{$pd}px;        
+    }
+    .pd-right-#{$pd} {
+        padding-right: #{$pd}px;        
+    }
+    .pd-#{$pd} {
+        padding: #{$pd}px;        
+    }
+    .pdt-#{$pd} {
+        padding-top: #{$pd}px;
+    }
+    .pdb-#{$pd} {
+        padding-bottom: #{$pd}px;
+    }
+    .pdl-#{$pd} {
+        padding-left: #{$pd}px;
+    }
+    .pdr-#{$pd} {
+        padding-right: #{$pd}px;
+    }
+    .pd-#{$pd} {
+        padding: #{$pd}px;
+    }
+    .pdt-i-#{$pd} {
+        padding-top: #{$pd}px !important;
+    }
+    .pdb-i-#{$pd} {
+        padding-bottom: #{$pd}px !important;
+    }
+    .pdl-i-#{$pd} {
+        padding-left: #{$pd}px !important;
+    }
+    .pdr-i-#{$pd} {
+        padding-right: #{$pd}px !important;
+    }
+    .pd-i-#{$pd} {
+        padding: #{$pd}px !important;
+    }
+}
+
+@each $cl in $colors {    
+    .color-#{$cl} {
+        color: #{$cl};        
+    }
+}
+
+@for $i from 1 through 100 {
+    .font-size-#{$i} {
+        font-size: #{$i}px !important;
+    }
+}
+
+@each $btn_width in $series {    
+    .btn-min-w#{$btn_width} {
+        min-width: #{$btn_width}px;        
+    }
+}
+
+@each $avatar_width in $series {  
+    .avatar-radius-w#{$avatar_width} {
+        border-radius: 100%;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        width: #{$avatar_width}px;
+        height: #{$avatar_width}px;
+        margin: 0 auto;
+    }
+}
+
+@each $width in $series {  
+    .width-#{$width} {
+        width: #{$width}px;
+    }
+}
+
+@for $i from 1 through 100 {    
+    .radius-px-#{$i} {
+        border-radius: #{$i}px;
+        -moz-border-radius: #{$i}px;
+        -webkit-border-radius: #{$i}px;
+    }
+}
+
+@for $i from 1 through 100 {    
+    .border-bottom-#{$i}x {
+        border-bottom: #{$i}px solid #EBEEEF;
+    }
+    
+    .border-top-#{$i}x {
+        border-top: #{$i}px solid #EBEEEF;
+    }
+}
+
+@for $i from 1 through 100 {    
+    .line-height-#{$i} {
+        line-height: #{$i}px;
+    }
+}
+
+@each $px in $series {    
+    .min-w-#{$px} {
+        min-width: #{$px}px;        
+    }
+    .min-h-#{$px} {
+        min-height: #{$px}px;        
+    }
+    .w-#{$px} {
+        width: #{$px}px;        
+    }
+    .h-#{$px} {
+        height: #{$px}px;        
+    }
+    .max-w-#{$px} {
+        max-width: #{$px}px;        
+    }
+    .max-h-#{$px} {
+        max-height: #{$px}px;        
+    }
+}
+
+@each $mg in $series {
+    .top-#{$mg} {
+        top: #{$mg}px;
+    }
+    .left-#{$mg} {
+        left: #{$mg}px;
+    }
+    .right-#{$mg} {
+        right: #{$mg}px;
+    }
+    .bottom-#{$mg} {
+        bottom: #{$mg}px;
+    }
+    .top-i-#{$mg} {
+        top: #{$mg}px !important;
+    }
+    .left-i-#{$mg} {
+        left: #{$mg}px !important;
+    }
+    .right-i-#{$mg} {
+        right: #{$mg}px !important;
+    }
+    .bottom-i-#{$mg} {
+        bottom: #{$mg}px !important;
+    }
+}

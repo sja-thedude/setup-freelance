@@ -1,0 +1,417 @@
+@include max-screen(1300px) {
+    .pop-up .wrap-popup-card .wp-card .image-popup{
+        right: 5px;
+        width: 40%;
+        height: 50%;
+    }
+    .pop-up .wrap-popup-card .wp-card{
+        padding: 20px;
+    }
+    .pop-up .wrap-popup-card .wp-card .discount h6{
+        position: relative;
+        top:inherit;
+        transform: inherit;
+    }
+    .wrap-page-card .wrap-content-card{
+        padding: 10px;
+    }
+}
+
+@include max-screen(1024px) {
+    .wrap-andere-box [class*=col-]{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .pop-up .wrap-popup-order{
+        margin-top: 10px;
+        padding: 30px 10px 10px 10px;
+        .close{
+            top: 5px;
+        }
+    }
+    .andere-box{
+        padding: 10px;
+    }
+    
+    .wrap-rectangle .main-rectangular{
+        margin-left: 50px;
+    }
+    .btn {
+        &.btn-andere, &.btn-andere-gray{
+        }
+    }
+    .wrap-page-card .custom-col{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wrap-page-card .wrap-content-card .wrap-text{
+        .col-md-7{
+            width: 65%;
+        }
+        .col-md-5{
+            width: 35%;
+        }
+        h5{
+            font-size: 20px;
+        }
+        p, .credit{
+            font-size: 14px;
+        }
+    }
+}
+
+@include max-screen(767px) {
+    .andere-box{
+        margin-bottom: 10px;
+    }
+    .pop-up .wrap-popup-text{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        .row{
+            padding-bottom: 10px;
+        }
+        .btn-bottom{
+            position: relative;
+            bottom: inherit;
+            transform: inherit;
+            left: inherit;
+        }
+    }
+    .pop-up .wrap-popup-card .wp-card{
+        padding: 10px;
+        .col-md-7{
+            width: 60%;
+        }
+        .col-md-5{
+            width: 40%;
+        }
+    }
+    .wrap-rectangle .main-rectangular{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wrap-page-card .wrap-content-card .wrap-text{
+        margin-top: 20px;
+        margin-left: 0;
+        .col-md-7, .col-md-5{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .col-md-5{
+            margin-top: 0;
+            margin-left: 0;
+        }
+    }
+    .loyalties {
+        .web-content {
+            display: none;
+        }
+        .mobile-content {
+            a, h2, label, span, p, h5 {
+                font-family: SF Compact Display, sans-serif;
+            }
+            padding: 0 12px;
+            margin-bottom: 100px;
+            display: block !important;
+            .singular {
+                h2 {
+                    margin-top: 10px;
+                    font-family: SF Compact Display, sans-serif;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+                .m-wrap-rectangle {
+                    .m-wrap-label {
+                        position: relative;
+                        border-radius: 10px;
+                        border: 1px solid #EBEBEB;
+                        background: white; 
+                        .m-active-rectangular {
+                            height: 52px;
+                            border-radius: 10px;
+                            .wrap-span {
+                                text-align: center;
+                                span {
+                                font-family: 'SF Compact Display Medium';
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #fff;
+                                position: absolute;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                            }
+                        }
+
+                        .label-odd,
+                        .label-even {
+                            text-align: center;
+                            position: absolute;
+                            width: 24px;
+                            height: 24px;
+                            border-radius: 50%;
+                            background: #3C3C3C;
+                            color: #fff;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 28px;
+                            text-align: center;
+                            bottom: -30px;
+                            position: absolute;
+
+                        }
+
+                        .label-odd::before,
+                        .label-even::before {
+                            content: '';
+                            top: -5px;
+                            transform: translateX(-67%);
+                            width: 0px;
+                            height: 0px;
+                            border-bottom: 8px solid #3C3C3C;
+                            border-left: 8px solid transparent;
+                            border-right: 8px solid transparent;
+                            position: absolute;
+                            left: 15px;
+                        }
+                        .line-process {
+                            position: absolute;
+                            top: -78px;
+                            z-index: 1;
+                            height: 51px;
+                            border: 1px solid #F5F5F5;
+                            left: 11px;
+                        }
+                    }
+                }
+                .m-card-reward {
+                    margin-top: 50px;
+
+                    .wrap-text {
+
+                        .reward-item {
+                            background: #FFFFFF;
+                            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+                            border-radius: 10px;
+                            padding: 12px;
+                            min-height: 150px;
+                            position: relative;
+                            padding-bottom: 53px;
+                            margin: 12px 0 20px;
+
+                            h5.title, .credit {
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 16px;
+                                line-height: 19px;
+                            }
+                            .credit {
+                                float: right;
+                            }
+                            .description {
+                                margin-bottom: 5px;
+                                font-family: SF Compact Display, sans-serif;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                color: #979797;
+                            }
+                            .card-bottom {
+                                position: absolute;
+                                bottom: 10px;
+                                right: 12px;
+                            }
+
+                            .loyalty-buttons {
+                                position: initial;
+                                display: flex;
+                                justify-content: flex-end;
+
+                                a.btn-redeem-history {
+                                    line-height: 40px;
+                                    margin-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sticky .mobile-content {
+        margin-top: 175px;
+    }
+    #container {
+        background: none!important;
+        .loyalties {
+            .web-content {
+                display: none;
+            }
+            .mobile-content {
+                padding: 0 12px;
+                margin-bottom: 100px;
+                display: block !important;
+                .singular {
+                    h2 {
+                        margin-top: 10px;
+                        font-family: SF Pro Text, sans-serif;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+                    .m-wrap-rectangle {
+                        .m-wrap-label {
+                            position: relative;
+                            border-radius: 10px;
+                            border: 1px solid #EBEBEB;
+                            background: white;
+                            .m-active-rectangular {
+                                height: 52px;
+                                border-radius: 10px;
+                                .wrap-span {
+                                    text-align: center;
+                                    span {
+                                        font-family: 'SF Compact Display Medium';
+                                        font-style: normal;
+                                        font-weight: bold;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                        color: #fff;
+                                        position: absolute;
+                                        top: 50%;
+                                        transform: translate(-50%, -50%);
+                                    }
+                                }
+                            }
+
+                            .label-odd,
+                            .label-even {
+                                text-align: center;
+                                position: absolute;
+                                width: 24px;
+                                height: 24px;
+                                border-radius: 50%;
+                                background: #3C3C3C;
+                                color: #fff;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 16px;
+                                line-height: 28px;
+                                text-align: center;
+                                bottom: -30px;
+                                position: absolute;
+
+                            }
+
+                            .label-odd::before,
+                            .label-even::before {
+                                content: '';
+                                top: -5px;
+                                transform: translateX(-67%);
+                                width: 0px;
+                                height: 0px;
+                                border-bottom: 8px solid #3C3C3C;
+                                border-left: 8px solid transparent;
+                                border-right: 8px solid transparent;
+                                position: absolute;
+                                left: 15px;
+                            }
+                            .line-process {
+                                position: absolute;
+                                top: -80px;
+                                z-index: 1;
+                                height: 52px;
+                                border: 1px solid #F5F5F5;
+                                left: 11px;
+                            }
+                        }
+                    }
+                    .m-card-reward {
+                        margin-top: 50px;
+                        .wrap-text {
+                            .reward-item {
+                                background: #FFFFFF;
+                                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+                                border-radius: 10px;
+                                padding: 12px;
+                                min-height: 150px;
+                                position: relative;
+                                padding-bottom: 53px;
+                                margin: 12px 0 20px;
+                                font-family: SF Compact Display,sans-serif;
+
+                                h5.title, .credit {
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                }
+                                .credit {
+                                    float: right;
+                                }
+                                .description {
+                                    margin-bottom: 5px;
+                                    font-family: SF Compact Display, sans-serif;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    color: #979797;
+                                }
+                                .card-bottom {
+                                    position: absolute;
+                                    bottom: 10px;
+                                    right: 12px;
+                                }
+
+                                .loyalty-buttons {
+                                    position: initial;
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    a {
+                                        text-transform: uppercase;
+                                    }
+                                    a.btn-redeem-history {
+                                        line-height: 40px;
+                                        margin-left: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@include max-screen(600px) {
+    .pop-up .wrap-popup-card .wp-card .image-popup{
+        height: auto;
+    }
+
+    #pop-parentCart {
+        .andere-box {
+            .total-number {
+                left: -88px;
+                width: 20%;
+            }
+        }
+    }
+
+    .table-order {
+        .total-number {
+            left: -82px;
+            width: 20%;
+        }
+    }
+}

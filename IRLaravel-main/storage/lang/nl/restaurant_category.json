@@ -1,0 +1,8 @@
+{
+    "message_retrieved_successfully": "Restaurantcategorie is succesvol opgehaald",
+    "message_retrieved_list_successfully": "Restaurantcategorie\u00ebn zijn succesvol opgehaald",
+    "message_created_successfully": "Restaurantcategorie is succesvol aangemaakt",
+    "message_updated_successfully": "Restaurantcategorie is succesvol bijgewerkt",
+    "message_deleted_successfully": "Restaurantcategorie is succesvol verwijderd",
+    "message_saved_successfully": "Restaurantcategorie is succesvol opgeslagen"
+}

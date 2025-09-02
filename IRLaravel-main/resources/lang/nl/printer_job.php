@@ -1,0 +1,19 @@
+<?php
+
+$originalTranslations = [
+    'name' => 'Naam van de printertaak',
+    'add_job' => 'Printertaak toevoegen',
+    'placeholder_search' => 'Zoek printertaak',
+    'deleted_confirm' => 'De printertaak is verwijderd',
+    'message_retrieved_successfully' => 'De printertaak is succesvol opgehaald',
+    'restaurant_list_retrieved_successfully' => 'De restaurantlijst is succesvol opgehaald',
+    'message_created_successfully' => 'De printertaak is succesvol aangemaakt',
+    'message_updated_successfully' => 'De printertaak is succesvol bijgewerkt',
+    'message_deleted_successfully' => 'De printertaak is succesvol verwijderd',
+    'message_saved_successfully' => 'De printertaak is succesvol opgeslagen',
+    'not_found' => 'Printertaak niet gevonden',
+    'color' => 'Kleur',
+    'one_restaurant_join_one_job' => 'Een restaurant kan slechts in één printertaak zijn',
+];
+
+return \App\Helpers\Helper::getFileJsonLang($originalTranslations, str_replace('.php', '.json', basename(__FILE__)), basename(__DIR__), !empty($loadFromJs) ? $loadFromJs : false);

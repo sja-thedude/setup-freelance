@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="css/jquery-comments.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+        <h1>Realtime</h1>                
+        
+        <button id="join">Join</button>
+        <button id="start">Start</button>
+        <button id="end">End</button>
+
+        <div id="clients">
+            <input id="room" type="text" value=""/>
+        </div>
+        <br/>
+        <div id="count_down"></div>
+        <div id="time"></div>
+        <div id="process"></div>
+        <input type="hidden" id="data" value=""/>
+
+        <!-- Libraries -->
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/socket.io.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/1.8.0/jquery.textcomplete.js"></script>
+        <script type="text/javascript" src="js/jquery-comments.min.js"></script>
+        <script type="text/javascript" src="js/realtime.js"></script>
+    </body>
+</html>

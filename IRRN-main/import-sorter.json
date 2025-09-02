@@ -1,0 +1,6 @@
+{
+    "maxBindingNamesPerLine": 2,
+    "maxExportNamesPerLine": 1,
+    "maxLineLength": 100,
+    "tabSize": 4
+}
