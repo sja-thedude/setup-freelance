@@ -337,7 +337,8 @@ export default function HomeComponent({ isRegisterConfirm, isResetPasswordConfir
                                 src="/img/cutting.png"
                                 width={200}
                                 height={110}
-                                sizes="150vw"
+                                priority
+                                sizes="(max-width: 768px) 100vw, 200px"
                             />
                             { workspaceDataFinal?.photo && (
                                 <div className={`${variables.imageCircle} mt-3`}>
