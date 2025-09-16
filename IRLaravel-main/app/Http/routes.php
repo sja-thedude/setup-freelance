@@ -124,7 +124,7 @@ $guardWeb = 'web';
 Route::group([
     'middleware' => ['domain'],
 ], function () use ($guardWeb) {
-    $this->any('login/social/callback/{provider}', 'Auth\LoginController@callback')->name('login_social_callback');
+    $this->any('login/social/callback/{provider}', 'Auth\@callback')->name('login_social_callback');
 });
 
 Route::group([

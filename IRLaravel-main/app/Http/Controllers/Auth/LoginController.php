@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Session;
 use Tymon\JWTAuth\Facades\JWTAuth;
 use App\Repositories\SocialRepository;
 use JWTAuthException;
+use App\Models\Workspace;
 
 class LoginController extends Controller
 {
@@ -60,18 +61,60 @@ class LoginController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function showLoginForm(Request $request)
-    {
-        if (!empty(auth()->user())) {
-            return redirect($this->redirectTo);
-        }
-
-        $host = $request->getHost();
-        $workspaceSlug = \App\Helpers\Helper::getSubDomainOfRequest($host);
-        $workspace = session('workspace_'.$workspaceSlug)->refresh();
-        $data = $this->getHomepageData($workspace);
-
-        return view('auth.login', $data);
+{
+    if (auth()->check()) {
+        return redirect($this->redirectTo);
     }
+
+    $host = $request->getHost();
+    $workspaceSlug = \App\Helpers\Helper::getSubDomainOfRequest($host);
+
+    // If subdomain is missing, use default workspace slug
+    if (empty($workspaceSlug)) {
+        $workspaceSlug = 'default'; // Replace 'default' with your default workspace slug
+    }
+
+    $workspace = Workspace::where('slug', $workspaceSlug)->first();
+
+    if (!$workspace) {
+        abort(404, 'Workspace not found');
+    }
+
+    // Store workspace in session
+    session(['workspace_'.$workspaceSlug => $workspace]);
+
+    $data = $this->getHomepageData($workspace);
+
+    return view('auth.login', $data);
+}
+
+protected function authenticated(Request $request, $user)
+{
+    $host = $request->getHost();
+    $workspaceSlug = \App\Helpers\Helper::getSubDomainOfRequest($host);
+
+    // If subdomain is missing, use default workspace slug
+    if (empty($workspaceSlug)) {
+        $workspaceSlug = 'default'; // Replace 'default' with your default workspace slug
+    }
+
+    $workspace = Workspace::where('slug', $workspaceSlug)->first();
+
+    if (!$workspace) {
+        abort(404, 'Workspace not found');
+    }
+
+    // Store workspace in session
+    session(['workspace_'.$workspaceSlug => $workspace]);
+
+    $request->merge(['userId' => $user->id]);
+
+    // Initialize cart without login
+    \App::call('App\Http\Controllers\Frontend\InitCartController@storeWithoutLogin', [
+        'workspaceId' => $workspace->id,
+        'userId' => $user->id
+    ]);
+}
 
     /**
      * Validate the user login request.
@@ -161,17 +204,17 @@ class LoginController extends Controller
         }
     }
 
-    protected function authenticated(Request $request, $user) {
-        $host = $request->getHost();
-        $workspaceSlug = \App\Helpers\Helper::getSubDomainOfRequest($host);
-        $workspace = session('workspace_'.$workspaceSlug)->refresh();
-        $request->merge(['userId' => $user->id]);
+    // protected function authenticated(Request $request, $user) {
+    //     $host = $request->getHost();
+    //     $workspaceSlug = \App\Helpers\Helper::getSubDomainOfRequest($host);
+    //     $workspace = session('workspace_'.$workspaceSlug)->refresh();
+    //     $request->merge(['userId' => $user->id]);
 
-        \App::call('App\Http\Controllers\Frontend\InitCartController@storeWithoutLogin', [
-            'workspaceId' => $workspace->id,
-            'userId' => $user->id
-        ]);
-    }
+    //     \App::call('App\Http\Controllers\Frontend\InitCartController@storeWithoutLogin', [
+    //         'workspaceId' => $workspace->id,
+    //         'userId' => $user->id
+    //     ]);
+    // }
 
     public function redirect(Request $request) {
         try {

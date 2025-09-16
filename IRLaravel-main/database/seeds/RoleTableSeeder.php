@@ -2,18 +2,12 @@
 
 use Illuminate\Database\Seeder;
 use App\Models\Role;
-use Carbon\Carbon;
 
 class RoleTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
-        DB::table('roles')->insert([
+        $roles = [
             [
                 'id' => Role::ROLE_ADMIN,
                 'platform' => Role::PLATFORM_BACKOFFICE,
@@ -32,6 +26,14 @@ class RoleTableSeeder extends Seeder
                 'active' => true,
                 'name' => 'Client'
             ]
-        ]);
+        ];
+
+        foreach ($roles as $roleData) {
+            // Insert only if role with this id doesn't exist
+            Role::updateOrCreate(
+                ['id' => $roleData['id']], // unique key to check
+                $roleData                 // values to insert/update
+            );
+        }
     }
 }
