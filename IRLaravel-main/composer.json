@@ -35,7 +35,8 @@
         "ezyang/htmlpurifier": "^4.13",
         "socialiteproviders/apple": "3.0.1",
         "lcobucci/jwt": "3.4",
-        "trantuanson1991/php-fcm-v1": "^1.1"
+        "trantuanson1991/php-fcm-v1": "^1.1",
+        "wildbit/swiftmailer-postmark": "^3.4"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

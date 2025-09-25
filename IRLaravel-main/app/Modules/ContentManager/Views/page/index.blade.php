@@ -47,7 +47,7 @@
                                         {{$data->post_title}}
                                     </div>
                                     <div class="col-item col-sm-3 col-xs-12">
-                                        {{$data->user->name}}
+                                        {{optional($data->user)->name ?? 'N/A'}}
                                     </div>
                                     <div class="col-item col-sm-1-5 col-xs-12">
                                         {{$data->updated_at}}
